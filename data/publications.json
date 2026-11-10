@@ -1,0 +1,2894 @@
+{
+  "meta": {
+    "source": "https://api.zotero.org/users/9618525/publications/items/top",
+    "style": "apa",
+    "locale": "en-US",
+    "count": 80,
+    "sections": {
+      "books": 2,
+      "articles": 30,
+      "commentaries": 3,
+      "chapters": 8,
+      "policy-reports": 14,
+      "working-papers": 4,
+      "media": 19
+    },
+    "zotero_version": 79115
+  },
+  "items": [
+    {
+      "key": "2IIXQCB7",
+      "version": 67320,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2026",
+      "sort_date": "2026-09-03",
+      "date": "2026-09-03",
+      "title": "The robustness of the global financial safety net: A multilayer network analysis",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Romani",
+          "given": "Alessandra"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "International Interactions",
+      "doi": "10.1080/03050629.2026.2700531",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03050629.2026.2700531",
+      "citation": "Romani, A., &amp; Stubbs, T. (2026). The robustness of the global financial safety net: A multilayer network analysis. <i>International Interactions<\/i>, <i>52<\/i>(5), 874&#x2013;905. https://doi.org/10.1080/03050629.2026.2700531",
+      "site_tags": [],
+      "pdf": "files/publications/2IIXQCB7.pdf"
+    },
+    {
+      "key": "PGMMFTM7",
+      "version": 79078,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2026",
+      "sort_date": "2026-09",
+      "date": "September 2026",
+      "title": "The IMF's climate turn: Lending, debt, and extractivism",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Sibaja",
+          "given": "Federico"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2026/09/IMF-climate-turn_report_Recourse-Sep-2026.pdf",
+      "citation": "Kentikelenis, A., Stubbs, T., &amp; Sibaja, F. (2026). <i>The IMF&#x2019;s climate turn: Lending, debt, and extractivism<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2026/09/IMF-climate-turn_report_Recourse-Sep-2026.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/PGMMFTM7.pdf"
+    },
+    {
+      "key": "72BCJH9D",
+      "version": 58468,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2026",
+      "sort_date": "2026-04",
+      "date": "April 2026",
+      "title": "Time to walk the talk: The IMF's tax advice, 2022-2024",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Abdo",
+          "given": "Nabil"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Oxfam International",
+      "report_type": "Oxfam Briefing Paper",
+      "doi": "10.21201/2026.000127",
+      "citation": "Abdo, N., Kentikelenis, A., &amp; Stubbs, T. (2026). <i>Time to walk the talk: The IMF&#x2019;s tax advice, 2022-2024<\/i> [Oxfam Briefing Paper]. Oxfam International. https://doi.org/10.21201/2026.000127",
+      "site_tags": [],
+      "pdf": "files/publications/72BCJH9D.pdf"
+    },
+    {
+      "key": "FNST6FDY",
+      "version": 79077,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2025",
+      "sort_date": "2025-10",
+      "date": "October 2025",
+      "title": "Green rhetoric, grey reality: IMF surveillance and climate action, 2022-2025",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2025/10/Green-rhetoric-grey-reality-IMF-surveillance-and-climate-action-2022-2025_Recourse-report_October-2025.pdf",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2025). <i>Green rhetoric, grey reality: IMF surveillance and climate action, 2022-2025<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2025/10/Green-rhetoric-grey-reality-IMF-surveillance-and-climate-action-2022-2025_Recourse-report_October-2025.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/FNST6FDY.pdf"
+    },
+    {
+      "key": "XQ7NW3ZS",
+      "version": 79093,
+      "type": "book",
+      "section": "books",
+      "year": "2025",
+      "sort_date": "2025-10",
+      "date": "October 2025",
+      "title": "Greening the International Monetary Fund",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Cambridge University Press",
+      "doi": "10.1017/9781009697491",
+      "data": "https://doi.org/10.7910/DVN/8BSKWO",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2025). <i>Greening the International Monetary Fund<\/i>. Cambridge University Press. https://doi.org/10.1017/9781009697491",
+      "site_tags": [],
+      "pdf": "files/publications/XQ7NW3ZS.pdf"
+    },
+    {
+      "key": "SJYUBY3D",
+      "version": 79094,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2025",
+      "sort_date": "2025-09",
+      "date": "September 2025",
+      "title": "Progressive rhetoric, regressive reality: The IMF's tax advice to 125 countries, 2022-2024",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Global Policy",
+      "doi": "10.1111/1758-5899.70052",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/1758-5899.70052",
+      "data": "https://doi.org/10.7910/DVN/GNYXU1",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2025). Progressive rhetoric, regressive reality: The IMF&#x2019;s tax advice to 125 countries, 2022-2024. <i>Global Policy<\/i>, <i>16<\/i>(4), 731&#x2013;738. https://doi.org/10.1111/1758-5899.70052",
+      "site_tags": [],
+      "pdf": "files/publications/SJYUBY3D.pdf"
+    },
+    {
+      "key": "TMN4JIG9",
+      "version": 79076,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2024",
+      "sort_date": "2024-10",
+      "date": "October 2024",
+      "title": "Off track: The long road to mainstreaming climate action into IMF lending",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2024/10/Off-track_mainstreaming-climate-action-into-IMF-lending_October-2024_Recourse.pdf",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2024). <i>Off track: The long road to mainstreaming climate action into IMF lending<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2024/10/Off-track_mainstreaming-climate-action-into-IMF-lending_October-2024_Recourse.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/TMN4JIG9.pdf"
+    },
+    {
+      "key": "RZLLKTKQ",
+      "version": 79095,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2024",
+      "sort_date": "2024-05-08",
+      "date": "2024-05-08",
+      "title": "Social protection and the International Monetary Fund: Promise versus performance",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Globalization & Health",
+      "doi": "10.1186/s12992-024-01045-9",
+      "url": "https://globalizationandhealth.biomedcentral.com/articles/10.1186/s12992-024-01045-9",
+      "data": "https://doi.org/10.7910/DVN/KVVFV1",
+      "cited_in": [
+        {
+          "text": "International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)",
+          "url": "https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2025). IMF Advice on Fiscal Policy — Selected Issues (BP/25-01/04)",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/12-16-2025-imf-advice-on-fiscal-policy/fp-bp4-fiscal-policy-advice-selected-issues.pdf"
+        }
+      ],
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2024). Social protection and the International Monetary Fund: Promise versus performance. <i>Globalization &amp; Health<\/i>, <i>20<\/i>(1), 41. https://doi.org/10.1186/s12992-024-01045-9",
+      "site_tags": [],
+      "pdf": "files/publications/RZLLKTKQ.pdf"
+    },
+    {
+      "key": "Y29G9SDP",
+      "version": 78735,
+      "type": "magazineArticle",
+      "section": "media",
+      "year": "2024",
+      "sort_date": "2024-04-18",
+      "date": "2024-04-18",
+      "title": "The origins of conditionality: How the IMF turned to austerity",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Phenomenal World",
+      "url": "https://phenomenalworld.org/analysis/the-origins-of-conditionality/",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2024, April 18). The origins of conditionality: How the IMF turned to austerity. <i>Phenomenal World<\/i>. https://phenomenalworld.org/analysis/the-origins-of-conditionality/",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "ICTFDMSD",
+      "version": 79075,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2024",
+      "sort_date": "2024-04",
+      "date": "April 2024",
+      "title": "Greening IMF lending: Elusive prospects, mixed evidence",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2024/04/RST-Report-desktop-1-compressed.pdf",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2024). <i>Greening IMF lending: Elusive prospects, mixed evidence<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2024/04/RST-Report-desktop-1-compressed.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/ICTFDMSD.pdf"
+    },
+    {
+      "key": "JZKHRYW9",
+      "version": 79051,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2024",
+      "sort_date": "2024-02-28",
+      "date": "2024/02/28",
+      "title": "Neoliberalism and health in global context: The role of international organizations",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Forster",
+          "given": "Timon"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "editor",
+          "family": "Primrose",
+          "given": "David"
+        },
+        {
+          "role": "editor",
+          "family": "Loeppky",
+          "given": "Rodney D."
+        },
+        {
+          "role": "editor",
+          "family": "Chang",
+          "given": "Robin"
+        }
+      ],
+      "venue": "The Routledge Handbook of the Political Economy of Health and Healthcare",
+      "doi": "10.4324/9781003017110-14",
+      "citation": "Forster, T., Stubbs, T., &amp; Kentikelenis, A. (2024). Neoliberalism and health in global context: The role of international organizations. In D. Primrose, R. D. Loeppky, &amp; R. Chang (Eds.), <i>The Routledge Handbook of the Political Economy of Health and Healthcare<\/i> (pp. 154&#x2013;165). Routledge. https://doi.org/10.4324/9781003017110-14",
+      "site_tags": [],
+      "pdf": "files/publications/JZKHRYW9.pdf"
+    },
+    {
+      "key": "7GTXKTFU",
+      "version": 79074,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2023",
+      "sort_date": "2023-10",
+      "date": "October 2023",
+      "title": "Blind spots: The green transition and the IMF's economic surveillance",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2023/10/BLIND-SPOTS_mobile.pdf",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2023). <i>Blind spots: The green transition and the IMF&#x2019;s economic surveillance<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2023/10/BLIND-SPOTS_mobile.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/7GTXKTFU.pdf"
+    },
+    {
+      "key": "35BRDWQL",
+      "version": 79073,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2023",
+      "sort_date": "2023-06",
+      "date": "June 2023",
+      "title": "IMF lending and the road to green transition: One step forward, one step back",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2023/06/Full-report_IMF-Lending-and-Green-Transition.pdf",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2023). <i>IMF lending and the road to green transition: One step forward, one step back<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2023/06/Full-report_IMF-Lending-and-Green-Transition.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/35BRDWQL.pdf"
+    },
+    {
+      "key": "JTRH83D5",
+      "version": 65912,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2023",
+      "sort_date": "2023-04",
+      "date": "April 2023",
+      "title": "IMF social spending floors: A fig leaf for austerity?",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Oxfam International",
+      "report_type": "Oxfam Briefing Paper",
+      "doi": "10.21201/2023.621495",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2023). <i>IMF social spending floors: A fig leaf for austerity?<\/i> [Oxfam Briefing Paper]. Oxfam International. https://doi.org/10.21201/2023.621495",
+      "site_tags": [],
+      "pdf": "files/publications/JTRH83D5.pdf"
+    },
+    {
+      "key": "JIIEA2SM",
+      "version": 79096,
+      "type": "book",
+      "section": "books",
+      "year": "2023",
+      "sort_date": "2023",
+      "date": "2023",
+      "title": "A Thousand Cuts: Social Protection in the Age of Austerity",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Oxford University Press",
+      "doi": "10.1093/oso/9780190637736.001.0001",
+      "data": "https://doi.org/10.7910/DVN/DPV99L",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2023). <i>A Thousand Cuts: Social Protection in the Age of Austerity<\/i>. Oxford University Press. https://doi.org/10.1093/oso/9780190637736.001.0001",
+      "site_tags": []
+    },
+    {
+      "key": "QREUX7QW",
+      "version": 79097,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2023",
+      "sort_date": "2023",
+      "date": "01/2023",
+      "title": "Structural adjustment, alienation, and mass protest",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Bujnoch",
+          "given": "Louis"
+        }
+      ],
+      "venue": "Social Science Research",
+      "doi": "10.1016/j.ssresearch.2022.102777",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0049089X22000837",
+      "data": "https://doi.org/10.7910/DVN/O3JRHJ",
+      "citation": "Reinsberg, B., Stubbs, T., &amp; Bujnoch, L. (2023). Structural adjustment, alienation, and mass protest. <i>Social Science Research<\/i>, <i>109<\/i>, 102777. https://doi.org/10.1016/j.ssresearch.2022.102777",
+      "site_tags": [],
+      "pdf": "files/publications/QREUX7QW.pdf"
+    },
+    {
+      "key": "PLN3F8VS",
+      "version": 64292,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2023",
+      "sort_date": "2023",
+      "date": "2023",
+      "title": "The return of austerity imperils global health",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Gabor",
+          "given": "Daniela"
+        },
+        {
+          "role": "author",
+          "family": "Ghosh",
+          "given": "Jayati"
+        },
+        {
+          "role": "author",
+          "family": "McKee",
+          "given": "Martin"
+        }
+      ],
+      "venue": "BMJ Global Health",
+      "doi": "10.1136/bmjgh-2022-011620",
+      "url": "https://gh.bmj.com/content/8/2/e011620",
+      "citation": "Stubbs, T., Kentikelenis, A., Gabor, D., Ghosh, J., &amp; McKee, M. (2023). The return of austerity imperils global health. <i>BMJ Global Health<\/i>, <i>8<\/i>(2), e011620. https://doi.org/10.1136/bmjgh-2022-011620",
+      "site_tags": [],
+      "pdf": "files/publications/PLN3F8VS.pdf"
+    },
+    {
+      "key": "J2J937CD",
+      "version": 79072,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2022",
+      "sort_date": "2022-11",
+      "date": "November 2022",
+      "title": "Cautious optimism: How IMF economic surveillance can foster the green transition",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2022/11/Cautious-optimism_web.pdf",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2022). <i>Cautious optimism: How IMF economic surveillance can foster the green transition<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2022/11/Cautious-optimism_web.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/J2J937CD.pdf"
+    },
+    {
+      "key": "VMP3VVYH",
+      "version": 78756,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2022",
+      "sort_date": "2022-07-12",
+      "date": "2022-07-12",
+      "title": "Herder-farmer conflict in the Sahel needs a new description: Why ‘eco-violence’ fits",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Olumba",
+          "given": "Ezenwa"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/herder-farmer-conflict-in-the-sahel-needs-a-new-description-why-eco-violence-fits-186056",
+      "citation": "Olumba, E., &amp; Stubbs, T. (2022, July 12). Herder-farmer conflict in the Sahel needs a new description: Why &#x2018;eco-violence&#x2019; fits. <i>The Conversation<\/i>. https://theconversation.com/herder-farmer-conflict-in-the-sahel-needs-a-new-description-why-eco-violence-fits-186056",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "XFVLL265",
+      "version": 66261,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2022",
+      "sort_date": "2022-07",
+      "date": "July 2022",
+      "title": "The IMF and the road to a green and inclusive recovery after Covid-19",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        }
+      ],
+      "venue": "Cambridge Centre for Business Research",
+      "report_type": "CBR Special Report",
+      "doi": "10.17863/CAM.86038",
+      "url": "https://www.repository.cam.ac.uk/handle/1810/338625",
+      "citation": "Kentikelenis, A., Stubbs, T., &amp; Reinsberg, B. (2022). <i>The IMF and the road to a green and inclusive recovery after Covid-19<\/i> [CBR Special Report]. Cambridge Centre for Business Research. https://doi.org/10.17863/CAM.86038",
+      "site_tags": [],
+      "pdf": "files/publications/XFVLL265.pdf"
+    },
+    {
+      "key": "HEDA5ZVA",
+      "version": 79098,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2022",
+      "sort_date": "2022-02-23",
+      "date": "2022-02-23",
+      "title": "Austerity redux: The post-pandemic wave of budget cuts and the future of global public health",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Global Policy",
+      "doi": "10.1111/1758-5899.13028",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/1758-5899.13028",
+      "data": "https://doi.org/10.7910/DVN/M7DIJJ",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2022). Austerity redux: The post-pandemic wave of budget cuts and the future of global public health. <i>Global Policy<\/i>, <i>13<\/i>(1), 5&#x2013;17. https://doi.org/10.1111/1758-5899.13028",
+      "site_tags": [],
+      "pdf": "files/publications/HEDA5ZVA.pdf"
+    },
+    {
+      "key": "S6ZY4LQ4",
+      "version": 79052,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2022",
+      "sort_date": "2022",
+      "date": "2022",
+      "title": "Austerity rerun",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Ortiz",
+          "given": "Isabel"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "editor",
+          "family": "Bodini",
+          "given": "Chiara"
+        },
+        {
+          "role": "editor",
+          "family": "Labonté",
+          "given": "Ronald"
+        }
+      ],
+      "venue": "Global Health Watch 6: In the Shadow of the Pandemic",
+      "doi": "10.5040/9781350320840.c1",
+      "citation": "Ortiz, I., &amp; Stubbs, T. (2022). Austerity rerun. In C. Bodini &amp; R. Labont&#xE9; (Eds.), <i>Global Health Watch 6: In the Shadow of the Pandemic<\/i> (pp. 193&#x2013;210). Bloomsbury Academic. https://doi.org/10.5040/9781350320840.c1",
+      "site_tags": [],
+      "pdf": "files/publications/S6ZY4LQ4.pdf"
+    },
+    {
+      "key": "3IZ6SBKF",
+      "version": 79099,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2022",
+      "sort_date": "2022",
+      "date": "2022",
+      "title": "Compliance, defiance, and the dependency trap: International Monetary Fund program interruptions and their impact on capital markets",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Regulation & Governance",
+      "doi": "10.1111/rego.12422",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/rego.12422",
+      "data": "https://doi.org/10.7910/DVN/BYDWI7",
+      "citation": "Reinsberg, B., Stubbs, T., &amp; Kentikelenis, A. (2022). Compliance, defiance, and the dependency trap: International Monetary Fund program interruptions and their impact on capital markets. <i>Regulation &amp; Governance<\/i>, <i>16<\/i>(4), 1022&#x2013;1041. https://doi.org/10.1111/rego.12422",
+      "site_tags": [],
+      "pdf": "files/publications/3IZ6SBKF.pdf"
+    },
+    {
+      "key": "C8KN5BKT",
+      "version": 52116,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2022",
+      "sort_date": "2022",
+      "date": "2022",
+      "title": "International Monetary Fund (IMF)",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "editor",
+          "family": "Binder",
+          "given": "Christina"
+        },
+        {
+          "role": "editor",
+          "family": "Nowak",
+          "given": "Manfred"
+        },
+        {
+          "role": "editor",
+          "family": "Hofbauer",
+          "given": "Jane A."
+        },
+        {
+          "role": "editor",
+          "family": "Janig",
+          "given": "Philipp"
+        }
+      ],
+      "venue": "Elgar Encyclopedia of Human Rights",
+      "doi": "10.4337/9781789903621.international.monetary.fund",
+      "citation": "Stubbs, T. (2022). International Monetary Fund (IMF). In C. Binder, M. Nowak, J. A. Hofbauer, &amp; P. Janig (Eds.), <i>Elgar Encyclopedia of Human Rights<\/i> (pp. 282&#x2013;287). Edward Elgar. https://doi.org/10.4337/9781789903621.international.monetary.fund",
+      "site_tags": [],
+      "pdf": "files/publications/C8KN5BKT.pdf"
+    },
+    {
+      "key": "54ZMM9C3",
+      "version": 79071,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2022",
+      "sort_date": "2022",
+      "date": "2022",
+      "title": "Mixed messages: IMF loans and the green transition in Argentina and Pakistan",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2022/11/Mixed-messages-IMF-loans-and-the-green-transition-in-Argentina-and-Pakistan-Updatedweb-1.pdf",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2022). <i>Mixed messages: IMF loans and the green transition in Argentina and Pakistan<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2022/11/Mixed-messages-IMF-loans-and-the-green-transition-in-Argentina-and-Pakistan-Updatedweb-1.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/54ZMM9C3.pdf"
+    },
+    {
+      "key": "TV2ZSPGZ",
+      "version": 79100,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2022",
+      "sort_date": "2022",
+      "date": "2022",
+      "title": "Poverty, inequality, and the International Monetary Fund: How austerity hurts the poor and widens inequality",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Ray",
+          "given": "Rebecca"
+        },
+        {
+          "role": "author",
+          "family": "Gallagher",
+          "given": "Kevin P."
+        }
+      ],
+      "venue": "Journal of Globalization and Development",
+      "doi": "10.1515/jgd-2021-0018",
+      "url": "https://www.degruyter.com/document/doi/10.1515/jgd-2021-0018/html",
+      "cited_in": [
+        {
+          "text": "IMF Independent Evaluation Office (2025). The IMF’s Fiscal Policy Advice to Emerging Market and Middle-Income Economies (BP/25-01/02)",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/12-16-2025-imf-advice-on-fiscal-policy/fp-bp2-fiscal-policy-advice-to-emmies.pdf"
+        }
+      ],
+      "citation": "Stubbs, T., Kentikelenis, A., Ray, R., &amp; Gallagher, K. P. (2022). Poverty, inequality, and the International Monetary Fund: How austerity hurts the poor and widens inequality. <i>Journal of Globalization and Development<\/i>, <i>13<\/i>(1), 61&#x2013;89. https://doi.org/10.1515/jgd-2021-0018",
+      "site_tags": [],
+      "pdf": "files/publications/TV2ZSPGZ.pdf"
+    },
+    {
+      "key": "HA2JJDY3",
+      "version": 79053,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2022",
+      "sort_date": "2022",
+      "date": "2022",
+      "title": "The politics of the International Monetary Fund",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Forster",
+          "given": "Timon"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "editor",
+          "family": "Deciancio",
+          "given": "Melisa"
+        },
+        {
+          "role": "editor",
+          "family": "Nemiña",
+          "given": "Pablo"
+        },
+        {
+          "role": "editor",
+          "family": "Tussie",
+          "given": "Diana"
+        }
+      ],
+      "venue": "Handbook on the Politics of International Development",
+      "doi": "10.4337/9781839101915.00034",
+      "citation": "Forster, T., Stubbs, T., &amp; Kentikelenis, A. (2022). The politics of the International Monetary Fund. In M. Deciancio, P. Nemi&#xF1;a, &amp; D. Tussie (Eds.), <i>Handbook on the Politics of International Development<\/i> (pp. 376&#x2013;391). Edward Elgar. https://doi.org/10.4337/9781839101915.00034",
+      "site_tags": [],
+      "pdf": "files/publications/HA2JJDY3.pdf"
+    },
+    {
+      "key": "7BT798KL",
+      "version": 79101,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2022",
+      "sort_date": "2022",
+      "date": "2022",
+      "title": "Unimplementable by design? Understanding (non-)compliance with International Monetary Fund policy conditionality",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Governance",
+      "doi": "10.1111/gove.12605",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gove.12605",
+      "data": "https://doi.org/10.7910/DVN/QTFOGF",
+      "citation": "Reinsberg, B., Stubbs, T., &amp; Kentikelenis, A. (2022). Unimplementable by design? Understanding (non-)compliance with International Monetary Fund policy conditionality. <i>Governance<\/i>, <i>35<\/i>(3), 689&#x2013;715. https://doi.org/10.1111/gove.12605",
+      "site_tags": [],
+      "pdf": "files/publications/7BT798KL.pdf"
+    },
+    {
+      "key": "9KYC7VPU",
+      "version": 79069,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2021",
+      "sort_date": "2021-11",
+      "date": "November 2021",
+      "title": "Missing links: How climate change remains peripheral to IMF economic surveillance activities",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2022/04/Missing-Links-Final_compressed-1.pdf",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2021). <i>Missing links: How climate change remains peripheral to IMF economic surveillance activities<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2022/04/Missing-Links-Final_compressed-1.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/9KYC7VPU.pdf"
+    },
+    {
+      "key": "KR6GQQRT",
+      "version": 79070,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2021",
+      "sort_date": "2021-11",
+      "date": "November 2021",
+      "title": "Out of the shadows: Integrating climate change into IMF technical assistance",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Recourse Foundation",
+      "report_type": "Recourse Report",
+      "url": "https://re-course.org/wp-content/uploads/2022/03/Out-of-the-Shadows-Final_compressed-2.pdf",
+      "citation": "Kentikelenis, A., &amp; Stubbs, T. (2021). <i>Out of the shadows: Integrating climate change into IMF technical assistance<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2022/03/Out-of-the-Shadows-Final_compressed-2.pdf",
+      "site_tags": [],
+      "pdf": "files/publications/KR6GQQRT.pdf"
+    },
+    {
+      "key": "M9NYN7IW",
+      "version": 78736,
+      "type": "blogPost",
+      "section": "media",
+      "year": "2021",
+      "sort_date": "2021-10-04",
+      "date": "2021-10-04",
+      "title": "Business as usual or breaking with the past? IMF tax advice in the Covid-19 era",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Austaxpolicy: The Tax and Transfer Policy Blog",
+      "url": "https://www.austaxpolicy.com/business-as-usual-or-breaking-with-the-past-imf-tax-advice-in-the-covid-19-era/",
+      "citation": "Reinsberg, B., &amp; Stubbs, T. (2021, October 4). Business as usual or breaking with the past? IMF tax advice in the Covid-19 era. <i>Austaxpolicy: The Tax and Transfer Policy Blog<\/i>. https://www.austaxpolicy.com/business-as-usual-or-breaking-with-the-past-imf-tax-advice-in-the-covid-19-era/",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "ZEWCIHMQ",
+      "version": 79102,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2021",
+      "sort_date": "2021-07-30",
+      "date": "2021-07-30",
+      "title": "Creating crony capitalism: Neoliberal globalization and the fueling of corruption",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Socio-Economic Review",
+      "doi": "10.1093/ser/mwz039",
+      "url": "https://academic.oup.com/ser/article/19/2/607/5566436",
+      "data": "https://doi.org/10.7910/DVN/MFZGIY",
+      "awards": ["Best Article Published in the Socio-Economic Review in 2021"],
+      "citation": "Reinsberg, B., Kentikelenis, A., &amp; Stubbs, T. (2021). Creating crony capitalism: Neoliberal globalization and the fueling of corruption. <i>Socio-Economic Review<\/i>, <i>19<\/i>(2), 607&#x2013;634. https://doi.org/10.1093/ser/mwz039",
+      "site_tags": [],
+      "pdf": "files/publications/ZEWCIHMQ.pdf"
+    },
+    {
+      "key": "PU4GW7TU",
+      "version": 78737,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2021",
+      "sort_date": "2021-07-12",
+      "date": "2021-07-12",
+      "title": "Lots of IMF programmes are never completed – because they’re unworkable",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/lots-of-imf-programmes-are-never-completed-because-theyre-unworkable-161905",
+      "citation": "Reinsberg, B., &amp; Stubbs, T. (2021, July 12). Lots of IMF programmes are never completed &#x2013; because they&#x2019;re unworkable. <i>The Conversation<\/i>. https://theconversation.com/lots-of-imf-programmes-are-never-completed-because-theyre-unworkable-161905",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "VPHQ9P5P",
+      "version": 79103,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2021",
+      "sort_date": "2021-01",
+      "date": "2021-01",
+      "title": "Whatever it takes? The global financial safety net, Covid-19, and developing countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kring",
+          "given": "William"
+        },
+        {
+          "role": "author",
+          "family": "Laskaridis",
+          "given": "Christina"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Gallagher",
+          "given": "Kevin"
+        }
+      ],
+      "venue": "World Development",
+      "doi": "10.1016/j.worlddev.2020.105171",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0305750X20302989",
+      "cited_in": [
+        {
+          "text": "United Nations Conference on Trade and Development (2021). World Investment Report 2021: Investing in Sustainable Recovery",
+          "url": "https://unctad.org/publication/world-investment-report-2021"
+        }
+      ],
+      "citation": "Stubbs, T., Kring, W., Laskaridis, C., Kentikelenis, A., &amp; Gallagher, K. (2021). Whatever it takes? The global financial safety net, Covid-19, and developing countries. <i>World Development<\/i>, <i>137<\/i>, 105171. https://doi.org/10.1016/j.worlddev.2020.105171",
+      "site_tags": [],
+      "pdf": "files/publications/VPHQ9P5P.pdf"
+    },
+    {
+      "key": "8TFSRNBC",
+      "version": 25939,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2021",
+      "sort_date": "2021",
+      "date": "2021",
+      "title": "Condicionalidad y deuda soberana: Un panorama general de sus implicancias en los derechos humanos",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Revista Derechos en Acción",
+      "doi": "10.24215/25251678e481",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2021). Condicionalidad y deuda soberana: Un panorama general de sus implicancias en los derechos humanos. <i>Revista Derechos En Acci&#xF3;n<\/i>, <i>18<\/i>, 173&#x2013;215. https://doi.org/10.24215/25251678e481",
+      "site_tags": [],
+      "pdf": "files/publications/8TFSRNBC.pdf"
+    },
+    {
+      "key": "QTVQU4XM",
+      "version": 79089,
+      "type": "report",
+      "section": "working-papers",
+      "year": "2021",
+      "sort_date": "2021",
+      "date": "2021",
+      "title": "Poverty, inequality, and the International Monetary Fund: How austerity hurts the poor and widens inequality",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Ray",
+          "given": "Rebecca"
+        },
+        {
+          "role": "author",
+          "family": "Gallagher",
+          "given": "Kevin P."
+        }
+      ],
+      "venue": "Global Development Policy Center",
+      "report_type": "GEGI Working Paper",
+      "report_number": "46",
+      "url": "https://www.bu.edu/gdp/2021/04/02/poverty-inequality-and-the-imf-how-austerity-hurts-the-poor-and-widens-inequality/",
+      "citation": "Stubbs, T., Kentikelenis, A., Ray, R., &amp; Gallagher, K. P. (2021). <i>Poverty, inequality, and the International Monetary Fund: How austerity hurts the poor and widens inequality<\/i> (GEGI Working Paper No. 46). Global Development Policy Center. https://www.bu.edu/gdp/2021/04/02/poverty-inequality-and-the-imf-how-austerity-hurts-the-poor-and-widens-inequality/",
+      "site_tags": ["working-paper"],
+      "pdf": "files/publications/QTVQU4XM.pdf"
+    },
+    {
+      "key": "GT5MEQQU",
+      "version": 79104,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2020",
+      "sort_date": "2020-10-27",
+      "date": "2020-10-27",
+      "title": "Bad governance: How privatization increases corruption in the developing world",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Regulation & Governance",
+      "doi": "10.1111/rego.12265",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/rego.12265",
+      "data": "https://doi.org/10.7910/DVN/O1BYGX",
+      "citation": "Reinsberg, B., Stubbs, T., Kentikelenis, A., &amp; King, L. (2020). Bad governance: How privatization increases corruption in the developing world. <i>Regulation &amp; Governance<\/i>, <i>14<\/i>(4), 698&#x2013;717. https://doi.org/10.1111/rego.12265",
+      "site_tags": [],
+      "pdf": "files/publications/GT5MEQQU.pdf"
+    },
+    {
+      "key": "2N2KVB3Z",
+      "version": 79105,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2020",
+      "sort_date": "2020-09-08",
+      "date": "2020-09-08",
+      "title": "Taxing the people, not trade: The International Monetary Fund and the structure of taxation in developing countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Studies in Comparative International Development",
+      "doi": "10.1007/s12116-020-09307-4",
+      "url": "http://link.springer.com/10.1007/s12116-020-09307-4",
+      "data": "https://doi.org/10.7910/DVN/ULG3Q9",
+      "citation": "Reinsberg, B., Stubbs, T., &amp; Kentikelenis, A. (2020). Taxing the people, not trade: The International Monetary Fund and the structure of taxation in developing countries. <i>Studies in Comparative International Development<\/i>, <i>55<\/i>(3), 278&#x2013;304. https://doi.org/10.1007/s12116-020-09307-4",
+      "site_tags": [],
+      "pdf": "files/publications/2N2KVB3Z.pdf"
+    },
+    {
+      "key": "TD7WKTIJ",
+      "version": 79086,
+      "type": "journalArticle",
+      "section": "commentaries",
+      "year": "2020",
+      "sort_date": "2020-06",
+      "date": "2020-06",
+      "title": "Softening the blow of the pandemic: Will the International Monetary Fund and World Bank make things worse?",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Gabor",
+          "given": "Daniela"
+        },
+        {
+          "role": "author",
+          "family": "Ortiz",
+          "given": "Isabel"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "McKee",
+          "given": "Martin"
+        },
+        {
+          "role": "author",
+          "family": "Stuckler",
+          "given": "David"
+        }
+      ],
+      "venue": "The Lancet Global Health",
+      "doi": "10.1016/S2214-109X(20)30135-2",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2214109X20301352",
+      "citation": "Kentikelenis, A., Gabor, D., Ortiz, I., Stubbs, T., McKee, M., &amp; Stuckler, D. (2020). Softening the blow of the pandemic: Will the International Monetary Fund and World Bank make things worse? <i>The Lancet Global Health<\/i>, <i>8<\/i>(6), e758&#x2013;e759. https://doi.org/10.1016/S2214-109X(20)30135-2",
+      "site_tags": ["commentary"],
+      "pdf": "files/publications/TD7WKTIJ.pdf"
+    },
+    {
+      "key": "5B4DAVTH",
+      "version": 78757,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2020",
+      "sort_date": "2020-04-30",
+      "date": "2020-04-30",
+      "title": "Burundi elections: What’s at stake and what to expect",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Abbott",
+          "given": "Pamela"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/burundi-elections-whats-at-stake-and-what-to-expect-135874",
+      "citation": "Stubbs, T., &amp; Abbott, P. (2020, April 30). Burundi elections: What&#x2019;s at stake and what to expect. <i>The Conversation<\/i>. https://theconversation.com/burundi-elections-whats-at-stake-and-what-to-expect-135874",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "7BN5A3TM",
+      "version": 78753,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2020",
+      "sort_date": "2020-03-23",
+      "date": "2020-03-23",
+      "title": "Fighting coronavirus: It’s time to invest in universal public health",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Ortiz",
+          "given": "Isabel"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Inter Press Service",
+      "url": "https://www.ipsnews.net/2020/03/fighting-coronavirus-time-invest-universal-public-health/",
+      "citation": "Ortiz, I., &amp; Stubbs, T. (2020, March 23). Fighting coronavirus: It&#x2019;s time to invest in universal public health. <i>Inter Press Service<\/i>. https://www.ipsnews.net/2020/03/fighting-coronavirus-time-invest-universal-public-health/",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "A553FGGN",
+      "version": 79106,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2020",
+      "sort_date": "2020-01-13",
+      "date": "2020-01-13",
+      "title": "How to evaluate the effects of IMF conditionality: An extension of quantitative approaches and an empirical application to public education spending",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Review of International Organizations",
+      "doi": "10.1007/s11558-018-9332-5",
+      "url": "http://link.springer.com/10.1007/s11558-018-9332-5",
+      "data": "https://doi.org/10.7910/DVN/YSZ79K",
+      "cited_in": [
+        {
+          "text": "International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)",
+          "url": "https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml"
+        }
+      ],
+      "citation": "Stubbs, T., Reinsberg, B., Kentikelenis, A., &amp; King, L. (2020). How to evaluate the effects of IMF conditionality: An extension of quantitative approaches and an empirical application to public education spending. <i>Review of International Organizations<\/i>, <i>15<\/i>(1), 29&#x2013;73. https://doi.org/10.1007/s11558-018-9332-5",
+      "site_tags": [],
+      "pdf": "files/publications/A553FGGN.pdf"
+    },
+    {
+      "key": "NGQ8ZRZI",
+      "version": 79107,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2020",
+      "sort_date": "2020",
+      "date": "2020",
+      "title": "Globalization and health equity: The impact of structural adjustment programs on developing countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Forster",
+          "given": "Timon"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence P."
+        }
+      ],
+      "venue": "Social Science & Medicine",
+      "doi": "10.1016/j.socscimed.2019.112496",
+      "url": "https://doi.org/10.1016/j.socscimed.2019.112496",
+      "cited_in": [
+        {
+          "text": "International Monetary Fund (2024). Effects of IMF-Supported Programs on Gender Inequality (WP/24/247)",
+          "url": "https://www.elibrary.imf.org/view/journals/001/2024/247/article-A001-en.xml"
+        }
+      ],
+      "citation": "Forster, T., Kentikelenis, A., Stubbs, T., &amp; King, L. P. (2020). Globalization and health equity: The impact of structural adjustment programs on developing countries. <i>Social Science &amp; Medicine<\/i>, <i>267<\/i>, 112496. https://doi.org/10.1016/j.socscimed.2019.112496",
+      "site_tags": [],
+      "pdf": "files/publications/NGQ8ZRZI.pdf"
+    },
+    {
+      "key": "YH5IKAWL",
+      "version": 78752,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2019",
+      "sort_date": "2019-11-25",
+      "date": "2019-11-25",
+      "title": "More austerity for developing countries: It’s bad news, and it’s avoidable",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Ortiz",
+          "given": "Isabel"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Inter Press Service",
+      "url": "https://www.ipsnews.net/2019/11/austerity-developing-countries-bad-news-avoidable/",
+      "citation": "Ortiz, I., &amp; Stubbs, T. (2019, November 25). More austerity for developing countries: It&#x2019;s bad news, and it&#x2019;s avoidable. <i>Inter Press Service<\/i>. https://www.ipsnews.net/2019/11/austerity-developing-countries-bad-news-avoidable/",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "NH66KJIQ",
+      "version": 78738,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2019",
+      "sort_date": "2019-09-27",
+      "date": "2019-09-27",
+      "title": "How IMF programmes can increase corruption",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/how-imf-programmes-can-increase-corruption-123718",
+      "citation": "Reinsberg, B., &amp; Stubbs, T. (2019, September 27). How IMF programmes can increase corruption. <i>The Conversation<\/i>. https://theconversation.com/how-imf-programmes-can-increase-corruption-123718",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "3VX375N5",
+      "version": 78739,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2019",
+      "sort_date": "2019-07-17",
+      "date": "2019-07-17",
+      "title": "IMF says it cares about inequality. But will it change its ways?",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Forster",
+          "given": "Timon"
+        },
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/imf-says-it-cares-about-inequality-but-will-it-change-its-ways-120105",
+      "citation": "Forster, T., Reinsberg, B., &amp; Stubbs, T. (2019, July 17). IMF says it cares about inequality. But will it change its ways? <i>The Conversation<\/i>. https://theconversation.com/imf-says-it-cares-about-inequality-but-will-it-change-its-ways-120105",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "7QA64EKC",
+      "version": 79108,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2019",
+      "sort_date": "2019-05-04",
+      "date": "2019-05-04",
+      "title": "The political economy of labor market deregulation during IMF interventions",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "International Interactions",
+      "doi": "10.1080/03050629.2019.1582531",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03050629.2019.1582531",
+      "data": "https://doi.org/10.7910/DVN/DDBKCD",
+      "citation": "Reinsberg, B., Stubbs, T., Kentikelenis, A., &amp; King, L. (2019). The political economy of labor market deregulation during IMF interventions. <i>International Interactions<\/i>, <i>45<\/i>(3), 532&#x2013;559. https://doi.org/10.1080/03050629.2019.1582531",
+      "site_tags": [],
+      "pdf": "files/publications/7QA64EKC.pdf"
+    },
+    {
+      "key": "2U8LXZZ9",
+      "version": 68328,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2019",
+      "sort_date": "2019-05",
+      "date": "2019-05",
+      "title": "How structural adjustment programs affect inequality: A disaggregated analysis of IMF conditionality, 1980–2014",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Forster",
+          "given": "Timon"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Social Science Research",
+      "doi": "10.1016/j.ssresearch.2019.01.001",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0049089X18300802",
+      "citation": "Forster, T., Kentikelenis, A., Reinsberg, B., Stubbs, T., &amp; King, L. (2019). How structural adjustment programs affect inequality: A disaggregated analysis of IMF conditionality, 1980&#x2013;2014. <i>Social Science Research<\/i>, <i>80<\/i>, 83&#x2013;113. https://doi.org/10.1016/j.ssresearch.2019.01.001",
+      "site_tags": [],
+      "pdf": "files/publications/2U8LXZZ9.pdf"
+    },
+    {
+      "key": "FKCRPQ99",
+      "version": 51073,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2019",
+      "sort_date": "2019-02",
+      "date": "2019-02",
+      "title": "The International Monetary Fund’s interventions in food and agriculture: An analysis of loans and conditions",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Daoud",
+          "given": "Adel"
+        },
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Food Policy",
+      "doi": "10.1016/j.foodpol.2019.01.005",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S030691921730893X",
+      "citation": "Daoud, A., Reinsberg, B., Kentikelenis, A., Stubbs, T., &amp; King, L. (2019). The International Monetary Fund&#x2019;s interventions in food and agriculture: An analysis of loans and conditions. <i>Food Policy<\/i>, <i>83<\/i>, 204&#x2013;218. https://doi.org/10.1016/j.foodpol.2019.01.005",
+      "site_tags": [],
+      "pdf": "files/publications/FKCRPQ99.pdf"
+    },
+    {
+      "key": "PGUJU5KF",
+      "version": 79109,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2019",
+      "sort_date": "2019-01",
+      "date": "2019-01",
+      "title": "The world system and the hollowing out of state capacity: How structural adjustment programs affect bureaucratic quality in developing countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "American Journal of Sociology",
+      "doi": "10.1086/701703",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/701703",
+      "data": "https://doi.org/10.7910/DVN/SCQTJX",
+      "citation": "Reinsberg, B., Kentikelenis, A., Stubbs, T., &amp; King, L. (2019). The world system and the hollowing out of state capacity: How structural adjustment programs affect bureaucratic quality in developing countries. <i>American Journal of Sociology<\/i>, <i>124<\/i>(4), 1222&#x2013;1257. https://doi.org/10.1086/701703",
+      "site_tags": [],
+      "pdf": "files/publications/PGUJU5KF.pdf"
+    },
+    {
+      "key": "8VQJYLUG",
+      "version": 79090,
+      "type": "report",
+      "section": "working-papers",
+      "year": "2019",
+      "sort_date": "2019",
+      "date": "2019",
+      "title": "LSE-IMF joint workshop: Social protection in a changing world",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Burchardt",
+          "given": "Tania"
+        },
+        {
+          "role": "author",
+          "family": "Brandolini",
+          "given": "Andrea"
+        },
+        {
+          "role": "author",
+          "family": "Hernandez",
+          "given": "Domingo"
+        },
+        {
+          "role": "author",
+          "family": "Julien",
+          "given": "Clément"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Centre for Analysis of Social Exclusion",
+      "report_type": "CASE Report",
+      "report_number": "121",
+      "url": "https://sticerd.lse.ac.uk/dps/case/cr/casereport121.pdf",
+      "citation": "Burchardt, T., Brandolini, A., Hernandez, D., Julien, C., &amp; Stubbs, T. (2019). <i>LSE-IMF joint workshop: Social protection in a changing world<\/i> (CASE Report No. 121). Centre for Analysis of Social Exclusion. https://sticerd.lse.ac.uk/dps/case/cr/casereport121.pdf",
+      "site_tags": ["working-paper"],
+      "pdf": "files/publications/8VQJYLUG.pdf"
+    },
+    {
+      "key": "F99VYL72",
+      "version": 79083,
+      "type": "report",
+      "section": "policy-reports",
+      "year": "2019",
+      "sort_date": "2019",
+      "date": "2019",
+      "title": "Precariat Māori households today",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Rua",
+          "given": "Mohi"
+        },
+        {
+          "role": "author",
+          "family": "Hodgetts",
+          "given": "Darrin"
+        },
+        {
+          "role": "author",
+          "family": "Stolte",
+          "given": "Ottilie"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Delta"
+        },
+        {
+          "role": "author",
+          "family": "Cochrane",
+          "given": "William"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Karapu",
+          "given": "Rolinda"
+        },
+        {
+          "role": "author",
+          "family": "Neha",
+          "given": "Eddie"
+        },
+        {
+          "role": "author",
+          "family": "Chamberlain",
+          "given": "Kerry"
+        },
+        {
+          "role": "author",
+          "family": "Te Whetu",
+          "given": "Tiniwai"
+        },
+        {
+          "role": "author",
+          "family": "Te Awekotuku",
+          "given": "Ngahuia"
+        },
+        {
+          "role": "author",
+          "family": "Harr",
+          "given": "Jarrod"
+        },
+        {
+          "role": "author",
+          "family": "Groot",
+          "given": "Shiloh"
+        }
+      ],
+      "venue": "Ngā Pae o te Māramatanga",
+      "report_type": "Te Arotahi Series Paper",
+      "report_number": "2",
+      "url": "https://maramatanga.ac.nz/media/5044/download?inline",
+      "citation": "Rua, M., Hodgetts, D., Stolte, O., King, D., Cochrane, W., Stubbs, T., Karapu, R., Neha, E., Chamberlain, K., Te Whetu, T., Te Awekotuku, N., Harr, J., &amp; Groot, S. (2019). <i>Precariat M&#x101;ori households today<\/i> (Te Arotahi Series Paper No. 2). Ng&#x101; Pae o te M&#x101;ramatanga. https://maramatanga.ac.nz/media/5044/download?inline",
+      "site_tags": [],
+      "pdf": "files/publications/F99VYL72.pdf"
+    },
+    {
+      "key": "2E3EMWWY",
+      "version": 79110,
+      "type": "journalArticle",
+      "section": "commentaries",
+      "year": "2018",
+      "sort_date": "2018-03-15",
+      "date": "2018-03-15",
+      "title": "Targeted social safeguards in the age of universal social protection: The IMF and health systems of low-income countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Critical Public Health",
+      "doi": "10.1080/09581596.2017.1340589",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/09581596.2017.1340589",
+      "cited_in": [
+        {
+          "text": "UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)",
+          "url": "https://docs.un.org/en/A/74/178"
+        },
+        {
+          "text": "International Monetary Fund (2019). A Strategy for IMF Engagement on Social Spending — Background Papers (Policy Paper 2019/017)",
+          "url": "https://www.imf.org/en/publications/policy-papers/issues/2019/06/10/a-strategy-for-imf-engagement-on-social-spending-background-papers-46976"
+        }
+      ],
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2018). Targeted social safeguards in the age of universal social protection: The IMF and health systems of low-income countries. <i>Critical Public Health<\/i>, <i>28<\/i>(2), 132&#x2013;139. https://doi.org/10.1080/09581596.2017.1340589",
+      "site_tags": ["commentary"],
+      "pdf": "files/publications/2E3EMWWY.pdf"
+    },
+    {
+      "key": "R4UB9B3W",
+      "version": 79111,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2018",
+      "sort_date": "2018",
+      "date": "2018",
+      "title": "Conditionality and sovereign debt: An overview of human rights implications",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "editor",
+          "family": "Bantekas",
+          "given": "Ilias"
+        },
+        {
+          "role": "editor",
+          "family": "Lumina",
+          "given": "Cephas"
+        }
+      ],
+      "venue": "Sovereign Debt and Human Rights",
+      "doi": "10.1093/oso/9780198810445.003.0020",
+      "cited_in": [
+        {
+          "text": "UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)",
+          "url": "https://docs.un.org/en/A/74/178"
+        }
+      ],
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2018). Conditionality and sovereign debt: An overview of human rights implications. In I. Bantekas &amp; C. Lumina (Eds.), <i>Sovereign Debt and Human Rights<\/i> (pp. 359&#x2013;380). Oxford University Press. https://doi.org/10.1093/oso/9780198810445.003.0020",
+      "site_tags": [],
+      "pdf": "files/publications/R4UB9B3W.pdf"
+    },
+    {
+      "key": "MRUAF3AS",
+      "version": 79092,
+      "type": "report",
+      "section": "working-papers",
+      "year": "2018",
+      "sort_date": "2018",
+      "date": "2018",
+      "title": "How structural adjustment programs impact bureaucratic quality in developing countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Political Economy Research Institute",
+      "report_type": "PERI Working Paper",
+      "report_number": "452",
+      "url": "https://peri.umass.edu/wp-content/uploads/joomla/images/publication/WP452_copy_1.pdf",
+      "citation": "Reinsberg, B., Kentikelenis, A., Stubbs, T., &amp; King, L. (2018). <i>How structural adjustment programs impact bureaucratic quality in developing countries<\/i> (PERI Working Paper No. 452). Political Economy Research Institute. https://peri.umass.edu/wp-content/uploads/joomla/images/publication/WP452_copy_1.pdf",
+      "site_tags": ["working-paper"],
+      "pdf": "files/publications/MRUAF3AS.pdf"
+    },
+    {
+      "key": "24YG26BG",
+      "version": 79091,
+      "type": "report",
+      "section": "working-papers",
+      "year": "2018",
+      "sort_date": "2018",
+      "date": "2018",
+      "title": "Spreading the Washington Consensus into food and agriculture sectors: The case of the International Monetary Fund",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Daoud",
+          "given": "Adel"
+        },
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Political Economy Research Institute",
+      "report_type": "PERI Working Paper",
+      "report_number": "468",
+      "url": "https://peri.umass.edu/wp-content/uploads/joomla/images/publication/WP468.pdf",
+      "citation": "Daoud, A., Reinsberg, B., Kentikelenis, A., Stubbs, T., &amp; King, L. (2018). <i>Spreading the Washington Consensus into food and agriculture sectors: The case of the International Monetary Fund<\/i> (PERI Working Paper No. 468). Political Economy Research Institute. https://peri.umass.edu/wp-content/uploads/joomla/images/publication/WP468.pdf",
+      "site_tags": ["working-paper"],
+      "pdf": "files/publications/24YG26BG.pdf"
+    },
+    {
+      "key": "2K69BEJ6",
+      "version": 66644,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2017",
+      "sort_date": "2017-12-30",
+      "date": "2017-12-30",
+      "title": "International financial institutions and human rights: Implications for public health",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Public Health Reviews",
+      "doi": "10.1186/s40985-017-0074-3",
+      "url": "https://publichealthreviews.biomedcentral.com/articles/10.1186/s40985-017-0074-3",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2017). International financial institutions and human rights: Implications for public health. <i>Public Health Reviews<\/i>, <i>38<\/i>(1), 27. https://doi.org/10.1186/s40985-017-0074-3",
+      "site_tags": [],
+      "pdf": "files/publications/2K69BEJ6.pdf"
+    },
+    {
+      "key": "WZG7WB58",
+      "version": 66645,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2017",
+      "sort_date": "2017-12-10",
+      "date": "2017-12-10",
+      "title": "Structural adjustment programmes adversely affect vulnerable populations: A systematic-narrative review of their effect on child and maternal health",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Thomson",
+          "given": "Michael"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Public Health Reviews",
+      "doi": "10.1186/s40985-017-0059-2",
+      "url": "http://publichealthreviews.biomedcentral.com/articles/10.1186/s40985-017-0059-2",
+      "citation": "Thomson, M., Kentikelenis, A., &amp; Stubbs, T. (2017). Structural adjustment programmes adversely affect vulnerable populations: A systematic-narrative review of their effect on child and maternal health. <i>Public Health Reviews<\/i>, <i>38<\/i>(1), 13. https://doi.org/10.1186/s40985-017-0059-2",
+      "site_tags": [],
+      "pdf": "files/publications/WZG7WB58.pdf"
+    },
+    {
+      "key": "4IUY66R9",
+      "version": 78740,
+      "type": "blogPost",
+      "section": "media",
+      "year": "2017",
+      "sort_date": "2017-12-04",
+      "date": "2017-12-04",
+      "title": "How international financial institutions undercut human rights and impede public health",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "BMC On Health",
+      "url": "https://blogs.biomedcentral.com/on-health/2017/12/04/how-international-financial-institutions-undercut-human-rights-and-impede-public-health/",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2017, December 4). How international financial institutions undercut human rights and impede public health. <i>BMC On Health<\/i>. https://blogs.biomedcentral.com/on-health/2017/12/04/how-international-financial-institutions-undercut-human-rights-and-impede-public-health/",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "KJ9WZ838",
+      "version": 78750,
+      "type": "blogPost",
+      "section": "media",
+      "year": "2017",
+      "sort_date": "2017-11-27",
+      "date": "2017-11-27",
+      "title": "Ethnopolitics in Kenya – history repeats in 2017 presidential elections",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "GloPolDev Centre Blog",
+      "url": "https://web.archive.org/web/20201126155926/https://www.glopoldev.co.uk/single-post/2017/11/27/Blog-Ethnopolitics-in-Kenya-%E2%80%93-history-repeats-in-2017-presidential-elections",
+      "citation": "Stubbs, T. (2017, November 27). Ethnopolitics in Kenya &#x2013; history repeats in 2017 presidential elections. <i>GloPolDev Centre Blog<\/i>. https://web.archive.org/web/20201126155926/https://www.glopoldev.co.uk/single-post/2017/11/27/Blog-Ethnopolitics-in-Kenya-%E2%80%93-history-repeats-in-2017-presidential-elections",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "TBTR9IL6",
+      "version": 78751,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2017",
+      "sort_date": "2017-07-30",
+      "date": "2017-07-30",
+      "title": "Election guide: What you need to know about the Rwandan presidential poll",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Abbott",
+          "given": "Pamela"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/election-guide-what-you-need-to-know-about-the-rwandan-presidential-poll-81496",
+      "citation": "Stubbs, T., &amp; Abbott, P. (2017, July 30). Election guide: What you need to know about the Rwandan presidential poll. <i>The Conversation<\/i>. https://theconversation.com/election-guide-what-you-need-to-know-about-the-rwandan-presidential-poll-81496",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "ABH937R9",
+      "version": 66643,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2017",
+      "sort_date": "2017-06-20",
+      "date": "2017-06-20",
+      "title": "Impact of International Monetary Fund programs on child health",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Daoud",
+          "given": "Adel"
+        },
+        {
+          "role": "author",
+          "family": "Nosrati",
+          "given": "Elias"
+        },
+        {
+          "role": "author",
+          "family": "Reinsberg",
+          "given": "Bernhard"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.1617353114",
+      "url": "http://www.pnas.org/lookup/doi/10.1073/pnas.1617353114",
+      "citation": "Daoud, A., Nosrati, E., Reinsberg, B., Kentikelenis, A., Stubbs, T., &amp; King, L. (2017). Impact of International Monetary Fund programs on child health. <i>Proceedings of the National Academy of Sciences<\/i>, <i>114<\/i>(25), 6492&#x2013;6497. https://doi.org/10.1073/pnas.1617353114",
+      "site_tags": [],
+      "pdf": "files/publications/ABH937R9.pdf"
+    },
+    {
+      "key": "PJ5T6B3G",
+      "version": 78741,
+      "type": "magazineArticle",
+      "section": "media",
+      "year": "2017",
+      "sort_date": "2017-06-16",
+      "date": "2017-06-16",
+      "title": "The truth behind IMF’s claims to promote social protection in low-income countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Bretton Woods Observer",
+      "url": "https://www.brettonwoodsproject.org/2017/06/the-truth-behind-imfs-claims-to-promote-social-protection-in-low-income-countries/",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2017, June 16). The truth behind IMF&#x2019;s claims to promote social protection in low-income countries. <i>Bretton Woods Observer<\/i>. https://www.brettonwoodsproject.org/2017/06/the-truth-behind-imfs-claims-to-promote-social-protection-in-low-income-countries/",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "XHVMIVGE",
+      "version": 79088,
+      "type": "journalArticle",
+      "section": "commentaries",
+      "year": "2017",
+      "sort_date": "2017-05",
+      "date": "2017-05",
+      "title": "The IMF and government health expenditure: A response to Sanjeev Gupta",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stuckler",
+          "given": "David"
+        },
+        {
+          "role": "author",
+          "family": "McKee",
+          "given": "Martin"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Social Science & Medicine",
+      "doi": "10.1016/j.socscimed.2017.03.050",
+      "url": "http://linkinghub.elsevier.com/retrieve/pii/S0277953617302058",
+      "citation": "Stubbs, T., Kentikelenis, A., Stuckler, D., McKee, M., &amp; King, L. (2017). The IMF and government health expenditure: A response to Sanjeev Gupta. <i>Social Science &amp; Medicine<\/i>, <i>181<\/i>, 202&#x2013;204. https://doi.org/10.1016/j.socscimed.2017.03.050",
+      "site_tags": ["commentary"],
+      "pdf": "files/publications/XHVMIVGE.pdf"
+    },
+    {
+      "key": "GRVF4TWL",
+      "version": 78742,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2017",
+      "sort_date": "2017-02-22",
+      "date": "2017-02-22",
+      "title": "How years of IMF prescriptions have hurt West African health systems",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/how-years-of-imf-prescriptions-have-hurt-west-african-health-systems-72806",
+      "citation": "Stubbs, T., &amp; Kentikelenis, A. (2017, February 22). How years of IMF prescriptions have hurt West African health systems. <i>The Conversation<\/i>. https://theconversation.com/how-years-of-imf-prescriptions-have-hurt-west-african-health-systems-72806",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "26MTXZ23",
+      "version": 79112,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2017",
+      "sort_date": "2017-02",
+      "date": "2017-02",
+      "title": "The impact of IMF conditionality on government health expenditure: A cross-national analysis of 16 West African nations",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stuckler",
+          "given": "David"
+        },
+        {
+          "role": "author",
+          "family": "McKee",
+          "given": "Martin"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Social Science & Medicine",
+      "doi": "10.1016/j.socscimed.2016.12.016",
+      "url": "http://linkinghub.elsevier.com/retrieve/pii/S0277953616306876",
+      "data": "https://doi.org/10.7910/DVN/WBAKNS",
+      "cited_in": [
+        {
+          "text": "IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf"
+        },
+        {
+          "text": "International Monetary Fund (2018). Expenditure Conditionality in IMF-Supported Programs (WP/18/255)",
+          "url": "https://www.imf.org/en/publications/wp/issues/2018/12/07/expenditure-conditionality-in-imf-supported-programs-46448"
+        },
+        {
+          "text": "International Monetary Fund (2019). A Strategy for IMF Engagement on Social Spending — Background Papers (Policy Paper 2019/017)",
+          "url": "https://www.imf.org/en/publications/policy-papers/issues/2019/06/10/a-strategy-for-imf-engagement-on-social-spending-background-papers-46976"
+        },
+        {
+          "text": "World Health Organization (2021). Health Labour Market Analysis Guidebook",
+          "url": "https://www.who.int/publications/i/item/9789240035546"
+        },
+        {
+          "text": "International Monetary Fund (2023). IMF Engagement on Health Spending Issues in Surveillance and Program Work (TNM 2023/008)",
+          "url": "https://www.elibrary.imf.org/view/journals/005/2023/008/article-A001-en.xml"
+        },
+        {
+          "text": "International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)",
+          "url": "https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml"
+        }
+      ],
+      "citation": "Stubbs, T., Kentikelenis, A., Stuckler, D., McKee, M., &amp; King, L. (2017). The impact of IMF conditionality on government health expenditure: A cross-national analysis of 16 West African nations. <i>Social Science &amp; Medicine<\/i>, <i>174<\/i>, 220&#x2013;227. https://doi.org/10.1016/j.socscimed.2016.12.016",
+      "site_tags": [],
+      "pdf": "files/publications/26MTXZ23.pdf"
+    },
+    {
+      "key": "KWJUKIKU",
+      "version": 79056,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2017",
+      "sort_date": "2017",
+      "date": "2017",
+      "title": "A statistical portrait of the New Zealand precariat",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Cochrane",
+          "given": "William"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Rua",
+          "given": "Mohi"
+        },
+        {
+          "role": "author",
+          "family": "Hodgetts",
+          "given": "Darrin"
+        },
+        {
+          "role": "editor",
+          "family": "Groot",
+          "given": "Shiloh"
+        },
+        {
+          "role": "editor",
+          "family": "van Ommen",
+          "given": "Clifford"
+        },
+        {
+          "role": "editor",
+          "family": "Masters-Awatere",
+          "given": "Bridgette"
+        },
+        {
+          "role": "editor",
+          "family": "Tassell-Matamua",
+          "given": "Natasha"
+        }
+      ],
+      "venue": "Precarity: Uncertain, Insecure, and Unequal Lives in Aotearoa New Zealand",
+      "url": "https://masseypress.ac.nz/products/precarity",
+      "citation": "Cochrane, W., Stubbs, T., Rua, M., &amp; Hodgetts, D. (2017). A statistical portrait of the New Zealand precariat. In S. Groot, C. van Ommen, B. Masters-Awatere, &amp; N. Tassell-Matamua (Eds.), <i>Precarity: Uncertain, Insecure, and Unequal Lives in Aotearoa New Zealand<\/i> (pp. 27&#x2013;36). Massey University Press. https://masseypress.ac.nz/products/precarity",
+      "site_tags": [],
+      "pdf": "files/publications/KWJUKIKU.pdf"
+    },
+    {
+      "key": "WXNEZC83",
+      "version": 79055,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2017",
+      "sort_date": "2017",
+      "date": "2017",
+      "title": "The Māori precariat: A silhouette",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Cochrane",
+          "given": "William"
+        },
+        {
+          "role": "author",
+          "family": "Uerata",
+          "given": "Lynley"
+        },
+        {
+          "role": "author",
+          "family": "Hodgetts",
+          "given": "Darrin"
+        },
+        {
+          "role": "author",
+          "family": "Rua",
+          "given": "Mohi"
+        },
+        {
+          "role": "editor",
+          "family": "Groot",
+          "given": "Shiloh"
+        },
+        {
+          "role": "editor",
+          "family": "van Ommen",
+          "given": "Clifford"
+        },
+        {
+          "role": "editor",
+          "family": "Masters-Awatere",
+          "given": "Bridgette"
+        },
+        {
+          "role": "editor",
+          "family": "Tassell-Matamua",
+          "given": "Natasha"
+        }
+      ],
+      "venue": "Precarity: Uncertain, Insecure, and Unequal Lives in Aotearoa New Zealand",
+      "url": "https://masseypress.ac.nz/products/precarity",
+      "citation": "Stubbs, T., Cochrane, W., Uerata, L., Hodgetts, D., &amp; Rua, M. (2017). The M&#x101;ori precariat: A silhouette. In S. Groot, C. van Ommen, B. Masters-Awatere, &amp; N. Tassell-Matamua (Eds.), <i>Precarity: Uncertain, Insecure, and Unequal Lives in Aotearoa New Zealand<\/i> (pp. 115&#x2013;123). Massey University Press. https://masseypress.ac.nz/products/precarity",
+      "site_tags": [],
+      "pdf": "files/publications/WXNEZC83.pdf"
+    },
+    {
+      "key": "2YHZR4GZ",
+      "version": 79113,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2016",
+      "sort_date": "2016-07-03",
+      "date": "2016-07-03",
+      "title": "IMF conditionality and development policy space, 1985–2014",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Review of International Political Economy",
+      "doi": "10.1080/09692290.2016.1174953",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/09692290.2016.1174953",
+      "cited_in": [
+        {
+          "text": "IMF Independent Evaluation Office (2017). The IMF and Social Protection — Evaluation Report",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-2017evalreport.pdf"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2018). Structural Conditionality in IMF-Supported Programs — Evaluation Update",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/updates/05-15-2018-structural-conditionality-in-imf-supported-programs-evaluation-update/structural-conditionality-in-imf-supported-programs-evaluation-update-web.pdf"
+        },
+        {
+          "text": "International Monetary Fund (2018). Expenditure Conditionality in IMF-Supported Programs (WP/18/255)",
+          "url": "https://www.imf.org/en/publications/wp/issues/2018/12/07/expenditure-conditionality-in-imf-supported-programs-46448"
+        },
+        {
+          "text": "UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)",
+          "url": "https://docs.un.org/en/A/74/178"
+        },
+        {
+          "text": "United Nations Conference on Trade and Development (2020). Trade and Development Report 2020: From Global Pandemic to Prosperity for All",
+          "url": "https://unctad.org/publication/trade-and-development-report-2020"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2021). Fiscal Adjustment and Growth in IMF-Supported Programs (BP/21-01/03)",
+          "url": "https://ieo.imf.org/-/media/IEO/Files/evaluations/completed/09-09-2021-growth-and-adjustment-in-imf-supported-programs/adg-bp03-growth-fiscal-adjustment-in-imfsupported-programs.ashx"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2021). Structural Conditions, Structural Reforms and Growth in IMF-Supported Programs (BP/21-01/04)",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/09-09-2021-growth-and-adjustment-in-imf-supported-programs/adg-bp04-growth-structural-conditions-structural-reforms-in-imf-supported-programs.pdf"
+        },
+        {
+          "text": "International Monetary Fund (2022). Policy Space Index: Short-Term Response to a Catastrophic Event (WP/22/123)",
+          "url": "https://www.imf.org/en/publications/wp/issues/2022/06/17/policy-space-index-short-term-response-to-a-catastrophic-event-519814"
+        },
+        {
+          "text": "International Monetary Fund (2022). Do IMF Programs Stimulate Private Sector Investment? (WP/22/157)",
+          "url": "https://www.elibrary.imf.org/view/journals/001/2022/157/article-A001-en.xml"
+        },
+        {
+          "text": "International Monetary Fund (2024). Determinants of Zombie Banks in Emerging Markets and Developing Economies (WP/24/036)",
+          "url": "https://www.imf.org/en/publications/wp/issues/2024/02/23/determinants-of-zombie-banks-in-emerging-markets-and-developing-economies-545110"
+        }
+      ],
+      "citation": "Kentikelenis, A., Stubbs, T., &amp; King, L. (2016). IMF conditionality and development policy space, 1985&#x2013;2014. <i>Review of International Political Economy<\/i>, <i>23<\/i>(4), 543&#x2013;582. https://doi.org/10.1080/09692290.2016.1174953",
+      "site_tags": [],
+      "pdf": "files/publications/2YHZR4GZ.pdf"
+    },
+    {
+      "key": "SW5TNIMY",
+      "version": 78743,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2016",
+      "sort_date": "2016-06-02",
+      "date": "2016-06-02",
+      "title": "Did the IMF actually ease up on structural adjustment? Here’s what the data say",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "The Washington Post",
+      "url": "https://www.washingtonpost.com/news/monkey-cage/wp/2016/06/02/did-the-imf-actually-ease-up-on-demanding-structural-adjustments-heres-what-the-data-say/",
+      "citation": "Kentikelenis, A., Stubbs, T., &amp; King, L. (2016, June 2). Did the IMF actually ease up on structural adjustment? Here&#x2019;s what the data say. <i>The Washington Post<\/i>. https://www.washingtonpost.com/news/monkey-cage/wp/2016/06/02/did-the-imf-actually-ease-up-on-demanding-structural-adjustments-heres-what-the-data-say/",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "KFXLVHAN",
+      "version": 78744,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2016",
+      "sort_date": "2016-05-25",
+      "date": "2016-05-25",
+      "title": "The IMF has not lived up to its own hype on social protection",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2016/may/25/the-imf-international-monetary-fund-has-not-lived-up-to-hype-on-social-protection",
+      "citation": "Kentikelenis, A., Stubbs, T., &amp; King, L. (2016, May 25). The IMF has not lived up to its own hype on social protection. <i>The Guardian<\/i>. https://www.theguardian.com/global-development/2016/may/25/the-imf-international-monetary-fund-has-not-lived-up-to-hype-on-social-protection",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "MN7YGBFK",
+      "version": 78745,
+      "type": "blogPost",
+      "section": "media",
+      "year": "2016",
+      "sort_date": "2016-02-02",
+      "date": "2016-02-02",
+      "title": "The IMF unlocks billions in aid, but from whom?",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Institute for New Economic Thinking (INET) Blog",
+      "url": "https://www.ineteconomics.org/perspectives/blog/the-imf-unlocks-billions-in-aid-but-from-whom",
+      "citation": "Stubbs, T., Kentikelenis, A., &amp; King, L. (2016, February 2). The IMF unlocks billions in aid, but from whom? <i>Institute for New Economic Thinking (INET) Blog<\/i>. https://www.ineteconomics.org/perspectives/blog/the-imf-unlocks-billions-in-aid-but-from-whom",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "TKF5WVKG",
+      "version": 79114,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2016",
+      "sort_date": "2016-02",
+      "date": "2016-02",
+      "title": "Catalyzing aid? The IMF and donor behavior in aid allocation",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "World Development",
+      "doi": "10.1016/j.worlddev.2015.10.010",
+      "url": "http://linkinghub.elsevier.com/retrieve/pii/S0305750X15002326",
+      "data": "https://doi.org/10.7910/DVN/TE8TXZ",
+      "cited_in": [
+        {
+          "text": "International Monetary Fund (2024). The Catalytic Impact of IMF Lending on Official Development Assistance (WP/24/134)",
+          "url": "https://www.imf.org/en/publications/wp/issues/2024/06/28/the-catalytic-impact-of-imf-lending-on-official-development-assistance-550957"
+        },
+        {
+          "text": "International Monetary Fund (2026). The Catalytic Impact of Resilience and Sustainability Facility Arrangements (WP/26/38)",
+          "url": "https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026038-source-pdf.pdf"
+        },
+        {
+          "text": "International Monetary Fund (2026). The Macro-Fiscal Impacts of Post-Disaster IMF Financing: Evidence from a Synthetic Control Approach (WP/26/91)",
+          "url": "https://www.elibrary.imf.org/view/journals/001/2026/091/article-A001-en.xml"
+        }
+      ],
+      "citation": "Stubbs, T., Kentikelenis, A., &amp; King, L. (2016). Catalyzing aid? The IMF and donor behavior in aid allocation. <i>World Development<\/i>, <i>78<\/i>, 511&#x2013;528. https://doi.org/10.1016/j.worlddev.2015.10.010",
+      "site_tags": [],
+      "pdf": "files/publications/TKF5WVKG.pdf"
+    },
+    {
+      "key": "9ZR959CN",
+      "version": 78749,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2016",
+      "sort_date": "2016-01-27",
+      "date": "2016-01-27",
+      "title": "Why Kagame’s bid to serve a third term makes sense for Rwanda",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/why-kagames-bid-to-serve-a-third-term-makes-sense-for-rwanda-53354",
+      "citation": "Stubbs, T. (2016, January 27). Why Kagame&#x2019;s bid to serve a third term makes sense for Rwanda. <i>The Conversation<\/i>. https://theconversation.com/why-kagames-bid-to-serve-a-third-term-makes-sense-for-rwanda-53354",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "BN3FZ9S9",
+      "version": 28918,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2016",
+      "sort_date": "2016",
+      "date": "2016",
+      "title": "Competition states in the neoliberal era: Towards third-generation regulation theory",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Neilson",
+          "given": "David"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Competition & Change",
+      "doi": "10.1177/1024529415623917",
+      "url": "http://cch.sagepub.com/lookup/doi/10.1177/1024529415623917",
+      "citation": "Neilson, D., &amp; Stubbs, T. (2016). Competition states in the neoliberal era: Towards third-generation regulation theory. <i>Competition &amp; Change<\/i>, <i>20<\/i>(2), 122&#x2013;144. https://doi.org/10.1177/1024529415623917",
+      "site_tags": [],
+      "pdf": "files/publications/BN3FZ9S9.pdf"
+    },
+    {
+      "key": "U3BX2L5I",
+      "version": 79115,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2015",
+      "sort_date": "2015-02",
+      "date": "2015-02",
+      "title": "Structural adjustment and public spending on health: Evidence from IMF programs in low-income countries",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexandros"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Social Science & Medicine",
+      "doi": "10.1016/j.socscimed.2014.12.027",
+      "url": "http://linkinghub.elsevier.com/retrieve/pii/S0277953614008351",
+      "cited_in": [
+        {
+          "text": "IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf"
+        },
+        {
+          "text": "International Monetary Fund (2018). Expenditure Conditionality in IMF-Supported Programs (WP/18/255)",
+          "url": "https://www.imf.org/en/publications/wp/issues/2018/12/07/expenditure-conditionality-in-imf-supported-programs-46448"
+        },
+        {
+          "text": "World Health Organization (2021). Health Labour Market Analysis Guidebook",
+          "url": "https://www.who.int/publications/i/item/9789240035546"
+        }
+      ],
+      "citation": "Kentikelenis, A., Stubbs, T., &amp; King, L. (2015). Structural adjustment and public spending on health: Evidence from IMF programs in low-income countries. <i>Social Science &amp; Medicine<\/i>, <i>126<\/i>, 169&#x2013;176. https://doi.org/10.1016/j.socscimed.2014.12.027",
+      "site_tags": [],
+      "pdf": "files/publications/U3BX2L5I.pdf"
+    },
+    {
+      "key": "QGAX2E67",
+      "version": 79057,
+      "type": "bookSection",
+      "section": "chapters",
+      "year": "2015",
+      "sort_date": "2015",
+      "date": "2015",
+      "title": "Ethnopolitics and the military in Kenya",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "editor",
+          "family": "Zirker",
+          "given": "Daniel"
+        }
+      ],
+      "venue": "Forging Military Identity in Culturally Pluralistic Societies: Quasi-Ethnicity",
+      "doi": "10.5040/9798216540625.ch-5",
+      "citation": "Stubbs, T. (2015). Ethnopolitics and the military in Kenya. In D. Zirker (Ed.), <i>Forging Military Identity in Culturally Pluralistic Societies: Quasi-Ethnicity<\/i> (pp. 69&#x2013;88). Lexington Books. https://doi.org/10.5040/9798216540625.ch-5",
+      "site_tags": [],
+      "pdf": "files/publications/QGAX2E67.pdf"
+    },
+    {
+      "key": "7IUJRX9J",
+      "version": 78746,
+      "type": "blogPost",
+      "section": "media",
+      "year": "2014",
+      "sort_date": "2014-10-30",
+      "date": "2014-10-30",
+      "title": "The IMF and human development: Little progress and worrisome trends",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Kentikelenis",
+          "given": "Alexander"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        }
+      ],
+      "venue": "Institute for New Economic Thinking (INET) Blog",
+      "url": "https://www.ineteconomics.org/perspectives/blog/the-imf-and-human-development-little-progress-and-worrisome-trends",
+      "citation": "Kentikelenis, A., Stubbs, T., &amp; King, L. (2014, October 30). The IMF and human development: Little progress and worrisome trends. <i>Institute for New Economic Thinking (INET) Blog<\/i>. https://www.ineteconomics.org/perspectives/blog/the-imf-and-human-development-little-progress-and-worrisome-trends",
+      "site_tags": ["media"]
+    },
+    {
+      "key": "GEKB57HY",
+      "version": 66435,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2014",
+      "sort_date": "2014-05-04",
+      "date": "2014-05-04",
+      "title": "Economic growth, financial crisis, and property rights: Observer bias in perception-based measures",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        },
+        {
+          "role": "author",
+          "family": "King",
+          "given": "Lawrence"
+        },
+        {
+          "role": "author",
+          "family": "Stuckler",
+          "given": "David"
+        }
+      ],
+      "venue": "International Review of Applied Economics",
+      "doi": "10.1080/02692171.2014.884549",
+      "url": "http://www.tandfonline.com/doi/abs/10.1080/02692171.2014.884549",
+      "citation": "Stubbs, T., King, L., &amp; Stuckler, D. (2014). Economic growth, financial crisis, and property rights: Observer bias in perception-based measures. <i>International Review of Applied Economics<\/i>, <i>28<\/i>(3), 401&#x2013;418. https://doi.org/10.1080/02692171.2014.884549",
+      "site_tags": [],
+      "pdf": "files/publications/GEKB57HY.pdf"
+    },
+    {
+      "key": "TCWUWVKT",
+      "version": 54451,
+      "type": "journalArticle",
+      "section": "articles",
+      "year": "2011",
+      "sort_date": "2011-10-11",
+      "date": "2011-10-11",
+      "title": "Relative surplus population and uneven development in the neoliberal era: Theory and empirical application",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Neilson",
+          "given": "David"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "Capital & Class",
+      "doi": "10.1177/0309816811418952",
+      "url": "http://cnc.sagepub.com/cgi/doi/10.1177/0309816811418952",
+      "citation": "Neilson, D., &amp; Stubbs, T. (2011). Relative surplus population and uneven development in the neoliberal era: Theory and empirical application. <i>Capital &amp; Class<\/i>, <i>35<\/i>(3), 435&#x2013;453. https://doi.org/10.1177/0309816811418952",
+      "site_tags": [],
+      "pdf": "files/publications/TCWUWVKT.pdf"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+/*-- scss:defaults --*/
+
+// Palette (decision 19, 10 November 2026), from the approved Stage 2
+// mock-ups. Contrast on the page colour: text 16.2:1, oxblood 8.8:1, muted
+// 6.4:1; on the tint: oxblood 8.1:1, muted 5.9:1; the page colour on solid
+// oxblood 8.8:1. All pass WCAG AA. The rule colour is for decorative borders
+// only, never for text or meaning.
+$ts-page:   #FAF8F3;
+$ts-text:   #1C1B19;
+$ts-muted:  #5F5A52;
+$ts-rule:   #DDD6CB;
+$ts-tint:   #F2EEE6;
+$ts-accent: #7B2D26;  // oxblood
+
+$body-bg:      $ts-page;
+$body-color:   $ts-text;
+$primary:      $ts-accent;
+$link-color:   $ts-accent;
+$border-color: $ts-rule;
+$navbar-bg:    $ts-page;
+$navbar-fg:    $ts-text;
+$navbar-hl:    $ts-accent;
+$footer-bg:    $ts-page;
+$footer-fg:    $ts-muted;
+
+// Fraunces and IBM Plex Sans (SIL OFL), self-hosted from fonts/ and declared
+// in styles/fonts.css. System fonts remain as fallbacks.
+$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Fraunces", Georgia, "Times New Roman", serif;
+$headings-font-weight:   500;
+$headings-line-height:   1.2;
+// Quarto sets the root size to 17px; 16px keeps every rem size identical to
+// the mock-ups', with body text at 17px.
+$font-size-root:         16px;
+$font-size-base:         1.0625rem;  // 17px, as in the mock-ups
+$line-height-base:       1.6;
+// Only weights 400 to 600 are hosted, so bold text uses semibold rather than
+// a browser-synthesised bold.
+$font-weight-bold:       600;
+$font-weight-bolder:     600;
+
+$link-decoration: underline;
+$link-underline-offset: 2px;
+
+// Room for the name, seven menu items, and five icons on one line from 992px:
+// 15px to spare when a Windows scrollbar takes 15px, 30px where scrollbars
+// overlay the page, as on Macs (measured 10 November 2026).
+$navbar-nav-link-padding-x: 0.45rem;
+
+/*-- scss:rules --*/
+
+// One column for the menu bar, the page, and the footer, as the mock-ups'
+// .wrap: 1,100px wide including 24px padding a side (16px on phones), so the
+// name, the page text, and the footer share a left edge at every width.
+$ts-column: 1100px;
+$ts-pad: 1.5rem;
+$ts-pad-phone: 1rem;
+
+#quarto-content,
+.navbar .navbar-container,
+footer.footer .nav-footer {
+  box-sizing: border-box;
+  max-width: $ts-column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $ts-pad;
+  padding-right: $ts-pad;
+}
+
+// Quarto's page grid (sidebar, body, and margin columns) is not used: the
+// page is one block in the column. The empty sidebar and margin containers
+// are hidden so they take no space.
+#quarto-content.page-columns {
+  display: block;
+  padding-bottom: 3rem;
+}
+
+#quarto-sidebar,
+#quarto-margin-sidebar {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  #quarto-content,
+  .navbar .navbar-container,
+  footer.footer .nav-footer {
+    padding-left: $ts-pad-phone;
+    padding-right: $ts-pad-phone;
+  }
+}
+
+// Header and navigation
+
+// Quarto pads the bar itself (#quarto-header > nav, 1em a side); the
+// column's padding replaces it.
+#quarto-header > nav.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid $ts-rule;
+  box-shadow: none;
+}
+
+// The name never shrinks under the menu when space is tight.
+.navbar .navbar-brand-container {
+  flex-shrink: 0;
+}
+
+.navbar-brand {
+  margin-right: 1.5rem;
+}
+
+// Menu at 0.95rem and icons at 1.05rem, as in the mock-ups: with the name,
+// seven items and five icons fit on one line from 992px.
+.navbar-nav .nav-link {
+  font-size: 0.95rem;
+}
+
+// Below 992px Quarto centres the name and puts the menu button on its left.
+// As in the mock-ups, the name stays left, in line with the page text, and
+// the button goes to the right.
+@include media-breakpoint-down(lg) {
+  .navbar .navbar-brand-container {
+    order: 1;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  // After Quarto's tools slot, which is empty here (no search), so the button
+  // sits at the right edge.
+  .navbar .quarto-navbar-tools {
+    order: 2;
+  }
+
+  .navbar .navbar-toggler {
+    order: 3;
+  }
+}
+
+.navbar-brand .navbar-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: $ts-text;
+}
+
+.navbar-nav .nav-link {
+  white-space: nowrap;
+}
+
+.navbar-nav .nav-link.active {
+  color: $ts-accent;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.4rem;
+}
+
+// The profile icons are quieter than the menu, as in the mock-ups.
+.navbar #navbarCollapse .ms-auto .nav-link {
+  color: $ts-muted;
+  font-size: 1.05rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+
+  &:hover,
+  &:focus {
+    color: $ts-accent;
+  }
+}
+
+.skip-link:focus {
+  position: absolute;
+  z-index: 2000;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: $ts-page;
+  color: $ts-accent;
+  border: 2px solid $ts-accent;
+}
+
+// Headings and text
+
+h1,
+.title {
+  font-size: 2.6rem;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 1.55rem;
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0;
+  border-top: 1px solid $ts-rule;
+  border-bottom: 0;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+// Prose keeps to a readable measure inside the wide column.
+#quarto-document-content > p,
+#quarto-document-content > ul,
+#quarto-document-content > ol {
+  max-width: 46rem;
+}
+
+.text-muted,
+.meta {
+  color: $ts-muted !important;
+}
+
+// Visible marker for text still to be written. None may remain at launch.
+.draft-note {
+  margin: 1rem 0;
+  max-width: 46rem;
+  padding: 0.75rem 1rem;
+  border: 1px dashed $ts-muted;
+  border-radius: 0.25rem;
+  color: $ts-muted;
+  font-style: italic;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Footer: name and department on the left, contact on the right, aligned
+// with the content column.
+
+footer.footer {
+  border-top: 1px solid $ts-rule;
+}
+
+footer.footer .nav-footer {
+  align-items: baseline;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.nav-footer .nav-footer-center {
+  display: none;
+}
+
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-right {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: $ts-muted;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .nav-footer .nav-footer-left {
+    flex: 1 1 0;
+    min-width: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .nav-footer .nav-footer-right {
+    flex: 0 0 auto;
+    margin: 0 0 0 2rem;
+    text-align: right;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .nav-footer .nav-footer-left,
+  .nav-footer .nav-footer-right {
+    flex: 1 1 100%;
+    text-align: left;
+  }
+
+  .nav-footer .nav-footer-left {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  h1,
+  .title {
+    font-size: 2.1rem;
+  }
+}

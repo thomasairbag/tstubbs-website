@@ -1,0 +1,23 @@
+# Private planning material and this machine's paths: never committed.
+# The repository is public.
+_private/
+CLAUDE.local.md
+
+# Quarto (it re-adds "/.quarto/" on render if that exact line is missing)
+.quarto/
+/.quarto/
+/_site/
+**/*.quarto_ipynb
+
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Local Claude settings
+/.claude/
+
+# Windows
+Thumbs.db
+desktop.ini

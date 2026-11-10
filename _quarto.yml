@@ -1,0 +1,103 @@
+project:
+  type: website
+  # GitHub Pages serves this folder from main (decision 15).
+  output-dir: docs
+  # Render only .qmd pages, so CLAUDE.md and README.md are never published.
+  render:
+    - "**/*.qmd"
+  resources:
+    # Tells GitHub Pages to serve the files as they are, without Jekyll.
+    - ".nojekyll"
+    # PDFs copied from Zotero by R/refresh-publications.R (decision 7), and the
+    # CV at its fixed address, /files/cv/Thomas_Stubbs_CV.pdf.
+    - "files/**"
+    # Self-hosted fonts and their licences, referenced from styles/fonts.css.
+    - "/fonts/**"
+    # A CNAME file (tstubbs.net) is added only at cutover (plan Stage 7).
+
+website:
+  title: "Thomas Stubbs"
+  # From data/site.yml (description), still to be checked at Stage 5.
+  description: "Thomas Stubbs is Professor of Global Political Economy at Royal Holloway, University of London. He researches the International Monetary Fund and global economic governance, and undertakes commissioned research and advisory work for international organisations, governments, and civil society."
+  # The existing Google Analytics 4 property; no consent banner, as on IMF
+  # Monitor (decision 10).
+  google-analytics: "G-SD0DBH1WWM"
+  # The staging address until cutover, when it becomes https://tstubbs.net/
+  # (plan Stage 7). The 404 page needs it for links that work at any depth.
+  site-url: "https://thomasairbag.github.io/tstubbs-website/"
+  favicon: images/favicon.png
+  # No search box: the approved design has none, and the site has ten pages.
+  search: false
+  navbar:
+    title: "Thomas Stubbs"
+    # Full menu from 992px; narrower screens get the menu button (plan Section 6).
+    collapse-below: lg
+    # Order and labels as Thomas set them on 10 November 2026 (decision 1,
+    # amended). Academic Writing keeps the old address, /publications/.
+    left:
+      - text: About
+        href: about/index.qmd
+      - text: Books
+        href: books/index.qmd
+      - text: Academic Writing
+        href: publications/index.qmd
+      - text: Policy & Advisory
+        href: policy/index.qmd
+      - text: Media
+        href: media/index.qmd
+      - text: Teaching
+        href: teaching/index.qmd
+      - text: CV
+        href: cv/index.qmd
+    # Email and the profiles marked "header: true" in data/site.yml.
+    right:
+      - icon: envelope
+        href: "mailto:thomas.stubbs@rhul.ac.uk"
+        aria-label: "Email"
+      - icon: mortarboard
+        href: "https://scholar.google.com/citations?user=iezkZAcAAAAJ"
+        aria-label: "Google Scholar"
+      - icon: bluesky
+        href: "https://bsky.app/profile/thomstubbs.bsky.social"
+        aria-label: "Bluesky"
+      - icon: twitter-x
+        href: "https://x.com/thomstubbs"
+        aria-label: "X"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/thomas-stubbs-50a769253/"
+        aria-label: "LinkedIn"
+  page-footer:
+    left: |
+      © 2026 Thomas Stubbs · Department of Politics and International Relations, Royal Holloway, University of London
+    right: |
+      [Contact](/contact/index.qmd) · [thomas.stubbs@rhul.ac.uk](mailto:thomas.stubbs@rhul.ac.uk)
+
+format:
+  html:
+    lang: en-GB
+    canonical-url: true
+    theme:
+      - default
+      - styles/custom.scss
+    css: styles/fonts.css
+    # styles/custom.scss turns off Quarto's page grid and gives the menu bar,
+    # the page, and the footer one column, 1,100px wide with 24px padding
+    # (16px on phones), as in the approved mock-ups, so their left edges line
+    # up at every width. (page-layout: custom would do the same but drops the
+    # <main> element that the skip link and screen readers need.)
+    # Page titles read "Academic Writing | Thomas Stubbs" (plan Section 4).
+    template-partials:
+      - _includes/metadata.html
+    include-in-header:
+      # Staging only: keeps search engines away from the github.io copy. It
+      # comes off at cutover, with Thomas's approval (plan Stage 7).
+      - text: |
+          <meta name="robots" content="noindex, nofollow">
+      # Stops phones turning dates and numbers into phone-number or address
+      # links, as on IMF Monitor.
+      - text: |
+          <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    include-before-body:
+      - _includes/skip-link.html
+
+editor: visual

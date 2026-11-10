@@ -1,0 +1,7 @@
+---
+title: "Academic Writing"
+---
+
+::: {.draft-note}
+Built at Stage 4 from Zotero: journal articles, commentaries, book chapters, and working papers, by year.
+:::

@@ -1,0 +1,6 @@
+# Published downloads (the PDFs and the CV) are stored byte for byte, without
+# line-ending conversion, so they stay identical to the files in Zotero.
+files/** -text
+docs/files/** -text
+fonts/** -text
+docs/fonts/** -text

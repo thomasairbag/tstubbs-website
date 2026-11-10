@@ -1,0 +1,7 @@
+---
+title: "Page not found"
+---
+
+This page does not exist. It may have moved when the site was rebuilt.
+
+Go to the [home page](index.qmd), the [Academic Writing](publications/index.qmd) page, or the [contact page](contact/index.qmd).

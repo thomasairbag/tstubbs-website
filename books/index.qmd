@@ -1,0 +1,7 @@
+---
+title: "Books"
+---
+
+::: {.draft-note}
+Built at Stage 5: *Greening the International Monetary Fund* and *A Thousand Cuts*, with covers, blurbs, praise, and reviews from kentikelenis.net (decision 18).
+:::

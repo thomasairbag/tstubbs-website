@@ -1,0 +1,55 @@
+# data/policy-projects.yml
+#
+# Organisations and commissioned projects, for Home ("Organisations I have
+# worked with") and Policy & advisory ("Selected projects").
+#
+# Decision 13 (6 November 2026): name the four organisations the old site
+# names; add others only with the client's agreement. A project's public
+# outputs are given by Zotero item key, so their citations still come from
+# Zotero. Project titles and summaries are first drafts.
+#
+# Drafted at Stage 1; a line beginning "# CHECK" needs Thomas's answer.
+
+organisations:
+  # Names as Thomas chose them on 6 November 2026. GIZ commissioned the 2022
+  # CBR Special Report on behalf of Germany's development ministry (BMZ), as
+  # the report's acknowledgements say.
+  - name: Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)
+  - name: Oxfam International
+  - name: Recourse Foundation
+  - name: United Nations Children's Fund
+
+# Newest first. A project without a title is not shown.
+projects:
+  - title: Climate change and the IMF
+    client: Recourse Foundation
+    years: 2021–2026
+    summary: Ten reports assessing how the IMF has brought climate change into its surveillance, lending, and technical assistance.
+    outputs: [PGMMFTM7, FNST6FDY, TMN4JIG9, ICTFDMSD, 7GTXKTFU, 35BRDWQL, J2J937CD, 54ZMM9C3, 9KYC7VPU, KR6GQQRT]
+
+  - title: IMF tax advice
+    client: Oxfam International
+    years: "2026"
+    summary: An assessment of the IMF's tax policy advice to its member countries, 2022–2024.
+    outputs: [72BCJH9D]
+
+  - title: IMF social spending floors
+    client: Oxfam International
+    years: "2023"
+    summary: An assessment of the social spending floors written into IMF programmes.
+    outputs: [JTRH83D5]
+
+  # Summary drawn from the report itself (contents and acknowledgements).
+  - title: The IMF and a green, resilient, and inclusive recovery
+    client: Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)
+    years: "2022"
+    summary: How IMF lending could support green, resilient, and inclusive development after Covid-19, with case studies of Kenya and Madagascar; commissioned by GIZ for Germany's development ministry (BMZ).
+    outputs: [XFVLL265]
+
+  # UNICEF: the work is forthcoming (Thomas, 6 November 2026). Add a title,
+  # the years, and one sentence once it is public.
+  - title:
+    client: United Nations Children's Fund
+    years:
+    summary:
+    outputs: []

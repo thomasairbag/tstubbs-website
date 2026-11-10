@@ -1,0 +1,98 @@
+# data/site.yml
+#
+# Facts about Thomas that several pages share. Edit them here, once.
+#
+# Drafted at Stage 1 (6 November 2026) from the Owlstown site, the October
+# 2026 CV, and the decisions in the plan's Section 9. A line beginning
+# "# CHECK" needs Thomas's answer before the site uses the entry below it.
+
+name: Thomas Stubbs
+title: Professor of Global Political Economy
+url: https://tstubbs.net   # the canonical address (decision 9)
+
+institution:
+  name: Royal Holloway, University of London
+  url: https://www.royalholloway.ac.uk/
+
+# The university's own form of the name (Thomas, 6 November 2026: "use what
+# is the norm"). The old site's department link now redirects to this page.
+department:
+  name: Department of Politics and International Relations
+  url: https://www.royalholloway.ac.uk/research-and-education/subjects/politics-and-international-relations/
+
+affiliations:
+  # Current, as Thomas confirmed on 6 November 2026; the CV gives 2015-27
+  # (corrected 10 November 2026). The old site's link (www.cbr.cam.ac.uk) no longer exists:
+  # the Centre now sits within Cambridge Judge Business School, and this
+  # page lists Thomas and links to tstubbs.net.
+  - role: Research Associate in Political Economy
+    organisation: Centre for Business Research, University of Cambridge
+    url: https://www.jbs.cam.ac.uk/centres/business-research-cbr/people/research-associates/
+
+imf_monitor:
+  name: IMF Monitor
+  role: Curator
+  url: https://imfmonitor.org/
+  # The old site's wording.
+  description: a data hub used by academics, civil society, and policymakers to track activities of the International Monetary Fund
+
+contact:
+  email: thomas.stubbs@rhul.ac.uk
+  # As on the old Contact page. No telephone number and no form (decision 11).
+  address:
+    - Office 1-42
+    - McCrea Building
+    - Royal Holloway, University of London
+    - Egham Hill
+    - Egham, TW20 0EX
+    - United Kingdom
+
+# Profile links, in the order the Contact page lists them. "header: true"
+# puts the icon in the menu bar next to the email icon (plan Section 5).
+# LinkedIn and ResearchGate refuse automated checks, so they were not tested.
+profiles:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=iezkZAcAAAAJ
+    header: true
+  - name: Bluesky
+    url: https://bsky.app/profile/thomstubbs.bsky.social
+    header: true
+  # Both X and Bluesky (Thomas, 6 November 2026).
+  - name: X
+    url: https://x.com/thomstubbs
+    header: true
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/thomas-stubbs-50a769253/
+    header: true
+  - name: ResearchGate
+    url: https://www.researchgate.net/profile/Thomas-Stubbs-4
+  - name: Royal Holloway research portal
+    url: https://pure.royalholloway.ac.uk/en/persons/thomas-stubbs
+
+# The search-engine description. "African politics" is not in it (decided
+# 6 November 2026).
+# CHECK at Stage 5, together with the Home field line.
+description: >-
+  Thomas Stubbs is Professor of Global Political Economy at Royal Holloway,
+  University of London. He researches the International Monetary Fund and
+  global economic governance, and undertakes commissioned research and
+  advisory work for international organisations, governments, and civil
+  society.
+
+# Home, "Areas of expertise" (plan Section 5). The headings are the plan's;
+# each line is a first draft for Thomas to rewrite.
+# The sixth area was added on 6 November 2026 (decision 14; the 2021 World
+# Development and 2026 International Interactions papers).
+expertise:
+  - heading: IMF lending and conditionality
+    text: What the IMF requires of borrowing governments, and whether and how those conditions are carried out.
+  - heading: Social spending and social protection
+    text: How fiscal adjustment affects social protection and health, and what IMF social spending floors achieve.
+  - heading: Climate and the international financial institutions
+    text: How the IMF has brought climate change into its surveillance, lending, and technical assistance.
+  - heading: Crisis finance and the global financial safety net
+    text: How the safety net of IMF resources, regional financing arrangements, and central bank swap lines responds to crises, and how far it reaches developing countries.
+  - heading: Fiscal policy and development
+    text: Tax advice, austerity, and public spending in low- and middle-income countries.
+  - heading: Data and policy evaluation
+    text: Original datasets built from institutional documents, IMF Monitor among them, and quantitative evaluation of policy effects.

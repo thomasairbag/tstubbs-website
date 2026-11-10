@@ -1,0 +1,7 @@
+---
+title: "CV"
+---
+
+::: {.draft-note}
+Built at Stage 5: a download link to the CV, once the corrected PDF is in place (decision 21).
+:::

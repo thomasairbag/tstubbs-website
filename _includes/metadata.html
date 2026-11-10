@@ -1,0 +1,28 @@
+$-- Quarto 1.9's own metadata.html partial, unchanged except the title: page
+$-- titles read "Academic Writing | Thomas Stubbs" (plan Section 4), not Quarto's
+$-- "Academic Writing – Thomas Stubbs"; Home is plain "Thomas Stubbs". Copied from
+$-- the IMF Monitor site, 10 November 2026. Recheck against Quarto's copy after a
+$-- Quarto upgrade.
+<meta charset="utf-8" />
+$if(quarto-version)$
+<meta name="generator" content="quarto-$quarto-version$" />
+$else$
+<meta name="generator" content="quarto" />
+$endif$
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+$for(author-meta)$
+<meta name="author" content="$author-meta$" />
+$endfor$
+$if(date-meta)$
+<meta name="dcterms.date" content="$date-meta$" />
+$endif$
+$if(keywords)$
+<meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+$endif$
+$if(description-meta)$
+<meta name="description" content="$description-meta$" />
+$endif$
+
+<title>$pagetitle$$if(title-prefix)$ | $title-prefix$$endif$</title>

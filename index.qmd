@@ -1,0 +1,7 @@
+---
+title: "Thomas Stubbs"
+---
+
+::: {.draft-note}
+Home is built at Stage 5 from the approved mock-up: introduction and portrait, areas of expertise, the two books, IMF Monitor, organisations, and the latest publications.
+:::
