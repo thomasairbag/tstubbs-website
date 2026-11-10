@@ -9,6 +9,7 @@ $ts-page:   #FAF8F3;
 $ts-text:   #1C1B19;
 $ts-muted:  #5F5A52;
 $ts-rule:   #DDD6CB;
+$ts-rule-light: #E8E2D7;  // between entries within a year; decorative only
 $ts-tint:   #F2EEE6;
 $ts-accent: #7B2D26;  // oxblood
 
@@ -223,6 +224,130 @@ h3 {
 
   p:last-child {
     margin-bottom: 0;
+  }
+}
+
+// Publication lists (R/publications.R), as in the approved mock-up: the year
+// in a left column beside its entries (stacked on phones), Zotero's citation
+// with the title linked, small pill buttons, then Award and "Cited in" lines.
+
+.pub-year {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  column-gap: 1.5rem;
+  border-top: 1px solid $ts-rule;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+}
+
+// A year heading is an h2 for the page's outline, styled as a quiet label,
+// without the rule and spacing of section headings.
+#quarto-document-content h2.pub-year-heading {
+  font-size: 1.25rem;
+  color: $ts-muted;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.pub-entry {
+  margin: 0 0 1.25rem;
+  max-width: 50rem;
+}
+
+// Entries within a year are separated by a hairline in the entry column,
+// lighter than the rule between years (Thomas, 10 November: without it the
+// "Cited in" lists ran into the next entry).
+.pub-entry + .pub-entry {
+  border-top: 1px solid $ts-rule-light;
+  padding-top: 1.25rem;
+}
+
+.pub-cite {
+  margin: 0 0 0.4rem;
+  overflow-wrap: anywhere;
+
+  a {
+    font-weight: 500;
+  }
+}
+
+.pub-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0.1rem 0.65rem;
+  border: 1px solid $ts-accent;
+  border-radius: 999px;
+  color: $ts-accent;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    background: $ts-accent;
+    color: $ts-page;
+  }
+}
+
+.pub-note,
+.pub-cited {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: $ts-muted;
+  margin: 0.2rem 0 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid $ts-rule;
+}
+
+.pub-note-label {
+  font-weight: 600;
+  color: $ts-text;
+  margin: 0 0.25rem 0 0;
+}
+
+.pub-cited {
+  .pub-note-label {
+    margin-bottom: 0.1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0.1rem 0;
+  }
+
+  details {
+    margin-top: 0.1rem;
+  }
+
+  summary {
+    color: $ts-accent;
+    cursor: pointer;
+    width: fit-content;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .pub-year {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #quarto-document-content h2.pub-year-heading {
+    margin-bottom: 0.5rem;
   }
 }
 

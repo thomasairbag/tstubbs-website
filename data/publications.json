@@ -13,7 +13,7 @@
       "working-papers": 4,
       "media": 19
     },
-    "zotero_version": 79115
+    "zotero_version": 81748
   },
   "items": [
     {
@@ -168,7 +168,7 @@
     },
     {
       "key": "SJYUBY3D",
-      "version": 79094,
+      "version": 81739,
       "type": "journalArticle",
       "section": "articles",
       "year": "2025",
@@ -191,6 +191,12 @@
       "doi": "10.1111/1758-5899.70052",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/1758-5899.70052",
       "data": "https://doi.org/10.7910/DVN/GNYXU1",
+      "cited_in": [
+        {
+          "text": "UN General Assembly (2026). Right to education: Report of the Special Rapporteur on the right to education (A/81/216)",
+          "url": "https://docs.un.org/en/A/81/216"
+        }
+      ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2025). Progressive rhetoric, regressive reality: The IMF&#x2019;s tax advice to 125 countries, 2022-2024. <i>Global Policy<\/i>, <i>16<\/i>(4), 731&#x2013;738. https://doi.org/10.1111/1758-5899.70052",
       "site_tags": [],
       "pdf": "files/publications/SJYUBY3D.pdf"
@@ -421,7 +427,7 @@
     },
     {
       "key": "JTRH83D5",
-      "version": 65912,
+      "version": 81735,
       "type": "report",
       "section": "policy-reports",
       "year": "2023",
@@ -443,13 +449,19 @@
       "venue": "Oxfam International",
       "report_type": "Oxfam Briefing Paper",
       "doi": "10.21201/2023.621495",
+      "cited_in": [
+        {
+          "text": "UN General Assembly (2025). Promotion of a democratic and equitable international order: Report of the Independent Expert (A/80/279)",
+          "url": "https://docs.un.org/en/A/80/279"
+        }
+      ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2023). <i>IMF social spending floors: A fig leaf for austerity?<\/i> [Oxfam Briefing Paper]. Oxfam International. https://doi.org/10.21201/2023.621495",
       "site_tags": [],
       "pdf": "files/publications/JTRH83D5.pdf"
     },
     {
       "key": "JIIEA2SM",
-      "version": 79096,
+      "version": 81747,
       "type": "book",
       "section": "books",
       "year": "2023",
@@ -471,6 +483,16 @@
       "venue": "Oxford University Press",
       "doi": "10.1093/oso/9780190637736.001.0001",
       "data": "https://doi.org/10.7910/DVN/DPV99L",
+      "cited_in": [
+        {
+          "text": "International Labour Organization (2024). Combating inequalities: What role for universal social protection? (Working Paper No. 128)",
+          "url": "https://www.ilo.org/publications/combating-inequalities-what-role-universal-social-protection"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2025). The IMF’s Fiscal Policy Advice to Emerging Market and Middle-Income Economies (BP/25-01/02)",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/12-16-2025-imf-advice-on-fiscal-policy/fp-bp2-fiscal-policy-advice-to-emmies.pdf"
+        }
+      ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2023). <i>A Thousand Cuts: Social Protection in the Age of Austerity<\/i>. Oxford University Press. https://doi.org/10.1093/oso/9780190637736.001.0001",
       "site_tags": []
     },
@@ -510,7 +532,7 @@
     },
     {
       "key": "PLN3F8VS",
-      "version": 64292,
+      "version": 81738,
       "type": "journalArticle",
       "section": "articles",
       "year": "2023",
@@ -547,6 +569,24 @@
       "venue": "BMJ Global Health",
       "doi": "10.1136/bmjgh-2022-011620",
       "url": "https://gh.bmj.com/content/8/2/e011620",
+      "cited_in": [
+        {
+          "text": "World Health Organization (2026). World Report on the Social Determinants of Health Equity (Spanish edition)",
+          "url": "https://apps.who.int/iris/handle/10665/387962"
+        },
+        {
+          "text": "United Nations University International Institute for Global Health (2026). Rapid evidence review on gender-responsive/-transformative interventions in HIV, TB and malaria programmes",
+          "url": "https://collections.unu.edu/view/UNU:10466"
+        },
+        {
+          "text": "IPBES (2025). Transformative Change Assessment, Chapter 4: Overcoming the challenges of achieving transformative change towards a sustainable world",
+          "url": "https://zenodo.org/records/19821029"
+        },
+        {
+          "text": "International IDEA (2023). The Global State of Democracy 2023: The New Checks and Balances",
+          "url": "https://www.idea.int/publications/catalogue/global-state-democracy-2023-new-checks-and-balances"
+        }
+      ],
       "citation": "Stubbs, T., Kentikelenis, A., Gabor, D., Ghosh, J., &amp; McKee, M. (2023). The return of austerity imperils global health. <i>BMJ Global Health<\/i>, <i>8<\/i>(2), e011620. https://doi.org/10.1136/bmjgh-2022-011620",
       "site_tags": [],
       "pdf": "files/publications/PLN3F8VS.pdf"
@@ -641,7 +681,7 @@
     },
     {
       "key": "HEDA5ZVA",
-      "version": 79098,
+      "version": 81733,
       "type": "journalArticle",
       "section": "articles",
       "year": "2022",
@@ -664,6 +704,16 @@
       "doi": "10.1111/1758-5899.13028",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/1758-5899.13028",
       "data": "https://doi.org/10.7910/DVN/M7DIJJ",
+      "cited_in": [
+        {
+          "text": "UNAIDS (2022). Pandemic triad: HIV, COVID-19 and debt in developing countries",
+          "url": "https://www.unaids.org/en/resources/documents/2022/pandemic-triad-HIV-COVID19-debt-in-developing-countries"
+        },
+        {
+          "text": "UN Human Rights Council (2022). Best practices, challenges and lessons learned concerning integrated approaches to the promotion and protection of human rights and the implementation of the 2030 Agenda for Sustainable Development at the national level: Report of the Office of the UN High Commissioner for Human Rights (A/HRC/51/9)",
+          "url": "https://docs.un.org/en/A/HRC/51/9"
+        }
+      ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2022). Austerity redux: The post-pandemic wave of budget cuts and the future of global public health. <i>Global Policy<\/i>, <i>13<\/i>(1), 5&#x2013;17. https://doi.org/10.1111/1758-5899.13028",
       "site_tags": [],
       "pdf": "files/publications/HEDA5ZVA.pdf"
@@ -707,7 +757,7 @@
     },
     {
       "key": "3IZ6SBKF",
-      "version": 79099,
+      "version": 81729,
       "type": "journalArticle",
       "section": "articles",
       "year": "2022",
@@ -735,6 +785,12 @@
       "doi": "10.1111/rego.12422",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/rego.12422",
       "data": "https://doi.org/10.7910/DVN/BYDWI7",
+      "cited_in": [
+        {
+          "text": "Expert Group for Aid Studies, Sweden (2023). The Evolution of Aid Conditionality: A Review of the Literature of the Last Twenty Years",
+          "url": "https://eba.se/rapporter/the-evolution-of-aid-conditionality-a-review-of-the-literature-of-the-last-twenty-years/20698/"
+        }
+      ],
       "citation": "Reinsberg, B., Stubbs, T., &amp; Kentikelenis, A. (2022). Compliance, defiance, and the dependency trap: International Monetary Fund program interruptions and their impact on capital markets. <i>Regulation &amp; Governance<\/i>, <i>16<\/i>(4), 1022&#x2013;1041. https://doi.org/10.1111/rego.12422",
       "site_tags": [],
       "pdf": "files/publications/3IZ6SBKF.pdf"
@@ -811,7 +867,7 @@
     },
     {
       "key": "TV2ZSPGZ",
-      "version": 79100,
+      "version": 81741,
       "type": "journalArticle",
       "section": "articles",
       "year": "2022",
@@ -847,6 +903,18 @@
         {
           "text": "IMF Independent Evaluation Office (2025). The IMF’s Fiscal Policy Advice to Emerging Market and Middle-Income Economies (BP/25-01/02)",
           "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/12-16-2025-imf-advice-on-fiscal-policy/fp-bp2-fiscal-policy-advice-to-emmies.pdf"
+        },
+        {
+          "text": "Publications Office of the European Union (2025). The distributional implications of the euro area crisis",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/9463cb8e-decb-11ef-be2a-01aa75ed71a1/language-en"
+        },
+        {
+          "text": "UN Department of Economic and Social Affairs (2023). World Economic Situation and Prospects 2023",
+          "url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2023"
+        },
+        {
+          "text": "UN Economic and Social Commission for Asia and the Pacific (2023). Economic and Social Survey of Asia and the Pacific 2023: Rethinking public debt for the Sustainable Development Goals",
+          "url": "https://digitallibrary.un.org/record/4025367"
         }
       ],
       "citation": "Stubbs, T., Kentikelenis, A., Ray, R., &amp; Gallagher, K. P. (2022). Poverty, inequality, and the International Monetary Fund: How austerity hurts the poor and widens inequality. <i>Journal of Globalization and Development<\/i>, <i>13<\/i>(1), 61&#x2013;89. https://doi.org/10.1515/jgd-2021-0018",
@@ -902,7 +970,7 @@
     },
     {
       "key": "7BT798KL",
-      "version": 79101,
+      "version": 81730,
       "type": "journalArticle",
       "section": "articles",
       "year": "2022",
@@ -930,6 +998,12 @@
       "doi": "10.1111/gove.12605",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gove.12605",
       "data": "https://doi.org/10.7910/DVN/QTFOGF",
+      "cited_in": [
+        {
+          "text": "U4 Anti-Corruption Resource Centre (2024). The effectiveness of illicit-finance related conditionality in IMF and World Bank arrangements",
+          "url": "https://www.u4.no/publications/the-effectiveness-of-illicit-finance-related-conditionality-in-imf-and-world-bank-arrangements"
+        }
+      ],
       "citation": "Reinsberg, B., Stubbs, T., &amp; Kentikelenis, A. (2022). Unimplementable by design? Understanding (non-)compliance with International Monetary Fund policy conditionality. <i>Governance<\/i>, <i>35<\/i>(3), 689&#x2013;715. https://doi.org/10.1111/gove.12605",
       "site_tags": [],
       "pdf": "files/publications/7BT798KL.pdf"
@@ -1079,7 +1153,7 @@
     },
     {
       "key": "VPHQ9P5P",
-      "version": 79103,
+      "version": 81743,
       "type": "journalArticle",
       "section": "articles",
       "year": "2021",
@@ -1120,6 +1194,38 @@
         {
           "text": "United Nations Conference on Trade and Development (2021). World Investment Report 2021: Investing in Sustainable Recovery",
           "url": "https://unctad.org/publication/world-investment-report-2021"
+        },
+        {
+          "text": "Banco de la República, Colombia (2024). Las reglas fiscales subnacionales en Colombia: antecedentes y lecciones aprendidas",
+          "url": "https://repositorio.banrep.gov.co/handle/20.500.12134/10758"
+        },
+        {
+          "text": "UNAIDS (2022). Pandemic triad: HIV, COVID-19 and debt in developing countries",
+          "url": "https://www.unaids.org/en/resources/documents/2022/pandemic-triad-HIV-COVID19-debt-in-developing-countries"
+        },
+        {
+          "text": "Banco de la República, Colombia (2022). Subnational fiscal accounts under pressure: The effects of COVID-19 in a developing country",
+          "url": "https://repositorio.banrep.gov.co/handle/20.500.12134/10291"
+        },
+        {
+          "text": "UN General Assembly (2021). International debt architecture reform and human rights: Report of the Independent Expert on the effects of foreign debt (A/76/167)",
+          "url": "https://docs.un.org/en/A/76/167"
+        },
+        {
+          "text": "UN General Assembly (2021). International financial system and development: Report of the Secretary-General (A/76/230)",
+          "url": "https://docs.un.org/en/A/76/230"
+        },
+        {
+          "text": "UN Human Rights Council (2021). Global fund for social protection: International solidarity in the service of poverty eradication: Report of the Special Rapporteur on extreme poverty and human rights (A/HRC/47/36)",
+          "url": "https://docs.un.org/en/A/HRC/47/36"
+        },
+        {
+          "text": "Inter-agency Task Force on Financing for Development (2021). Financing for Sustainable Development Report 2021",
+          "url": "https://digitallibrary.un.org/record/3907548"
+        },
+        {
+          "text": "World Bank (2021). Global Economic Prospects, January 2021",
+          "url": "https://openknowledge.worldbank.org/handle/10986/34710"
         }
       ],
       "citation": "Stubbs, T., Kring, W., Laskaridis, C., Kentikelenis, A., &amp; Gallagher, K. (2021). Whatever it takes? The global financial safety net, Covid-19, and developing countries. <i>World Development<\/i>, <i>137<\/i>, 105171. https://doi.org/10.1016/j.worlddev.2020.105171",
@@ -1233,7 +1339,7 @@
     },
     {
       "key": "2N2KVB3Z",
-      "version": 79105,
+      "version": 81726,
       "type": "journalArticle",
       "section": "articles",
       "year": "2020",
@@ -1261,6 +1367,20 @@
       "doi": "10.1007/s12116-020-09307-4",
       "url": "http://link.springer.com/10.1007/s12116-020-09307-4",
       "data": "https://doi.org/10.7910/DVN/ULG3Q9",
+      "cited_in": [
+        {
+          "text": "WHO Regional Office for Europe (2026). Unlocking funding for well-being, equity and healthy societies: Primer",
+          "url": "https://apps.who.int/iris/handle/10665/384796"
+        },
+        {
+          "text": "Inter-American Development Bank (2023). A Personalized VAT with Capital Transfers: A Reform to Protect Low-Income Households in Mexico",
+          "url": "https://publications.iadb.org/en/personalized-vat-capital-transfers-reform-protect-low-income-households-mexico"
+        },
+        {
+          "text": "Office of the UN High Commissioner for Human Rights (2021). Looking back to look ahead: A rights-based approach to social protection in the post-COVID-19 economic recovery",
+          "url": "https://www.ohchr.org/en/documents/thematic-reports/looking-back-look-ahead-rights-based-approach-social-protection-post"
+        }
+      ],
       "citation": "Reinsberg, B., Stubbs, T., &amp; Kentikelenis, A. (2020). Taxing the people, not trade: The International Monetary Fund and the structure of taxation in developing countries. <i>Studies in Comparative International Development<\/i>, <i>55<\/i>(3), 278&#x2013;304. https://doi.org/10.1007/s12116-020-09307-4",
       "site_tags": [],
       "pdf": "files/publications/2N2KVB3Z.pdf"
@@ -1367,7 +1487,7 @@
     },
     {
       "key": "A553FGGN",
-      "version": 79106,
+      "version": 81732,
       "type": "journalArticle",
       "section": "articles",
       "year": "2020",
@@ -1404,6 +1524,14 @@
         {
           "text": "International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)",
           "url": "https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml"
+        },
+        {
+          "text": "U4 Anti-Corruption Resource Centre (2024). The effectiveness of illicit-finance related conditionality in IMF and World Bank arrangements",
+          "url": "https://www.u4.no/publications/the-effectiveness-of-illicit-finance-related-conditionality-in-imf-and-world-bank-arrangements"
+        },
+        {
+          "text": "Publications Office of the European Union (2020). Finding complementarities in IMF and RFA toolkits",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/0fac8924-169b-11ec-b4fe-01aa75ed71a1/language-en"
         }
       ],
       "citation": "Stubbs, T., Reinsberg, B., Kentikelenis, A., &amp; King, L. (2020). How to evaluate the effects of IMF conditionality: An extension of quantitative approaches and an empirical application to public education spending. <i>Review of International Organizations<\/i>, <i>15<\/i>(1), 29&#x2013;73. https://doi.org/10.1007/s11558-018-9332-5",
@@ -1412,7 +1540,7 @@
     },
     {
       "key": "NGQ8ZRZI",
-      "version": 79107,
+      "version": 81736,
       "type": "journalArticle",
       "section": "articles",
       "year": "2020",
@@ -1448,6 +1576,18 @@
         {
           "text": "International Monetary Fund (2024). Effects of IMF-Supported Programs on Gender Inequality (WP/24/247)",
           "url": "https://www.elibrary.imf.org/view/journals/001/2024/247/article-A001-en.xml"
+        },
+        {
+          "text": "Food and Agriculture Organization of the United Nations (2022). Small-scale producers in sustainable agrifood systems transformation",
+          "url": "https://openknowledge.fao.org/handle/20.500.14283/cc0821en"
+        },
+        {
+          "text": "Pan American Health Organization (2020). Equity in Health Policy Assessment: Region of the Americas",
+          "url": "https://iris.paho.org/handle/10665.2/52931"
+        },
+        {
+          "text": "UN Human Rights Council (2020). The parlous state of poverty eradication: Report of the Special Rapporteur on extreme poverty and human rights (A/HRC/44/40)",
+          "url": "https://docs.un.org/en/A/HRC/44/40"
         }
       ],
       "citation": "Forster, T., Kentikelenis, A., Stubbs, T., &amp; King, L. P. (2020). Globalization and health equity: The impact of structural adjustment programs on developing countries. <i>Social Science &amp; Medicine<\/i>, <i>267<\/i>, 112496. https://doi.org/10.1016/j.socscimed.2019.112496",
@@ -1539,7 +1679,7 @@
     },
     {
       "key": "7QA64EKC",
-      "version": 79108,
+      "version": 81731,
       "type": "journalArticle",
       "section": "articles",
       "year": "2019",
@@ -1572,13 +1712,19 @@
       "doi": "10.1080/03050629.2019.1582531",
       "url": "https://www.tandfonline.com/doi/full/10.1080/03050629.2019.1582531",
       "data": "https://doi.org/10.7910/DVN/DDBKCD",
+      "cited_in": [
+        {
+          "text": "World Bank (2021). Does Central Bank Independence Increase Inequality? (Policy Research Working Paper)",
+          "url": "https://openknowledge.worldbank.org/handle/10986/35069"
+        }
+      ],
       "citation": "Reinsberg, B., Stubbs, T., Kentikelenis, A., &amp; King, L. (2019). The political economy of labor market deregulation during IMF interventions. <i>International Interactions<\/i>, <i>45<\/i>(3), 532&#x2013;559. https://doi.org/10.1080/03050629.2019.1582531",
       "site_tags": [],
       "pdf": "files/publications/7QA64EKC.pdf"
     },
     {
       "key": "2U8LXZZ9",
-      "version": 68328,
+      "version": 81727,
       "type": "journalArticle",
       "section": "articles",
       "year": "2019",
@@ -1615,6 +1761,48 @@
       "venue": "Social Science Research",
       "doi": "10.1016/j.ssresearch.2019.01.001",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0049089X18300802",
+      "cited_in": [
+        {
+          "text": "UNAIDS (2025). Breaking the inequality-pandemic cycle: Building true health security (Global Council on Inequality, AIDS and Pandemics)",
+          "url": "https://www.unaids.org/en/resources/documents/2025/breaking-inequality-pandemic-cycle"
+        },
+        {
+          "text": "Publications Office of the European Union (2025). The distributional implications of the euro area crisis",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/9463cb8e-decb-11ef-be2a-01aa75ed71a1/language-en"
+        },
+        {
+          "text": "European Parliament (2024). Confronting debt, climate change and poverty: Global financial architecture reform and the fiscal space of developing countries",
+          "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2024/754456/EXPO_BRI(2024)754456_EN.pdf"
+        },
+        {
+          "text": "Inter-American Development Bank (2023). Seventy-five Years of Measuring Income Inequality in Latin America (working paper)",
+          "url": "https://publications.iadb.org/en/seventy-five-years-measuring-income-inequality-latin-america"
+        },
+        {
+          "text": "UN Economic and Social Commission for Asia and the Pacific (2023). Economic and Social Survey of Asia and the Pacific 2023: Rethinking public debt for the Sustainable Development Goals",
+          "url": "https://digitallibrary.un.org/record/4025367"
+        },
+        {
+          "text": "International Monetary Fund (2021). Macroeconomic Stability and Inclusive Growth (WP/21/81)",
+          "url": "https://www.imf.org/en/Publications/WP/Issues/2021/03/19/Macroeconomic-Stability-and-Inclusive-Growth-50259"
+        },
+        {
+          "text": "Office of the UN High Commissioner for Human Rights (2021). Looking back to look ahead: A rights-based approach to social protection in the post-COVID-19 economic recovery",
+          "url": "https://www.ohchr.org/en/documents/thematic-reports/looking-back-look-ahead-rights-based-approach-social-protection-post"
+        },
+        {
+          "text": "World Bank (2021). Does Central Bank Independence Increase Inequality? (Policy Research Working Paper)",
+          "url": "https://openknowledge.worldbank.org/handle/10986/35069"
+        },
+        {
+          "text": "Deutsche Bundesbank (2020). Doing more with less: The catalytic function of IMF lending and the role of program size (Discussion Paper No. 18/2020)",
+          "url": "https://www.bundesbank.de/resource/blob/829756/0c692e2cbfb2c914533348588e71be2e/mL/2020-04-01-dkp-18-data.pdf"
+        },
+        {
+          "text": "Publications Office of the European Union (2020). Finding complementarities in IMF and RFA toolkits",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/0fac8924-169b-11ec-b4fe-01aa75ed71a1/language-en"
+        }
+      ],
       "citation": "Forster, T., Kentikelenis, A., Reinsberg, B., Stubbs, T., &amp; King, L. (2019). How structural adjustment programs affect inequality: A disaggregated analysis of IMF conditionality, 1980&#x2013;2014. <i>Social Science Research<\/i>, <i>80<\/i>, 83&#x2013;113. https://doi.org/10.1016/j.ssresearch.2019.01.001",
       "site_tags": [],
       "pdf": "files/publications/2U8LXZZ9.pdf"
@@ -1664,7 +1852,7 @@
     },
     {
       "key": "PGUJU5KF",
-      "version": 79109,
+      "version": 81737,
       "type": "journalArticle",
       "section": "articles",
       "year": "2019",
@@ -1697,6 +1885,16 @@
       "doi": "10.1086/701703",
       "url": "https://www.journals.uchicago.edu/doi/10.1086/701703",
       "data": "https://doi.org/10.7910/DVN/SCQTJX",
+      "cited_in": [
+        {
+          "text": "UN Economic Commission for Latin America and the Caribbean (2023). Estruturas ministeriais comparadas: uma análise preliminar sobre a trajetória de ministérios em 21 países (1990-2020)",
+          "url": "https://hdl.handle.net/11362/48734"
+        },
+        {
+          "text": "UN Human Rights Council (2020). The parlous state of poverty eradication: Report of the Special Rapporteur on extreme poverty and human rights (A/HRC/44/40)",
+          "url": "https://docs.un.org/en/A/HRC/44/40"
+        }
+      ],
       "citation": "Reinsberg, B., Kentikelenis, A., Stubbs, T., &amp; King, L. (2019). The world system and the hollowing out of state capacity: How structural adjustment programs affect bureaucratic quality in developing countries. <i>American Journal of Sociology<\/i>, <i>124<\/i>(4), 1222&#x2013;1257. https://doi.org/10.1086/701703",
       "site_tags": [],
       "pdf": "files/publications/PGUJU5KF.pdf"
@@ -1831,7 +2029,7 @@
     },
     {
       "key": "2E3EMWWY",
-      "version": 79110,
+      "version": 81725,
       "type": "journalArticle",
       "section": "commentaries",
       "year": "2018",
@@ -1861,6 +2059,18 @@
         {
           "text": "International Monetary Fund (2019). A Strategy for IMF Engagement on Social Spending — Background Papers (Policy Paper 2019/017)",
           "url": "https://www.imf.org/en/publications/policy-papers/issues/2019/06/10/a-strategy-for-imf-engagement-on-social-spending-background-papers-46976"
+        },
+        {
+          "text": "Asian Development Bank (2019). Strengthening Asia’s Financial Safety Net",
+          "url": "https://www.adb.org/publications/strengthening-asia-financial-safety-net"
+        },
+        {
+          "text": "UN Human Rights Council (2018). Report of the Special Rapporteur on extreme poverty and human rights (A/HRC/38/33)",
+          "url": "https://docs.un.org/en/A/HRC/38/33"
+        },
+        {
+          "text": "UN Human Rights Council (2017). Report of the Independent Expert on the effects of foreign debt and other related international financial obligations of States on the full enjoyment of all human rights (A/HRC/37/54)",
+          "url": "https://docs.un.org/en/A/HRC/37/54"
         }
       ],
       "citation": "Stubbs, T., &amp; Kentikelenis, A. (2018). Targeted social safeguards in the age of universal social protection: The IMF and health systems of low-income countries. <i>Critical Public Health<\/i>, <i>28<\/i>(2), 132&#x2013;139. https://doi.org/10.1080/09581596.2017.1340589",
@@ -2023,7 +2233,7 @@
     },
     {
       "key": "WZG7WB58",
-      "version": 66645,
+      "version": 81744,
       "type": "journalArticle",
       "section": "articles",
       "year": "2017",
@@ -2050,6 +2260,32 @@
       "venue": "Public Health Reviews",
       "doi": "10.1186/s40985-017-0059-2",
       "url": "http://publichealthreviews.biomedcentral.com/articles/10.1186/s40985-017-0059-2",
+      "cited_in": [
+        {
+          "text": "UN General Assembly (2025). Promotion of a democratic and equitable international order: Report of the Independent Expert (A/80/279)",
+          "url": "https://docs.un.org/en/A/80/279"
+        },
+        {
+          "text": "International Labour Organization (2023). World Employment and Social Outlook 2023: The value of essential work",
+          "url": "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-2023-value-essential-work"
+        },
+        {
+          "text": "International Labour Organization (2021). Social policy advice to countries from the International Monetary Fund during the COVID-19 crisis: Continuity and change",
+          "url": "https://www.ilo.org/publications/social-policy-advice-countries-international-monetary-fund-during-covid-19"
+        },
+        {
+          "text": "OECD (2019). Towards universal social protection",
+          "url": "https://doi.org/10.1787/bae641e2-en"
+        },
+        {
+          "text": "U4 Anti-Corruption Resource Centre (2018). Impact of structural adjustment programmes on corruption",
+          "url": "https://www.u4.no/publications/impact-of-structural-adjustment-programmes-on-corruption"
+        },
+        {
+          "text": "World Health Organization (2018). Gender, health and the 2030 agenda for sustainable development",
+          "url": "https://apps.who.int/iris/handle/10665/275077"
+        }
+      ],
       "citation": "Thomson, M., Kentikelenis, A., &amp; Stubbs, T. (2017). Structural adjustment programmes adversely affect vulnerable populations: A systematic-narrative review of their effect on child and maternal health. <i>Public Health Reviews<\/i>, <i>38<\/i>(1), 13. https://doi.org/10.1186/s40985-017-0059-2",
       "site_tags": [],
       "pdf": "files/publications/WZG7WB58.pdf"
@@ -2203,7 +2439,7 @@
     },
     {
       "key": "XHVMIVGE",
-      "version": 79088,
+      "version": 81745,
       "type": "journalArticle",
       "section": "commentaries",
       "year": "2017",
@@ -2240,6 +2476,16 @@
       "venue": "Social Science & Medicine",
       "doi": "10.1016/j.socscimed.2017.03.050",
       "url": "http://linkinghub.elsevier.com/retrieve/pii/S0277953617302058",
+      "cited_in": [
+        {
+          "text": "International Monetary Fund (2023). IMF Engagement on Health Spending Issues in Surveillance and Program Work (TNM 2023/008)",
+          "url": "https://www.elibrary.imf.org/view/journals/005/2023/008/article-A001-en.xml"
+        },
+        {
+          "text": "UN Human Rights Council (2018). Report of the Special Rapporteur on extreme poverty and human rights (A/HRC/38/33)",
+          "url": "https://docs.un.org/en/A/HRC/38/33"
+        }
+      ],
       "citation": "Stubbs, T., Kentikelenis, A., Stuckler, D., McKee, M., &amp; King, L. (2017). The IMF and government health expenditure: A response to Sanjeev Gupta. <i>Social Science &amp; Medicine<\/i>, <i>181<\/i>, 202&#x2013;204. https://doi.org/10.1016/j.socscimed.2017.03.050",
       "site_tags": ["commentary"],
       "pdf": "files/publications/XHVMIVGE.pdf"
@@ -2272,7 +2518,7 @@
     },
     {
       "key": "26MTXZ23",
-      "version": 79112,
+      "version": 81748,
       "type": "journalArticle",
       "section": "articles",
       "year": "2017",
@@ -2334,6 +2580,38 @@
         {
           "text": "International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)",
           "url": "https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml"
+        },
+        {
+          "text": "World Health Organization (2026). World Report on the Social Determinants of Health Equity (Spanish edition)",
+          "url": "https://apps.who.int/iris/handle/10665/387962"
+        },
+        {
+          "text": "World Health Organization (2023). Health for All: Transforming economies to deliver what matters (final report of the WHO Council on the Economics of Health for All)",
+          "url": "https://apps.who.int/iris/handle/10665/373122"
+        },
+        {
+          "text": "International Labour Organization (2021). Social policy advice to countries from the International Monetary Fund during the COVID-19 crisis: Continuity and change",
+          "url": "https://www.ilo.org/publications/social-policy-advice-countries-international-monetary-fund-during-covid-19"
+        },
+        {
+          "text": "WHO Regional Office for Europe (2021). Healthy, prosperous lives for all in the European Region: High-level Conference on Health Equity, Ljubljana, 2019 (background paper)",
+          "url": "https://apps.who.int/iris/handle/10665/346041"
+        },
+        {
+          "text": "World Health Organization (2021). Working for health: A review of the relevance and effectiveness of the five-year action plan for health employment and inclusive economic growth (2017–2021) and ILO-OECD-WHO Working for Health programme",
+          "url": "https://apps.who.int/iris/handle/10665/340716"
+        },
+        {
+          "text": "WHO Regional Office for Europe (2019). Economic and social impacts and benefits of health systems",
+          "url": "https://apps.who.int/iris/handle/10665/329683"
+        },
+        {
+          "text": "Asian Development Bank (2019). Strengthening Regional Surveillance and Financial Safety Net Mechanisms in Asia: Workshop Highlights",
+          "url": "https://www.adb.org/publications/surveillance-financial-safety-net-mechanisms-workshop-highlights"
+        },
+        {
+          "text": "UN General Assembly (2017). Promotion of a democratic and equitable international order: Report of the Independent Expert (A/72/187)",
+          "url": "https://docs.un.org/en/A/72/187"
         }
       ],
       "citation": "Stubbs, T., Kentikelenis, A., Stuckler, D., McKee, M., &amp; King, L. (2017). The impact of IMF conditionality on government health expenditure: A cross-national analysis of 16 West African nations. <i>Social Science &amp; Medicine<\/i>, <i>174<\/i>, 220&#x2013;227. https://doi.org/10.1016/j.socscimed.2016.12.016",
@@ -2461,7 +2739,7 @@
     },
     {
       "key": "2YHZR4GZ",
-      "version": 79113,
+      "version": 81746,
       "type": "journalArticle",
       "section": "articles",
       "year": "2016",
@@ -2528,6 +2806,74 @@
         {
           "text": "International Monetary Fund (2024). Determinants of Zombie Banks in Emerging Markets and Developing Economies (WP/24/036)",
           "url": "https://www.imf.org/en/publications/wp/issues/2024/02/23/determinants-of-zombie-banks-in-emerging-markets-and-developing-economies-545110"
+        },
+        {
+          "text": "UN General Assembly (2025). Promotion of a democratic and equitable international order: Report of the Independent Expert (A/80/279)",
+          "url": "https://docs.un.org/en/A/80/279"
+        },
+        {
+          "text": "Publications Office of the European Union (2025). The distributional implications of the euro area crisis",
+          "url": "https://op.europa.eu/en/publication-detail/-/publication/9463cb8e-decb-11ef-be2a-01aa75ed71a1/language-en"
+        },
+        {
+          "text": "International Monetary Fund (2024). The IMF and the European Debt Crisis",
+          "url": "https://elibrary.imf.org/display/book/9798400231902/9798400231902.xml"
+        },
+        {
+          "text": "Expert Group for Aid Studies, Sweden (2023). The Evolution of Aid Conditionality: A Review of the Literature of the Last Twenty Years",
+          "url": "https://eba.se/rapporter/the-evolution-of-aid-conditionality-a-review-of-the-literature-of-the-last-twenty-years/20698/"
+        },
+        {
+          "text": "International Labour Organization (2021). Social policy advice to countries from the International Monetary Fund during the COVID-19 crisis: Continuity and change",
+          "url": "https://www.ilo.org/publications/social-policy-advice-countries-international-monetary-fund-during-covid-19"
+        },
+        {
+          "text": "European Central Bank (2021). Transforming ‘sympathetic interlocutors’ into veto players (Working Paper No. 2518)",
+          "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2518~b1b70abf38.en.pdf"
+        },
+        {
+          "text": "Office of the UN High Commissioner for Human Rights (2021). Looking back to look ahead: A rights-based approach to social protection in the post-COVID-19 economic recovery",
+          "url": "https://www.ohchr.org/en/documents/thematic-reports/looking-back-look-ahead-rights-based-approach-social-protection-post"
+        },
+        {
+          "text": "European Central Bank (2020). The role of IMF conditionality for central bank independence (Working Paper No. 2464)",
+          "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2464~154c556fff.en.pdf"
+        },
+        {
+          "text": "Asian Development Bank (2019). Strengthening Asia’s Financial Safety Net",
+          "url": "https://www.adb.org/publications/strengthening-asia-financial-safety-net"
+        },
+        {
+          "text": "European Central Bank (2019). Once bitten: New evidence on the link between IMF conditionality and IMF stigma (Working Paper No. 2262)",
+          "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2262~0933bda628.en.pdf"
+        },
+        {
+          "text": "European Central Bank (2019). Conditionality and design of IMF-supported programmes (Occasional Paper No. 235)",
+          "url": "https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op235~e70851374f.en.pdf"
+        },
+        {
+          "text": "European Central Bank (2018). Stigma? What stigma? A contribution to the debate on financial market effects of IMF lending (Working Paper No. 2198)",
+          "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2198.en.pdf"
+        },
+        {
+          "text": "UN Human Rights Council (2018). Report of the Special Rapporteur on extreme poverty and human rights (A/HRC/38/33)",
+          "url": "https://docs.un.org/en/A/HRC/38/33"
+        },
+        {
+          "text": "UN General Assembly (2017). Promotion of a democratic and equitable international order: Report of the Independent Expert (A/72/187)",
+          "url": "https://docs.un.org/en/A/72/187"
+        },
+        {
+          "text": "US House of Representatives, Committee on Financial Services (2017). Lessons from the IMF’s Bailout of Greece (hearing)",
+          "url": "https://www.congress.gov/event/115th-congress/house-event/105995"
+        },
+        {
+          "text": "UN Human Rights Council (2016). Report of the Independent Expert on the effects of foreign debt and other related international financial obligations of States on the full enjoyment of all human rights (A/HRC/34/57)",
+          "url": "https://docs.un.org/en/A/HRC/34/57"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)",
+          "url": "https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf"
         }
       ],
       "citation": "Kentikelenis, A., Stubbs, T., &amp; King, L. (2016). IMF conditionality and development policy space, 1985&#x2013;2014. <i>Review of International Political Economy<\/i>, <i>23<\/i>(4), 543&#x2013;582. https://doi.org/10.1080/09692290.2016.1174953",
@@ -2629,7 +2975,7 @@
     },
     {
       "key": "TKF5WVKG",
-      "version": 79114,
+      "version": 81740,
       "type": "journalArticle",
       "section": "articles",
       "year": "2016",
@@ -2663,12 +3009,24 @@
           "url": "https://www.imf.org/en/publications/wp/issues/2024/06/28/the-catalytic-impact-of-imf-lending-on-official-development-assistance-550957"
         },
         {
-          "text": "International Monetary Fund (2026). The Catalytic Impact of Resilience and Sustainability Facility Arrangements (WP/26/38)",
+          "text": "International Monetary Fund (2026). The Catalytic Impact of Resilience and Sustainability Arrangements (WP/26/38)",
           "url": "https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026038-source-pdf.pdf"
         },
         {
           "text": "International Monetary Fund (2026). The Macro-Fiscal Impacts of Post-Disaster IMF Financing: Evidence from a Synthetic Control Approach (WP/26/91)",
           "url": "https://www.elibrary.imf.org/view/journals/001/2026/091/article-A001-en.xml"
+        },
+        {
+          "text": "German Institute for Development Evaluation (2022). Die Verteilung von Mitteln für die deutsche öffentliche Entwicklungszusammenarbeit: Allokationsstudie zur bilateralen staatlichen Entwicklungszusammenarbeit aus Haushaltsmitteln",
+          "url": "https://www.deval.org/de/publikationen/allokationsstudie-zur-bilateralen-staatlichen-entwicklungszusammenarbeit-aus-haushaltsmitteln"
+        },
+        {
+          "text": "UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt and other related international financial obligations of States on the full enjoyment of all human rights (A/74/178)",
+          "url": "https://docs.un.org/en/A/74/178"
+        },
+        {
+          "text": "Expert Group for Aid Studies, Sweden (2016). Is Development Aid a Complement or a Substitute to Foreign Direct Investment?",
+          "url": "https://eba.se/rapporter/is-development-aid-a-complement-or-a-substitute-to-foreign-direct-investment/4218/"
         }
       ],
       "citation": "Stubbs, T., Kentikelenis, A., &amp; King, L. (2016). Catalyzing aid? The IMF and donor behavior in aid allocation. <i>World Development<\/i>, <i>78<\/i>, 511&#x2013;528. https://doi.org/10.1016/j.worlddev.2015.10.010",
@@ -2726,7 +3084,7 @@
     },
     {
       "key": "U3BX2L5I",
-      "version": 79115,
+      "version": 81742,
       "type": "journalArticle",
       "section": "articles",
       "year": "2015",
@@ -2765,6 +3123,14 @@
         {
           "text": "World Health Organization (2021). Health Labour Market Analysis Guidebook",
           "url": "https://www.who.int/publications/i/item/9789240035546"
+        },
+        {
+          "text": "OECD (2026). OECD Guidance on Reducing Poverty and Inequalities through Development Co-operation",
+          "url": "https://doi.org/10.1787/d6690bba-en"
+        },
+        {
+          "text": "OECD (2019). Towards universal social protection",
+          "url": "https://doi.org/10.1787/bae641e2-en"
         }
       ],
       "citation": "Kentikelenis, A., Stubbs, T., &amp; King, L. (2015). Structural adjustment and public spending on health: Evidence from IMF programs in low-income countries. <i>Social Science &amp; Medicine<\/i>, <i>126<\/i>, 169&#x2013;176. https://doi.org/10.1016/j.socscimed.2014.12.027",

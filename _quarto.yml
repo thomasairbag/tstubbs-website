@@ -5,6 +5,9 @@ project:
   # Render only .qmd pages, so CLAUDE.md and README.md are never published.
   render:
     - "**/*.qmd"
+  # R code in pages runs from the project folder, so R/publications.R finds
+  # data/publications.json from any page.
+  execute-dir: project
   resources:
     # Tells GitHub Pages to serve the files as they are, without Jekyll.
     - ".nojekyll"
@@ -99,5 +102,9 @@ format:
           <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
     include-before-body:
       - _includes/skip-link.html
+
+execute:
+  echo: false
+  warning: false
 
 editor: visual

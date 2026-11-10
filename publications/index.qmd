@@ -2,6 +2,21 @@
 title: "Academic Writing"
 ---
 
-::: {.draft-note}
-Built at Stage 4 from Zotero: journal articles, commentaries, book chapters, and working papers, by year.
-:::
+```{r}
+#| include: false
+# The list comes from Zotero through data/publications.json (R/publications.R).
+source("R/publications.R")
+site <- yaml::read_yaml("data/site.yml")
+scholar <- Filter(function(p) p$name == "Google Scholar", site$profiles)[[1]]$url
+n_journal <- pub_count(c("articles", "commentaries"))
+n_phrase <- if (n_journal %% 10 == 0) n_journal else paste("over", n_journal %/% 10 * 10)
+```
+
+I have authored `r n_phrase` journal articles, as well as a range of other output. My policy reports are listed on the [Policy & Advisory](../policy/index.qmd) page.
+
+The most up-to-date list of publications is available on my [Google Scholar profile](`r scholar`).
+
+```{r}
+#| output: asis
+pub_list(c("articles", "commentaries", "chapters", "working-papers"))
+```
