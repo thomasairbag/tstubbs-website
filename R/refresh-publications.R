@@ -16,7 +16,11 @@
 #      files/publications/<item key>.pdf (decision 7). It never deletes a file.
 #      The PDFs need not be shared in My Publications. On a computer without
 #      your Zotero data, it keeps the files already there.
-#   5. Writes data/publications.json, which is committed with the site, and
+#   5. Copies your CV, the PDF you keep in Dropbox, to
+#      files/cv/Thomas_Stubbs_CV.pdf whenever the Dropbox copy is newer and
+#      different (decision 21). It only reads the Dropbox file. On a computer
+#      without it, it keeps the CV already there.
+#   6. Writes data/publications.json, which is committed with the site, and
 #      reports what changed since the last run and anything in Zotero that
 #      needs attention.
 #
@@ -55,7 +59,13 @@ settings <- list(
   # Zotero's data folder: Zotero's default (the Zotero folder in your home
   # folder), unless the ZOTERO_DATA_DIR environment variable names another.
   zotero_dir = Sys.getenv("ZOTERO_DATA_DIR",
-                          file.path(Sys.getenv("USERPROFILE", path.expand("~")), "Zotero"))
+                          file.path(Sys.getenv("USERPROFILE", path.expand("~")), "Zotero")),
+  # The CV's source: the PDF in your Dropbox CV folder, unless the
+  # TSTUBBS_CV_SOURCE environment variable names another file.
+  cv_source = Sys.getenv("TSTUBBS_CV_SOURCE",
+                         file.path(Sys.getenv("USERPROFILE", path.expand("~")),
+                                   "Dropbox (Personal)", "CV", "CV_Academic.pdf")),
+  cv_file   = "files/cv/Thomas_Stubbs_CV.pdf"
 )
 
 known_site_tags  <- c("commentary", "working-paper", "media")
@@ -309,6 +319,40 @@ items <- lapply(items, function(x) {
 used    <- unlist(lapply(items, function(x) x$pdf))
 orphans <- setdiff(list.files(settings$pdf_dir, pattern = "\\.pdf$", full.names = TRUE), used)
 
+# 3b. CV ------------------------------------------------------------------------
+# Decision 21 (10 November 2026): the site's CV is the PDF you keep in Dropbox,
+# copied whenever the Dropbox copy is newer and different, so the site's CV
+# cannot go stale. The copy keeps the Dropbox file's date. The Dropbox file is
+# only read; nothing is ever deleted.
+
+cv <- list(status = "", not_pdf = FALSE, site_newer = FALSE, word_newer = FALSE)
+cv_date <- function(path) sub("^0", "", format(file.mtime(path), "%d %B %Y, %H:%M"))
+
+if (!file.exists(settings$cv_source)) {
+  cv$status <- paste0("kept (", settings$cv_source, " not found on this computer)")
+} else if (!identical(readBin(settings$cv_source, "raw", 4), charToRaw("%PDF"))) {
+  cv$not_pdf <- TRUE
+  cv$status  <- "kept (the Dropbox file is not a PDF)"
+} else {
+  dir.create(dirname(settings$cv_file), recursive = TRUE, showWarnings = FALSE)
+  same <- file.exists(settings$cv_file) &&
+    identical(unname(tools::md5sum(settings$cv_file)), unname(tools::md5sum(settings$cv_source)))
+  if (same) {
+    cv$status <- paste0("unchanged (Dropbox copy saved ", cv_date(settings$cv_source), ")")
+  } else if (!file.exists(settings$cv_file) ||
+             file.mtime(settings$cv_source) > file.mtime(settings$cv_file)) {
+    file.copy(settings$cv_source, settings$cv_file, overwrite = TRUE, copy.date = TRUE)
+    cv$status <- paste0("copied from Dropbox (saved ", cv_date(settings$cv_source), ")")
+  } else {
+    cv$site_newer <- TRUE
+    cv$status <- "kept (the site's copy is newer than Dropbox's)"
+  }
+  # A Word file saved after its PDF usually means the PDF was not saved again.
+  cv_docx <- sub("\\.pdf$", ".docx", settings$cv_source, ignore.case = TRUE)
+  cv$word_newer <- file.exists(cv_docx) &&
+    file.mtime(cv_docx) > file.mtime(settings$cv_source) + 120
+}
+
 # 4. Write ----------------------------------------------------------------------
 
 ord   <- order(vapply(items, function(x) x$sort_date %or% "0000", ""),
@@ -352,6 +396,7 @@ cat("\nZotero My Publications: ", length(items), " items (Zotero version ", max(
 for (s in names(counts)) cat(sprintf("  %-16s %3d\n", s, counts[[s]]))
 cat(sprintf("  %-16s %3d", "PDFs on the site", length(used)),
     if (n_copied) sprintf("(%d copied from Zotero this run)", n_copied), "\n")
+cat(sprintf("  %-16s %s\n", "CV", cv$status))
 
 cat("\nChanges since the last run\n")
 if (is.null(previous)) {
@@ -404,5 +449,13 @@ no_url_cited <- unlist(lapply(items, function(x) vapply(x$cited_in %or% list(), 
   if (is.null(ci$url)) paste0(line_for(x), "  <- ", ci$text) else NA_character_, "")))
 flag("site-cited lines without an address at the end", no_url_cited[!is.na(no_url_cited)])
 flag(paste0("PDFs in ", settings$pdf_dir, " not used by any item (not deleted)"), orphans)
+
+flag("The CV in Dropbox is not a PDF, so the site's CV was not replaced",
+     if (cv$not_pdf) settings$cv_source)
+flag("The site's CV is newer than the one in Dropbox, so it was not replaced",
+     if (cv$site_newer) paste0(settings$cv_file, " (", cv_date(settings$cv_file), ") vs Dropbox (",
+                               cv_date(settings$cv_source), ")"))
+flag("The CV's Word file was saved after its PDF: save the PDF again, then run this again",
+     if (cv$word_newer) sub("\\.pdf$", ".docx", settings$cv_source, ignore.case = TRUE))
 
 if (n_issues == 0) cat("  Nothing needs attention.\n")
