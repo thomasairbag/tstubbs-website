@@ -2,6 +2,41 @@
 title: "Contact"
 ---
 
-::: {.draft-note}
-Built at Stage 5: enquiries, email, postal address, and profile links.
-:::
+```{r}
+#| include: false
+# The email address, postal address, department, and profile links come from
+# data/site.yml, so each is edited in one place. Email, address, and profile
+# links only: no telephone number and no form (decision 11).
+site <- yaml::read_yaml("data/site.yml")
+esc <- function(x) htmltools::htmlEscape(x)
+
+# One labelled row: the label in a left column beside its content, as the
+# year groups on the publication pages. Printed as a raw HTML block, so
+# Pandoc leaves the addresses untouched.
+contact_row <- function(label, html) {
+  paste0('<div class="contact-row"><h2 class="contact-label">', label,
+         '</h2><div class="contact-value">', html, "</div></div>")
+}
+
+email <- esc(site$contact$email)
+rows <- c(
+  contact_row("Email",
+    paste0('<p><a href="mailto:', email, '">', email, "</a></p>")),
+  contact_row("Address",
+    paste0("<p>", paste(esc(c(site$department$name, site$contact$address)),
+                        collapse = "<br>"), "</p>")),
+  contact_row("Profiles",
+    paste0('<ul class="contact-links">',
+           paste0('<li><a href="', vapply(site$profiles, function(p) esc(p$url), ""),
+                  '">', vapply(site$profiles, function(p) esc(p$name), ""), "</a></li>",
+                  collapse = ""),
+           "</ul>"))
+)
+```
+
+For commissioned research, advisory work, speaking, media, or academic enquiries, please email me.
+
+```{r}
+#| output: asis
+cat("\n```{=html}\n", '<div class="contact-list">', rows, "</div>", "\n```\n\n", sep = "\n")
+```

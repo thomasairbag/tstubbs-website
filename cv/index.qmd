@@ -2,6 +2,21 @@
 title: "CV"
 ---
 
-::: {.draft-note}
-Built at Stage 5: a download link to the CV, once the corrected PDF is in place (decision 21).
+```{r}
+#| include: false
+# A download button, then the CV itself open on the page, as on
+# kentikelenis.net/cv.html (Thomas, 11 November 2026; no introduction). The
+# PDF is copied from Thomas's Dropbox by R/refresh-publications.R whenever his
+# copy there is newer (decision 21), so it sits at a fixed address. Its size
+# is read from the file when the page is rendered. The frame is hidden on
+# phones, whose browsers mostly cannot show a PDF inside a page; the button
+# opens it there.
+cv_file <- "files/cv/Thomas_Stubbs_CV.pdf"
+cv_kb <- round(file.size(cv_file) / 1024)
+```
+
+::: cta
+<a class="cta-btn solid" href="../files/cv/Thomas_Stubbs_CV.pdf"><i class="bi bi-download" aria-hidden="true"></i> Download the CV (PDF, `r cv_kb` KB)</a>
 :::
+
+<iframe class="cv-frame" src="../files/cv/Thomas_Stubbs_CV.pdf#view=FitH" title="Curriculum vitae of Thomas Stubbs"></iframe>
