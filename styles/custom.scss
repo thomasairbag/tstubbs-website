@@ -452,6 +452,14 @@ h3 {
   }
 }
 
+// A section heading that opens a page directly under its title (Media's
+// "Press enquiries"), without the rule and space above, as in the mock-up.
+#quarto-document-content h2.first {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
 // The enquiries line closing Policy & Advisory, as in the mock-up.
 .enquiries {
   max-width: 46rem;

@@ -2,6 +2,36 @@
 title: "Media"
 ---
 
-::: {.draft-note}
-Built at Stage 5: press enquiries, and the public writing from Zotero, by year.
-:::
+```{r}
+#| include: false
+# Modelled on Kentikelenis's Media page (plan Section 5), as in the approved
+# mock-up: press enquiries, then the public writing by year. The 19 pieces
+# come from Zotero (the items tagged `site: media`, decision 3) through
+# data/publications.json (R/publications.R); the email address from
+# data/site.yml. No "Cited in" lines here (decision 6, amended: the 2016
+# Guardian piece gets none). The outlets named below are those the CV lists
+# under "International media coverage". The fourth topic, African politics,
+# was added at Thomas's word (11 November 2026); five of the pieces are on it.
+source("R/publications.R")
+site <- yaml::read_yaml("data/site.yml")
+```
+
+## Press enquiries {.first}
+
+I am happy to comment on:
+
+- the IMF, its lending programmes, and the conditions attached to them;
+- austerity, social protection, and health in low- and middle-income countries;
+- climate change, crisis finance, and the international financial institutions;
+- African politics, including elections in East Africa and conflict in the Sahel.
+
+My work has been covered by The Guardian, The Washington Post, Al Jazeera, Agence France-Presse, Radio New Zealand, and the New Zealand Herald, among others.
+
+Email [`r site$contact$email`](mailto:`r site$contact$email`).
+
+## Public writing
+
+```{r}
+#| output: asis
+pub_list("media", heading = "h3")
+```
