@@ -1,7 +1,88 @@
 ---
 title: "About"
+# Keeps the prose under the section headings to a readable measure
+# (styles/custom.scss, .about).
+body-classes: about
 ---
 
-::: {.draft-note}
-Built at Stage 5: biography, the two research strands, IMF Monitor, policy engagement, grants and awards, and service.
+```{r}
+#| include: false
+# The fuller biography (plan Section 5), drafted by Claude on 11 November 2026
+# for Thomas to rewrite: from the old site's About text, the CV
+# (files/cv/Thomas_Stubbs_CV.pdf, saved 10 November 2026), and decision 14
+# (two research strands, each followed by selected work named here by Zotero
+# item key, so no item needs a strand tag). The title, institution, department,
+# affiliation, and IMF Monitor line come from data/site.yml; the selected work
+# from Zotero through data/publications.json (R/publications.R). The four
+# organisations under "Policy engagement" are those of decision 13, written
+# out here so the sentence can read "the ... (UNICEF)"; they match
+# data/policy-projects.yml.
+source("R/publications.R")
+site <- yaml::read_yaml("data/site.yml")
+aff <- site$affiliations[[1]]
+cv_kb <- round(file.size("files/cv/Thomas_Stubbs_CV.pdf") / 1024)
+```
+
+I am a social scientist working on international political economy, global health and development, and African politics. I am `r site$title` in the `r site$department$name` at `r site$institution$name`, where I have taught since 2017, and `r aff$role` at the `r aff$organisation`. Before Royal Holloway, I was a lecturer in sociology at the University of Waikato in New Zealand and, before that, a research associate in sociology at the University of Cambridge, where I took my PhD.
+
+Beyond the research described below, I write on African politics: on elections in Kenya, Rwanda, and Burundi, on ethnicity and the military in Kenya, and on conflict in the Sahel.
+
+## Research
+
+My research examines the international financial institutions, above all the International Monetary Fund (IMF), and how the global economy is governed. It follows two strands.
+
+### The IMF and its borrowers
+
+What do IMF programmes do to the countries that take them? With Alexandros Kentikelenis and other colleagues, I have built a dataset of the policy conditions attached to IMF loans over four decades, drawn from the IMF's own archives. With it, we study how conditionality is designed and how far governments comply with it, the IMF's tax advice, and the effects of its programmes on social protection, health, inequality, state capacity, corruption, and protest. Our book *A Thousand Cuts* (Oxford University Press, 2023) brings this work together. It finds that although the content of IMF-mandated austerity has changed, the IMF still places a high burden of reform on its borrowers, and that these reforms reduce the availability of social services, widen income inequality, and harm population health.
+
+The data are public on [`r site$imf_monitor$name`](`r site$imf_monitor$url`), which I curate: `r site$imf_monitor$description`.
+
+::: selected-label
+Selected work
+:::
+
+```{r}
+#| output: asis
+pub_keys(c("JIIEA2SM",   # A Thousand Cuts (2023)
+           "RZLLKTKQ",   # Social protection and the IMF, Globalization & Health (2024)
+           "PGUJU5KF",   # The hollowing out of state capacity, AJS (2019)
+           "2YHZR4GZ"))  # IMF conditionality and development policy space, RIPE (2016)
+```
+
+### Global economic governance: crisis finance, austerity, and climate
+
+How is the global economy governed when a problem exceeds any one programme? My work here follows three questions. The first is crisis finance: how the global financial safety net of IMF resources, regional financing arrangements, and central bank swap lines responds to shocks such as Covid-19, and how far it reaches developing countries. The second is the wave of austerity that followed the pandemic, and what it costs public health. The third is climate change: how the IMF has brought the green transition into its surveillance, lending, and technical assistance, the subject of our book *Greening the International Monetary Fund* (Cambridge University Press, 2025) and of a [series of reports](../policy/index.qmd) for Recourse Foundation. A Philip Leverhulme Prize, for 2027–28, will support the next stage of this work, on the social consequences of global economic governance.
+
+::: selected-label
+Selected work
+:::
+
+```{r}
+#| output: asis
+pub_keys(c("XQ7NW3ZS",   # Greening the International Monetary Fund (2025)
+           "2IIXQCB7",   # The robustness of the global financial safety net, International Interactions (2026)
+           "PLN3F8VS",   # The return of austerity imperils global health, BMJ Global Health (2023)
+           "VPHQ9P5P"))  # Whatever it takes?, World Development (2021)
+```
+
+## Policy engagement
+
+Alongside my academic research, I undertake commissioned research and advisory work for international organisations, governments, and civil society, including the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ), Oxfam International, Recourse Foundation, and the United Nations Children's Fund (UNICEF). I have presented my research at the IMF, UNICEF, and Oxfam America, and my work is cited in documents of the IMF and its Independent Evaluation Office, the United Nations General Assembly and Human Rights Council, the World Health Organization, the International Labour Organization, and the European Central Bank, among others. My policy reports are listed on [Policy & Advisory](../policy/index.qmd).
+
+## Grants and awards
+
+- Philip Leverhulme Prize for Sociology and Social Policy, Leverhulme Trust, 2027–28: *The social consequences of global economic governance*.
+- ESRC New Investigator Grant, as Principal Investigator, 2021–24: *The global governance of ideas: International organisations as agents of policy diffusion*.
+- *Socio-Economic Review* Best Article Prize, for the best article published in the journal in 2021: “Creating crony capitalism: Neoliberal globalization and the fueling of corruption”, with Bernhard Reinsberg and Alexandros Kentikelenis.
+- Ngā Pae o te Māramatanga Research Commissioning, as Principal Investigator, 2016–19: *Connections and flows: Precarious Māori households in austere times*.
+- Cambridge Political Economy Society Trust, as Co-Investigator, 2015–18: *IMF lending and socio-economic development: The evolution and consequences of structural adjustment, 1985–2014*.
+
+## Service
+
+- Editorial Board of *Globalization & Health* since 2026, and Guest Editor of a special issue of the journal, 2026–27.
+- Reviewer for more than 40 journals, among them the *American Journal of Sociology*, the *American Political Science Review*, the *Review of International Political Economy*, the *Review of International Organizations*, *Social Science & Medicine*, and *World Development*; for book publishers, among them Cambridge University Press, Oxford University Press, and Routledge; and for the Swiss National Science Foundation and the Wellcome Trust.
+- At Royal Holloway: Director of Undergraduate Education in the School of Law and Social Sciences, 2022–26; in the department, Director of Impact, 2021–22, Director of Research, 2020–21, Director of External Engagement, 2019–20, and Co-Director of the Global Politics and Development Centre, 2019–21.
+
+::: cta
+<a class="cta-btn solid" href="../files/cv/Thomas_Stubbs_CV.pdf"><i class="bi bi-download" aria-hidden="true"></i> Download the CV (PDF, `r cv_kb` KB)</a>
 :::

@@ -1,7 +1,84 @@
 ---
 title: "Thomas Stubbs"
+# The name is the page's own heading, beside the portrait, as in the approved
+# mock-up, so Quarto's title block is hidden on this page (styles/custom.scss,
+# .home). Without a title, Quarto would move the hero's heading out of the
+# hero to make one.
+body-classes: home
 ---
 
-::: {.draft-note}
-Home is built at Stage 5 from the approved mock-up: introduction and portrait, areas of expertise, the two books, IMF Monitor, organisations, and the latest publications.
+```{r}
+#| include: false
+# Home, from the approved Stage 2 mock-up (plan Section 5) as Thomas revised
+# it on 11 November 2026: beside the portrait, the name, his two posts (in
+# place of the mock-up's field line), the introduction, which now names the
+# organisations, and the IMF Monitor box (in place of the mock-up's three
+# buttons); then the areas of expertise, the two books, the latest
+# publications, and an enquiries line. The title, institution, affiliation,
+# expertise, IMF Monitor line, and email come from data/site.yml; the books
+# and the latest publications from Zotero through data/publications.json
+# (R/publications.R). The four organisations in the introduction are those
+# of decision 13, written out so the sentence reads well; they match
+# data/policy-projects.yml.
+source("R/publications.R")
+site <- yaml::read_yaml("data/site.yml")
+aff <- site$affiliations[[1]]
+```
+
+:::: hero
+::: hero-text
+<h1>`r site$name`</h1>
+
+::: field
+`r site$title` at `r site$institution$name`
+
+`r aff$role`, `r aff$organisation`
+:::
+
+I study the policies and effects of the international financial institutions, above all the IMF, and I undertake commissioned research and advisory work for international organisations, governments, and civil society, including the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ), Oxfam International, Recourse Foundation, and the United Nations Children's Fund.
+
+::: imf-callout
+**`r site$imf_monitor$name`.** I curate [`r site$imf_monitor$name`](`r site$imf_monitor$url`), `r site$imf_monitor$description`.
+
+<a class="pub-btn" href="`r site$imf_monitor$url`"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Visit `r site$imf_monitor$name`</a>
+:::
+:::
+
+::: portrait-slot
+<img class="portrait" src="images/portrait-480.webp" alt="Thomas Stubbs" width="220" height="220">
+:::
+::::
+
+## Areas of expertise
+
+```{r}
+#| output: asis
+emit(paste0('<div class="expertise">',
+            paste0('<div class="exp"><h3>', vapply(site$expertise, function(e) esc(e$heading), ""),
+                   "</h3><p>", vapply(site$expertise, function(e) esc(e$text), ""), "</p></div>",
+                   collapse = ""),
+            "</div>"))
+```
+
+## Books
+
+```{r}
+#| output: asis
+emit(paste0('<div class="home-books">',
+            book_card("XQ7NW3ZS", "images/cover-greening-the-imf.webp", 153),
+            book_card("JIIEA2SM", "images/cover-a-thousand-cuts.webp", 167),
+            "</div>"))
+```
+
+## Latest publications
+
+```{r}
+#| output: asis
+pub_latest(3, root = "")
+```
+
+[All academic writing](publications/index.qmd) · [All policy reports](policy/index.qmd)
+
+::: enquiries
+For commissioned research, advisory work, speaking, or media enquiries, email [`r site$contact$email`](mailto:`r site$contact$email`).
 :::

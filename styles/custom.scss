@@ -576,6 +576,199 @@ h3 {
   }
 }
 
+// Home (index.qmd), from the approved mock-up as Thomas revised it on
+// 11 November 2026: the name, his two posts, the introduction, and the IMF
+// Monitor callout on the tint, beside the portrait (the portrait first on
+// phones); the areas of expertise in two columns between hairlines; and the
+// two books.
+
+.home #title-block-header {
+  display: none;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  column-gap: 2.5rem;
+  align-items: start;
+  // Quarto gives a page's first section heading no space above.
+  margin-bottom: 2.5rem;
+
+  .hero-text > p,
+  .imf-callout {
+    max-width: 40rem;
+  }
+
+  .imf-callout {
+    margin-top: 1.5rem;
+  }
+}
+
+#quarto-document-content .hero h1 {
+  margin: 1rem 0 0.5rem;
+}
+
+// The two posts under the name, one to a line.
+.field {
+  margin: 0 0 1rem;
+
+  p {
+    font-family: $headings-font-family;
+    // The longer line (the Cambridge post) fits on one line beside the
+    // portrait at this size, with about 19px to spare in the full column.
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 1.35;
+    color: $ts-muted;
+    margin: 0;
+  }
+
+  // Enough to tell the two posts apart where they wrap, on phones.
+  p + p {
+    margin-top: 0.35rem;
+  }
+}
+
+.portrait-slot p {
+  margin: 0;
+}
+
+.portrait {
+  display: block;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: 1.5rem;
+}
+
+.expertise {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 2.5rem;
+}
+
+.exp {
+  border-top: 1px solid $ts-rule;
+  padding: 0.875rem 0;
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: $ts-muted;
+  }
+}
+
+#quarto-document-content .exp h3 {
+  font-size: 1.15rem;
+  margin: 0 0 0.25rem;
+}
+
+.home-books {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
+}
+
+.home-book {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  color: $ts-text;
+  text-decoration: none;
+
+  img {
+    flex: 0 0 auto;
+    width: 110px;
+    height: auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  }
+
+  &:hover .home-book-title,
+  &:focus-visible .home-book-title {
+    color: $ts-accent;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+}
+
+.home-book-title {
+  display: block;
+  font-family: $headings-font-family;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 0.25rem;
+}
+
+.home-book-meta {
+  display: block;
+  font-size: 0.9rem;
+  color: $ts-muted;
+}
+
+// Not Quarto's .callout, which has its own styles.
+.imf-callout {
+  margin: 2.5rem 0 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid $ts-rule;
+  border-left: 4px solid $ts-accent;
+  background: $ts-tint;
+
+  p {
+    margin: 0 0 0.6rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+
+    .portrait-slot {
+      order: -1;
+    }
+
+    .portrait {
+      width: 140px;
+      height: 140px;
+      margin-top: 1rem;
+    }
+  }
+
+  .expertise,
+  .home-books {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+// About (about/index.qmd). Quarto puts each section's text inside a
+// <section>, which the 46rem measure above does not reach; on this page of
+// running prose it applies there too.
+.about #quarto-document-content section > p,
+.about #quarto-document-content section > ul {
+  max-width: 46rem;
+}
+
+// More space above each research strand, which follows a list of entries.
+.about #quarto-document-content h3 {
+  margin-top: 2.25rem;
+}
+
+// The label above each research strand's selected work, which is listed as
+// on Academic Writing.
+.selected-label p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $ts-muted;
+  margin: 1.5rem 0 0.75rem;
+}
+
 // Footer: name and department on the left, contact on the right, aligned
 // with the content column.
 

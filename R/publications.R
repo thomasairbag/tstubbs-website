@@ -24,6 +24,7 @@
 #   pub_count(sections)                                how many items
 #   book_header(key, publisher, series, root = "../")  a book's title, line, buttons
 #   book_cited(key)                                    a book's "Cited in" lines
+#   book_card(key, cover, height, root = "")           a book's cover and line, for Home
 # `root` is the path from the page to the site's top folder ("../" for a page
 # one folder down, such as /publications/; "" for Home), so the PDF links work
 # at the staging address and at tstubbs.net alike.
@@ -232,6 +233,23 @@ book_cited <- function(key) {
   emit(paste0('<details class="book-fold"><summary>Cited in</summary><ul>',
               paste(vapply(ci, cited_item, ""), collapse = ""), "</ul></details>"))
   invisible()
+}
+
+# Home: a book's cover beside its title and one line (co-author, publisher,
+# year, and "Open access" when the book has its PDF on the site), the whole
+# card linking to the book on the Books page, as in the approved mock-up. The
+# cover is decorative here (empty alt text): the title follows it inside the
+# same link.
+# `height` is the cover's height at 110px wide, so the page does not shift as
+# the image loads.
+book_card <- function(key, cover, height, root = "") {
+  x <- pub_item(key)
+  meta <- c(paste("With", esc(coauthors(x))), paste0(esc(x$venue), ", ", esc(x$year)),
+            if (!is.null(x$pdf)) "Open access")
+  paste0('<a class="home-book" href="', root, "books/index.html#", book_id(x), '">',
+         '<img src="', root, esc(cover), '" alt="" width="110" height="', height, '">',
+         '<span><span class="home-book-title">', esc(x$title), "</span>",
+         '<span class="home-book-meta">', paste(meta, collapse = " · "), "</span></span></a>")
 }
 
 pub_keys <- function(keys, root = "../") {
