@@ -17,10 +17,13 @@
 #   ```
 #
 # Functions
-#   pub_list(sections, by_year = TRUE, root = "../")  entries under year headings
+#   pub_list(sections, by_year = TRUE, root = "../", heading = "h2")
+#                                                      entries under year headings
 #   pub_latest(n = 3, root = "")                       the n newest, for Home
 #   pub_keys(keys, root = "../")                       chosen items, for About
 #   pub_count(sections)                                how many items
+#   book_header(key, publisher, series, root = "../")  a book's title, line, buttons
+#   book_cited(key)                                    a book's "Cited in" lines
 # `root` is the path from the page to the site's top folder ("../" for a page
 # one folder down, such as /publications/; "" for Home), so the PDF links work
 # at the staging address and at tstubbs.net alike.
@@ -149,7 +152,10 @@ pub_items <- function(sections) Filter(function(x) x$section %in% sections, pub_
 
 pub_count <- function(sections) length(pub_items(sections))
 
-pub_list <- function(sections, by_year = TRUE, root = "../") {
+# `heading` is the level of the year headings: "h2" where the years are the
+# page's sections (Academic Writing), "h3" where they sit under a section
+# heading (Policy & Advisory, under "Policy reports").
+pub_list <- function(sections, by_year = TRUE, root = "../", heading = "h2") {
   items <- pub_items(sections)       # already newest first
   if (!by_year) {
     emit(vapply(items, pub_entry, "", root = root))
@@ -158,7 +164,8 @@ pub_list <- function(sections, by_year = TRUE, root = "../") {
   years <- unique(vapply(items, function(x) x$year, ""))
   emit(vapply(years, function(y) {
     in_year <- Filter(function(x) identical(x$year, y), items)
-    paste0('<section class="pub-year" aria-labelledby="y', y, '"><h2 class="pub-year-heading" id="y', y, '">', y, "</h2>",
+    paste0('<section class="pub-year" aria-labelledby="y', y, '"><', heading, ' class="pub-year-heading" id="y', y, '">', y,
+           "</", heading, ">",
            '<div class="pub-year-entries">', paste(vapply(in_year, pub_entry, "", root = root), collapse = ""),
            "</div></section>")
   }, ""))
@@ -168,6 +175,62 @@ pub_list <- function(sections, by_year = TRUE, root = "../") {
 pub_latest <- function(n = 3, root = "") {
   items <- Filter(function(x) x$section != "media", pub_data)
   emit(vapply(head(items, n), pub_entry, "", root = root, notes = FALSE))
+  invisible()
+}
+
+# Books page (books/index.qmd). The page writes the cover, blurb, praise, and
+# reviews, which come from kentikelenis.net (decision 18); these helpers add
+# what Zotero holds: the title, the co-authors, year, and publisher, and the
+# PDF, DOI, and replication-data buttons (book_header), then any "Cited in"
+# lines, folded (book_cited).
+
+pub_item <- function(key) {
+  x <- Filter(function(x) identical(x$key, key), pub_data)
+  if (!length(x)) stop("Not in data/publications.json: ", key)
+  x[[1]]
+}
+
+# "Alexandros Kentikelenis", or "A, B, and C": everyone but Thomas.
+coauthors <- function(x) {
+  others <- Filter(function(cr) !identical(cr$family, "Stubbs"), x$creators)
+  names <- vapply(others, function(cr) paste(cr$given, cr$family), "")
+  if (length(names) <= 2) paste(names, collapse = " and ")
+  else paste0(paste(head(names, -1), collapse = ", "), ", and ", tail(names, 1))
+}
+
+# The address for the book's heading, from its main title:
+# "A Thousand Cuts: ..." gives "a-thousand-cuts".
+book_id <- function(x) {
+  main <- sub(":.*$", "", x$title)
+  gsub("(^-|-$)", "", gsub("[^a-z0-9]+", "-", tolower(main)))
+}
+
+# `publisher` is the publisher's page for the book, linked from its name;
+# `series` is printed after it.
+book_header <- function(key, publisher = NULL, series = NULL, root = "../") {
+  x <- pub_item(key)
+  venue <- if (!is.null(publisher)) paste0('<a href="', esc(publisher), '">', esc(x$venue), "</a>") else esc(x$venue)
+  meta <- c(paste("With", esc(coauthors(x))), esc(x$year), venue, if (!is.null(series)) esc(series))
+  b <- character()
+  # A book has a PDF only when it is open access (pdf_open_books in the
+  # refresh script).
+  if (!is.null(x$pdf)) b <- c(b, btn(paste0(root, x$pdf), "file-earmark-pdf", "Open access PDF"))
+  if (!is.null(x$doi)) b <- c(b, btn(paste0("https://doi.org/", x$doi), "link-45deg", "DOI"))
+  if (!is.null(x$data)) b <- c(b, btn(x$data, "database", "Replication data"))
+  emit(paste0('<h2 class="book-title" id="', book_id(x), '">', esc(x$title), "</h2>",
+              '<p class="book-meta">', paste(meta, collapse = " · "), "</p>",
+              if (length(b)) paste0('<div class="pub-buttons">', paste(b, collapse = ""), "</div>")))
+  invisible()
+}
+
+# On Books, "Cited in" folds away whole, like "Praise" and "Reviewed in"
+# (Thomas, 11 November 2026), rather than showing three lines.
+book_cited <- function(key) {
+  ci <- pub_item(key)$cited_in
+  if (!length(ci)) return(invisible())
+  ci <- ci[order(-vapply(ci, cited_year, 0L))]   # newest first
+  emit(paste0('<details class="book-fold"><summary>Cited in</summary><ul>',
+              paste(vapply(ci, cited_item, ""), collapse = ""), "</ul></details>"))
   invisible()
 }
 

@@ -240,9 +240,10 @@ h3 {
   margin-top: 0.5rem;
 }
 
-// A year heading is an h2 for the page's outline, styled as a quiet label,
-// without the rule and spacing of section headings.
-#quarto-document-content h2.pub-year-heading {
+// A year heading is an h2 for the page's outline (h3 under "Policy reports"
+// on Policy & Advisory), styled as a quiet label, without the rule and
+// spacing of section headings.
+#quarto-document-content .pub-year-heading {
   font-size: 1.25rem;
   color: $ts-muted;
   margin: 0;
@@ -346,8 +347,124 @@ h3 {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  #quarto-document-content h2.pub-year-heading {
+  #quarto-document-content .pub-year-heading {
     margin-bottom: 0.5rem;
+  }
+}
+
+// The enquiries line closing Policy & Advisory, as in the mock-up.
+.enquiries {
+  max-width: 46rem;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid $ts-rule;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Books (books/index.qmd): the cover beside the title, the line and buttons
+// from Zotero, the description, then praise, reviews, and "Cited in", each
+// folded. Stacked on phones.
+
+.book {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  column-gap: 2rem;
+  align-items: start;
+  margin-top: 1.5rem;
+
+  > p:first-child {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 180px;
+    height: auto;
+  }
+}
+
+.book + .book {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid $ts-rule;
+}
+
+.book-body > p,
+.book-body > details {
+  max-width: 46rem;
+}
+
+#quarto-document-content h2.book-title {
+  margin: 0 0 0.4rem;
+  padding: 0;
+  border: 0;
+}
+
+.book-meta {
+  color: $ts-muted;
+  margin-bottom: 0.6rem;
+}
+
+.book-body .pub-buttons {
+  margin-bottom: 1rem;
+}
+
+// Praise, "Reviewed in", and "Cited in" each fold away under their label
+// (Thomas, 11 November 2026).
+.book-fold {
+  margin: 0 0 0.5rem;
+
+  summary {
+    color: $ts-accent;
+    font-weight: 500;
+    cursor: pointer;
+    width: fit-content;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0.4rem 0 0.75rem;
+    padding: 0 0 0 0.75rem;
+    border-left: 2px solid $ts-rule;
+  }
+
+  li {
+    margin: 0.15rem 0;
+  }
+
+  blockquote {
+    font-size: 0.95rem;
+    margin: 0.9rem 0 0;
+    padding: 0 0 0 0.75rem;
+    border-left: 2px solid $ts-rule;
+    color: $ts-text;
+
+    p {
+      margin: 0;
+    }
+
+    // The source, after the quotation.
+    p + p {
+      margin-top: 0.3rem;
+      font-size: 0.85rem;
+      color: $ts-muted;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .book {
+    grid-template-columns: minmax(0, 1fr);
+
+    img {
+      width: 140px;
+      margin-bottom: 1rem;
+    }
   }
 }
 

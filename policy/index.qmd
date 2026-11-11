@@ -2,6 +2,25 @@
 title: "Policy & Advisory"
 ---
 
-::: {.draft-note}
-Built at Stage 5: an introduction and the policy reports from Zotero, by year.
+```{r}
+#| include: false
+# The reports come from Zotero through data/publications.json
+# (R/publications.R); the email address from data/site.yml. The page is the
+# lean version Thomas chose on 10 November 2026 (decision 19): this
+# introduction and the reports by year.
+source("R/publications.R")
+site <- yaml::read_yaml("data/site.yml")
+```
+
+Alongside my academic research, I undertake commissioned research and advisory work for international organisations, governments, and civil society. This work generally addresses the same questions as my scholarship: what the IMF asks of the countries it lends to, how fiscal adjustment affects social protection and health, and how the international financial institutions are responding to climate change. The reports are freely available below.
+
+## Policy reports
+
+```{r}
+#| output: asis
+pub_list("policy-reports", heading = "h3")
+```
+
+::: enquiries
+For commissioned research or advisory work, email [`r site$contact$email`](mailto:`r site$contact$email`).
 :::

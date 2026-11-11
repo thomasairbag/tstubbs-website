@@ -13,7 +13,7 @@
       "working-papers": 4,
       "media": 19
     },
-    "zotero_version": 81748
+    "zotero_version": 81990
   },
   "items": [
     {
@@ -112,7 +112,7 @@
     },
     {
       "key": "FNST6FDY",
-      "version": 79077,
+      "version": 81986,
       "type": "report",
       "section": "policy-reports",
       "year": "2025",
@@ -134,6 +134,20 @@
       "venue": "Recourse Foundation",
       "report_type": "Recourse Report",
       "url": "https://re-course.org/wp-content/uploads/2025/10/Green-rhetoric-grey-reality-IMF-surveillance-and-climate-action-2022-2025_Recourse-report_October-2025.pdf",
+      "cited_in": [
+        {
+          "text": "IMF Independent Evaluation Office (2026). The IMF and Climate Change — Evaluation Report",
+          "url": "https://ieo.imf.org/-/media/ieo/files/evaluations/completed/06-05-2026-the-imf-and-climate-change/icc-chapeau.pdf"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2026). Climate Change in IMF Surveillance and Analytical Work (BP/26-01/01)",
+          "url": "https://ieo.imf.org/-/media/ieo/files/evaluations/completed/06-05-2026-the-imf-and-climate-change/icc-bp1-climate-change-in-imf-surveillance.pdf"
+        },
+        {
+          "text": "IMF Independent Evaluation Office (2026). The IMF’s Role in the Global Architecture for Combating Climate Change (BP/26-01/05)",
+          "url": "https://ieo.imf.org/-/media/ieo/files/evaluations/completed/06-05-2026-the-imf-and-climate-change/icc-bp5-imfs-role-in-gca.pdf"
+        }
+      ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2025). <i>Green rhetoric, grey reality: IMF surveillance and climate action, 2022-2025<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2025/10/Green-rhetoric-grey-reality-IMF-surveillance-and-climate-action-2022-2025_Recourse-report_October-2025.pdf",
       "site_tags": [],
       "pdf": "files/publications/FNST6FDY.pdf"
@@ -203,7 +217,7 @@
     },
     {
       "key": "TMN4JIG9",
-      "version": 79076,
+      "version": 81990,
       "type": "report",
       "section": "policy-reports",
       "year": "2024",
@@ -225,6 +239,12 @@
       "venue": "Recourse Foundation",
       "report_type": "Recourse Report",
       "url": "https://re-course.org/wp-content/uploads/2024/10/Off-track_mainstreaming-climate-action-into-IMF-lending_October-2024_Recourse.pdf",
+      "cited_in": [
+        {
+          "text": "IMF Independent Evaluation Office (2026). Climate Change in IMF Lending (BP/26-01/02)",
+          "url": "https://ieo.imf.org/-/media/ieo/files/evaluations/completed/06-05-2026-the-imf-and-climate-change/icc-bp2-climate-change-in-imf-lending.pdf"
+        }
+      ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2024). <i>Off track: The long road to mainstreaming climate action into IMF lending<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2024/10/Off-track_mainstreaming-climate-action-into-IMF-lending_October-2024_Recourse.pdf",
       "site_tags": [],
       "pdf": "files/publications/TMN4JIG9.pdf"
@@ -296,7 +316,7 @@
     },
     {
       "key": "ICTFDMSD",
-      "version": 79075,
+      "version": 81987,
       "type": "report",
       "section": "policy-reports",
       "year": "2024",
@@ -318,6 +338,12 @@
       "venue": "Recourse Foundation",
       "report_type": "Recourse Report",
       "url": "https://re-course.org/wp-content/uploads/2024/04/RST-Report-desktop-1-compressed.pdf",
+      "cited_in": [
+        {
+          "text": "IMF Independent Evaluation Office (2026). Climate Change in IMF Lending (BP/26-01/02)",
+          "url": "https://ieo.imf.org/-/media/ieo/files/evaluations/completed/06-05-2026-the-imf-and-climate-change/icc-bp2-climate-change-in-imf-lending.pdf"
+        }
+      ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2024). <i>Greening IMF lending: Elusive prospects, mixed evidence<\/i> [Recourse Report]. Recourse Foundation. https://re-course.org/wp-content/uploads/2024/04/RST-Report-desktop-1-compressed.pdf",
       "site_tags": [],
       "pdf": "files/publications/ICTFDMSD.pdf"
@@ -427,7 +453,7 @@
     },
     {
       "key": "JTRH83D5",
-      "version": 81735,
+      "version": 81988,
       "type": "report",
       "section": "policy-reports",
       "year": "2023",
@@ -453,6 +479,10 @@
         {
           "text": "UN General Assembly (2025). Promotion of a democratic and equitable international order: Report of the Independent Expert (A/80/279)",
           "url": "https://docs.un.org/en/A/80/279"
+        },
+        {
+          "text": "International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)",
+          "url": "https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml"
         }
       ],
       "citation": "Kentikelenis, A., &amp; Stubbs, T. (2023). <i>IMF social spending floors: A fig leaf for austerity?<\/i> [Oxfam Briefing Paper]. Oxfam International. https://doi.org/10.21201/2023.621495",
@@ -2365,7 +2395,7 @@
     },
     {
       "key": "ABH937R9",
-      "version": 66643,
+      "version": 81985,
       "type": "journalArticle",
       "section": "articles",
       "year": "2017",
@@ -2407,6 +2437,12 @@
       "venue": "Proceedings of the National Academy of Sciences",
       "doi": "10.1073/pnas.1617353114",
       "url": "http://www.pnas.org/lookup/doi/10.1073/pnas.1617353114",
+      "cited_in": [
+        {
+          "text": "UN General Assembly (2017). Promotion of a democratic and equitable international order: Report of the Independent Expert (A/72/187)",
+          "url": "https://docs.un.org/en/A/72/187"
+        }
+      ],
       "citation": "Daoud, A., Nosrati, E., Reinsberg, B., Kentikelenis, A., Stubbs, T., &amp; King, L. (2017). Impact of International Monetary Fund programs on child health. <i>Proceedings of the National Academy of Sciences<\/i>, <i>114<\/i>(25), 6492&#x2013;6497. https://doi.org/10.1073/pnas.1617353114",
       "site_tags": [],
       "pdf": "files/publications/ABH937R9.pdf"
@@ -2975,7 +3011,7 @@
     },
     {
       "key": "TKF5WVKG",
-      "version": 81740,
+      "version": 81989,
       "type": "journalArticle",
       "section": "articles",
       "year": "2016",
@@ -3021,7 +3057,7 @@
           "url": "https://www.deval.org/de/publikationen/allokationsstudie-zur-bilateralen-staatlichen-entwicklungszusammenarbeit-aus-haushaltsmitteln"
         },
         {
-          "text": "UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt and other related international financial obligations of States on the full enjoyment of all human rights (A/74/178)",
+          "text": "UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)",
           "url": "https://docs.un.org/en/A/74/178"
         },
         {
