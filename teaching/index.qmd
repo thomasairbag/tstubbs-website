@@ -1,7 +1,51 @@
 ---
 title: "Teaching"
+# Keeps the prose under the section headings to a readable measure
+# (styles/custom.scss, .teaching).
+body-classes: teaching
 ---
 
-::: {.draft-note}
-Built at Stage 5: modules, doctoral supervision, and prospective PhD students (decision 12).
-:::
+```{r}
+#| include: false
+# Teaching (plan Section 5; decision 12, settled 12 November 2026: modules,
+# doctoral supervision, and a prospective-students paragraph), drafted by
+# Claude for Thomas to rewrite. Modules: the two Thomas chose (PR2500 and
+# PR3950), with their levels from the department's 2025/26 module options list
+# and their descriptions from his 2025/26 module handbooks; first years from
+# the CV (Thomas, 12 November 2026: both continue in 2026/27). Supervision:
+# the CV's three doctoral students, as the CV lists them (Sarah Polani added
+# at Thomas's word, 12 November 2026, in his wording). The first years are
+# shown as calendar years (Thomas). The Politics PhD page
+# (checked 12 November 2026) asks applicants to secure a supervisor before
+# applying and to send a short research proposal and CV. The email address
+# comes from data/site.yml.
+site <- yaml::read_yaml("data/site.yml")
+```
+
+## Modules at Royal Holloway {.first}
+
+### International Political Economy
+
+[PR2500 · Second-year undergraduate module · Since 2017]{.meta}
+
+The relationship between states and markets, power and wealth, in the world economy. The module introduces the main theories of international political economy and the history of its regimes and crises, then turns to trade, finance, production, labour, and development, and to current debates on race, gender, climate change, and global health.
+
+### Global Health Policy
+
+[PR3950 · Third-year undergraduate module · Since 2018]{.meta}
+
+An introduction to global health policy, drawing on political economy, social epidemiology, and public health. The module examines the actors that make global health policy, from international organisations and governments to public-private partnerships, philanthropic foundations, and companies, and the health effects of inequality, trade, and austerity, as well as pandemics, universal health coverage, and climate change.
+
+## Doctoral supervision
+
+Doctoral students I have supervised:
+
+- **Silvance Onyango Ochola** (2022–25, completed), on response and coping mechanisms that shape social resilience to flood disasters in Nyando River Basin of Kisumu County, Kenya.
+- **Ezenwa Olumba** (2019–25, completed), on the mechanisms that sustain immobility in conflict-affected communities in the Nigerian Middle Belt.
+- **Sarah Polani** (2018–20; died before completing her doctorate), on the effects of governance on people's wellbeing in Asia.
+
+## Prospective PhD students
+
+I welcome enquiries from prospective PhD students working on the international financial institutions and global economic governance, social protection and global health policy, the political economy of climate change, or politics and development in Africa.
+
+Royal Holloway asks applicants to secure a supervisor before they apply. If your project fits, please email me at [`r site$contact$email`](mailto:`r site$contact$email`) with a short research proposal and your CV. The university's [Politics PhD](https://www.royalholloway.ac.uk/studying-here/postgraduate/politics-and-international-relations/politics-phd) page sets out the entry requirements and how to apply.

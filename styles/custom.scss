@@ -745,12 +745,24 @@ h3 {
   }
 }
 
-// About (about/index.qmd). Quarto puts each section's text inside a
-// <section>, which the 46rem measure above does not reach; on this page of
-// running prose it applies there too.
+// About (about/index.qmd) and Teaching (teaching/index.qmd). Quarto puts each
+// section's text inside a <section>, which the 46rem measure above does not
+// reach; on these pages of running prose it applies there too.
 .about #quarto-document-content section > p,
-.about #quarto-document-content section > ul {
+.about #quarto-document-content section > ul,
+.teaching #quarto-document-content section > p,
+.teaching #quarto-document-content section > ul {
   max-width: 46rem;
+}
+
+// Teaching: each module's code, level, and first year sit just under its
+// title, a little smaller than the description.
+.teaching #quarto-document-content h3 + p .meta {
+  font-size: 0.95rem;
+}
+
+.teaching #quarto-document-content h3 + p {
+  margin-bottom: 0.5rem;
 }
 
 // More space above each research strand, which follows a list of entries.
