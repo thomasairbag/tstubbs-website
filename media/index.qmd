@@ -1,5 +1,9 @@
 ---
 title: "Media"
+# The search-engine description (Stage 6, fix 2, 13 November 2026). Quarto
+# writes description-meta into the page's <meta name="description"> only;
+# unlike description, it is not shown on the page.
+description-meta: "Thomas Stubbs's public writing on the IMF, austerity, global health, and African politics, in The Conversation, The Guardian, and elsewhere, and press enquiries."
 ---
 
 ```{r}

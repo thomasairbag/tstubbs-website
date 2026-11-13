@@ -1,5 +1,9 @@
 ---
 title: "Contact"
+# The search-engine description (Stage 6, fix 2, 13 November 2026). Quarto
+# writes description-meta into the page's <meta name="description"> only;
+# unlike description, it is not shown on the page.
+description-meta: "How to contact Thomas Stubbs for commissioned research, advisory work, speaking, media, or academic enquiries: email, postal address, and research profiles."
 ---
 
 ```{r}

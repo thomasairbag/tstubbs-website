@@ -3,7 +3,7 @@
     "source": "https://api.zotero.org/users/9618525/publications/items/top",
     "style": "apa",
     "locale": "en-US",
-    "count": 80,
+    "count": 81,
     "sections": {
       "books": 2,
       "articles": 30,
@@ -11,11 +11,37 @@
       "chapters": 8,
       "policy-reports": 14,
       "working-papers": 4,
-      "media": 19
+      "media": 20
     },
-    "zotero_version": 82045
+    "zotero_version": 82367
   },
   "items": [
+    {
+      "key": "3YNTBHX5",
+      "version": 82365,
+      "type": "newspaperArticle",
+      "section": "media",
+      "year": "2026",
+      "sort_date": "2026-11-10",
+      "date": "2026-11-10",
+      "title": "Cheap, accessible and easy to use: Drones are changing warfare in the way the AK-47 assault rifle did",
+      "creators": [
+        {
+          "role": "author",
+          "family": "Olumba",
+          "given": "Ezenwa"
+        },
+        {
+          "role": "author",
+          "family": "Stubbs",
+          "given": "Thomas"
+        }
+      ],
+      "venue": "The Conversation",
+      "url": "https://theconversation.com/cheap-accessible-and-easy-to-use-drones-are-changing-warfare-in-the-way-the-ak-47-assault-rifle-did-295100",
+      "citation": "Olumba, E., &amp; Stubbs, T. (2026, November 10). Cheap, accessible and easy to use: Drones are changing warfare in the way the AK-47 assault rifle did. <i>The Conversation<\/i>. https://theconversation.com/cheap-accessible-and-easy-to-use-drones-are-changing-warfare-in-the-way-the-ak-47-assault-rifle-did-295100",
+      "site_tags": ["media"]
+    },
     {
       "key": "2IIXQCB7",
       "version": 82040,
@@ -1000,7 +1026,7 @@
     },
     {
       "key": "7BT798KL",
-      "version": 81730,
+      "version": 82367,
       "type": "journalArticle",
       "section": "articles",
       "year": "2022",
@@ -1028,6 +1054,7 @@
       "doi": "10.1111/gove.12605",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gove.12605",
       "data": "https://doi.org/10.7910/DVN/QTFOGF",
+      "awards": ["Governance Top Cited Article Award, 2023"],
       "cited_in": [
         {
           "text": "U4 Anti-Corruption Resource Centre (2024). The effectiveness of illicit-finance related conditionality in IMF and World Bank arrangements",
@@ -1330,7 +1357,7 @@
     },
     {
       "key": "GT5MEQQU",
-      "version": 79104,
+      "version": 82366,
       "type": "journalArticle",
       "section": "articles",
       "year": "2020",
@@ -1363,6 +1390,7 @@
       "doi": "10.1111/rego.12265",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/rego.12265",
       "data": "https://doi.org/10.7910/DVN/O1BYGX",
+      "awards": ["Regulation & Governance Top Cited Article Award, 2022"],
       "citation": "Reinsberg, B., Stubbs, T., Kentikelenis, A., &amp; King, L. (2020). Bad governance: How privatization increases corruption in the developing world. <i>Regulation &amp; Governance<\/i>, <i>14<\/i>(4), 698&#x2013;717. https://doi.org/10.1111/rego.12265",
       "site_tags": [],
       "pdf": "files/publications/GT5MEQQU.pdf"

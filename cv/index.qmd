@@ -1,5 +1,9 @@
 ---
 title: "CV"
+# The search-engine description (Stage 6, fix 2, 13 November 2026). Quarto
+# writes description-meta into the page's <meta name="description"> only;
+# unlike description, it is not shown on the page.
+description-meta: "The CV of Thomas Stubbs, Professor of Global Political Economy at Royal Holloway, University of London, as a PDF."
 ---
 
 ```{r}

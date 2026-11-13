@@ -168,6 +168,19 @@ footer.footer .nav-footer {
   }
 }
 
+// Keyboard focus in the menu bar (Stage 6, fix 1). Quarto marks the bar as
+// dark, so the browser's own ring around the name is near-white on the cream
+// bar, Bootstrap's 25% oxblood glow on the links is about 1.5:1, and the phone
+// menu button has none. A solid oxblood outline (8.8:1 on the page colour), as
+// on IMF Monitor; :focus-visible keeps it off mouse clicks.
+.navbar .navbar-brand:focus-visible,
+.navbar .nav-link:focus-visible,
+.navbar .navbar-toggler:focus-visible {
+  outline: 2px solid $ts-accent;
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
 .skip-link:focus {
   position: absolute;
   z-index: 2000;
@@ -715,8 +728,14 @@ h3 {
   border-left: 4px solid $ts-accent;
   background: $ts-tint;
 
+  // 16px rather than the body's 17px, so the sentence fits on two lines in
+  // the 40rem box at every desktop width ("Fund" sat alone on a third line;
+  // Thomas's fix list, 12 November 2026). text-wrap: pretty keeps a single
+  // word off the last line at narrower widths, where browsers support it.
   p {
     margin: 0 0 0.6rem;
+    font-size: 1rem;
+    text-wrap: pretty;
   }
 
   p:last-child {

@@ -1,5 +1,9 @@
 ---
 title: "Teaching"
+# The search-engine description (Stage 6, fix 2, 13 November 2026). Quarto
+# writes description-meta into the page's <meta name="description"> only;
+# unlike description, it is not shown on the page.
+description-meta: "Modules taught by Thomas Stubbs at Royal Holloway (International Political Economy, Global Health Policy), doctoral supervision, and advice for prospective PhD students."
 # Keeps the prose under the section headings to a readable measure
 # (styles/custom.scss, .teaching).
 body-classes: teaching

@@ -1,5 +1,9 @@
 ---
 title: "Academic Writing"
+# The search-engine description (Stage 6, fix 2, 13 November 2026). Quarto
+# writes description-meta into the page's <meta name="description"> only;
+# unlike description, it is not shown on the page.
+description-meta: "Journal articles, commentaries, book chapters, and working papers by Thomas Stubbs on the IMF, social protection, global health, and global economic governance, with PDFs."
 ---
 
 ```{r}

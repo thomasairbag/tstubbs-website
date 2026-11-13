@@ -1,5 +1,9 @@
 ---
 title: "About"
+# The search-engine description (Stage 6, fix 2, 13 November 2026). Quarto
+# writes description-meta into the page's <meta name="description"> only;
+# unlike description, it is not shown on the page.
+description-meta: "Biography of Thomas Stubbs, Professor of Global Political Economy at Royal Holloway, University of London: research, policy engagement, grants and awards, and service."
 # Keeps the prose under the section headings to a readable measure
 # (styles/custom.scss, .about).
 body-classes: about
