@@ -15,8 +15,8 @@ description-meta: "Thomas Stubbs's books with Alexandros Kentikelenis: Greening 
 # Kentikelenis's agreement (decision 18, 10 November 2026); copied
 # 11 November 2026. Praise is the four endorsements only, not quotations
 # from reviews (Thomas, 11 November). Praise, "Reviewed in", and "Cited in"
-# each fold away under their label. The series name follows the cover and Cambridge Core
-# ("Response", not kentikelenis.net's "Responses").
+# each fold away under their label. No series line under Greening (Thomas,
+# 13 November 2026; A Thousand Cuts is in no series).
 source("R/publications.R")
 ```
 
@@ -27,8 +27,7 @@ source("R/publications.R")
 ```{r}
 #| output: asis
 book_header("XQ7NW3ZS",
-  publisher = "https://www.cambridge.org/core_title/gb/626425",
-  series = "Elements in Organizational Response to Climate Change")
+  publisher = "https://www.cambridge.org/core_title/gb/626425")
 ```
 
 The IMF has emerged as a key player in climate policy, and this closer engagement with the economic dimensions of climate change holds the promise of helping countries preempt large-scale economic dislocations from climate risks. But how much progress has the IMF made in supporting the green transition and what is the policy track record of its climate loans and policy advice? Based on extensive new evidence, *Greening the International Monetary Fund* points to the multifaceted, and at times contradictory, ways green transition objectives have become embedded within IMF activities.

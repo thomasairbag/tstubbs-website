@@ -168,6 +168,31 @@ footer.footer .nav-footer {
   }
 }
 
+// In the phone and tablet menu (below 992px), the five icons share one line
+// under a hairline, rather than taking a line each below CV (Thomas,
+// 13 November 2026). Each is a 44px square to tap; the first icon's glyph
+// sits within 2px of the menu text's left edge.
+@include media-breakpoint-down(lg) {
+  .navbar #navbarCollapse .navbar-nav.ms-auto {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid $ts-rule;
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 44px;
+      min-height: 44px;
+      padding: 0;
+      font-size: 1.25rem;
+    }
+  }
+}
+
 // Keyboard focus in the menu bar (Stage 6, fix 1). Quarto marks the bar as
 // dark, so the browser's own ring around the name is near-white on the cream
 // bar, Bootstrap's 25% oxblood glow on the links is about 1.5:1, and the phone
@@ -178,6 +203,13 @@ footer.footer .nav-footer {
 .navbar .navbar-toggler:focus-visible {
   outline: 2px solid $ts-accent;
   outline-offset: 2px;
+  box-shadow: none;
+}
+
+// Bootstrap also rings the menu button in near-black (4px) after a tap or
+// click, in Chrome and Android (iPhones do not focus buttons on tap). The
+// keyboard outline above is enough (13 November 2026).
+.navbar .navbar-toggler:focus:not(:focus-visible) {
   box-shadow: none;
 }
 

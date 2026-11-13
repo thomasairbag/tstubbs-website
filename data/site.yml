@@ -24,8 +24,10 @@ affiliations:
   # Current, as Thomas confirmed on 6 November 2026; the CV gives 2015-27
   # (corrected 10 November 2026). The old site's link (www.cbr.cam.ac.uk) no longer exists:
   # the Centre now sits within Cambridge Judge Business School, and this
-  # page lists Thomas and links to tstubbs.net.
-  - role: Research Associate in Political Economy
+  # page lists Thomas and links to tstubbs.net. "Research Associate" without
+  # "in Political Economy" (Thomas, 13 November 2026); the CV says "Honorary
+  # Research Associate". Used on Home and About.
+  - role: Research Associate
     organisation: Centre for Business Research, University of Cambridge
     url: https://www.jbs.cam.ac.uk/centres/business-research-cbr/people/research-associates/
 
