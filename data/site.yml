@@ -84,14 +84,16 @@ description: >-
 # Home, "Areas of expertise" (plan Section 5). The headings are the plan's;
 # each line is a first draft for Thomas to rewrite.
 # The sixth area was added on 6 November 2026 (decision 14; the 2021 World
-# Development and 2026 International Interactions papers).
+# Development and 2026 International Interactions papers). The second and
+# third lines name "international financial institutions", not the IMF
+# (Thomas, 16 November 2026).
 expertise:
   - heading: IMF lending and conditionality
     text: What the IMF requires of borrowing governments, and whether and how those conditions are carried out.
   - heading: Social spending and social protection
-    text: How fiscal adjustment affects social protection and health, and what IMF social spending floors achieve.
-  - heading: Climate and the international financial institutions
-    text: How the IMF has brought climate change into its surveillance, lending, and technical assistance.
+    text: How fiscal adjustment affects social protection and health, and what international financial institutions’ social spending policies achieve.
+  - heading: Climate and international financial institutions
+    text: How international financial institutions have brought climate change into their surveillance, lending, and technical assistance.
   - heading: Crisis finance and the global financial safety net
     text: How the safety net of IMF resources, regional financing arrangements, and central bank swap lines responds to crises, and how far it reaches developing countries.
   - heading: Fiscal policy and development

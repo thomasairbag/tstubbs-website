@@ -49,7 +49,7 @@ I study the policies and effects of the international financial institutions, ab
 :::
 
 ::: portrait-slot
-<img class="portrait" src="images/portrait-480.webp" alt="Thomas Stubbs" width="220" height="220">
+<img class="portrait" src="images/portrait-720.webp" alt="Thomas Stubbs" width="720" height="1080">
 :::
 ::::
 

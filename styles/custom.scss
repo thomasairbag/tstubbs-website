@@ -631,20 +631,49 @@ h3 {
   display: none;
 }
 
+// The portrait is the whole studio photograph (2:3) and runs the full height
+// of the text beside it, from the name down to the foot of the IMF Monitor
+// box (Thomas, 16 November 2026: the square stopped beside the introduction
+// and looked cut off). .hero-text is taken out of the layout (display:
+// contents), so its four parts and the portrait are placed on one grid; the
+// photograph fills its slot absolutely, so the text alone sets the height.
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
+  grid-template-columns: minmax(0, 1fr) 260px;
   column-gap: 2.5rem;
-  align-items: start;
   // Quarto gives a page's first section heading no space above.
   margin-bottom: 2.5rem;
+
+  .hero-text {
+    display: contents;
+  }
+
+  h1,
+  .field,
+  .hero-text > p,
+  .imf-callout {
+    grid-column: 1;
+  }
 
   .hero-text > p,
   .imf-callout {
     max-width: 40rem;
   }
 
+  // Grid items' margins do not collapse: the box's own margin makes the gap.
+  .hero-text > p {
+    margin-bottom: 0;
+  }
+
   .imf-callout {
+    margin-top: 1.5rem;
+  }
+
+  .portrait-slot {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+    position: relative;
+    // Level with the top of the name's capitals.
     margin-top: 1.5rem;
   }
 }
@@ -680,11 +709,14 @@ h3 {
 
 .portrait {
   display: block;
-  width: 220px;
-  height: 220px;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  // Where the slot is narrower than 2:3 the sides are trimmed, never the face.
   object-fit: cover;
+  object-position: 45% 30%;
   border-radius: 6px;
-  margin-top: 1.5rem;
 }
 
 .expertise {
@@ -775,19 +807,51 @@ h3 {
   }
 }
 
-@include media-breakpoint-down(md) {
+// Below 992px (phones and upright tablets) the portrait stands on the left,
+// beside the name and the two posts; the introduction and the IMF Monitor box
+// follow at full width. The photograph is as tall as the name and posts where
+// they wrap (phones), and never shorter than its own 2:3 shape, in which case
+// the name and posts sit centred beside it (tablets).
+@include media-breakpoint-down(lg) {
   .hero {
-    grid-template-columns: minmax(0, 1fr);
+    --portrait-w: clamp(7rem, 17vw, 8.5rem);
+    grid-template-columns: var(--portrait-w) minmax(0, 1fr);
+    column-gap: 1rem;
+
+    h1 {
+      grid-column: 2;
+      align-self: end;
+    }
+
+    .field {
+      grid-column: 2;
+      align-self: start;
+    }
+
+    .hero-text > p,
+    .imf-callout {
+      grid-column: 1 / -1;
+    }
 
     .portrait-slot {
-      order: -1;
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      min-height: calc(var(--portrait-w) * 1.5);
+      // The posts' own bottom margin, so the photograph ends with the text.
+      margin-bottom: 1rem;
     }
+  }
+}
 
-    .portrait {
-      width: 140px;
-      height: 140px;
-      margin-top: 1rem;
-    }
+@include media-breakpoint-down(md) {
+  .hero {
+    column-gap: 0.875rem;
+  }
+
+  // Smaller posts on phones, so each takes three lines beside the portrait,
+  // not four.
+  .field p {
+    font-size: 1rem;
   }
 
   .expertise,
