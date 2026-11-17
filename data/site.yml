@@ -71,15 +71,17 @@ profiles:
   - name: Royal Holloway research portal
     url: https://pure.royalholloway.ac.uk/en/persons/thomas-stubbs
 
-# The search-engine description. "African politics" is not in it (decided
-# 6 November 2026).
-# CHECK at Stage 5, together with the Home field line.
+# The search-engine description: Home's <meta name="description">. Thomas
+# chose this wording on 16 November 2026 (option A). "African politics" is not
+# in it (decided 6 November 2026). The same text is in _quarto.yml
+# (website: description) and index.qmd (description-meta); change all three
+# together.
 description: >-
   Thomas Stubbs is Professor of Global Political Economy at Royal Holloway,
-  University of London. He researches the International Monetary Fund and
-  global economic governance, and undertakes commissioned research and
-  advisory work for international organisations, governments, and civil
-  society.
+  University of London. He studies global economic governance and its effects
+  on health, social protection, and the climate, and undertakes commissioned
+  research and advisory work for international organisations, governments,
+  and civil society.
 
 # Home, "Areas of expertise" (plan Section 5). The headings are the plan's;
 # each line is a first draft for Thomas to rewrite.

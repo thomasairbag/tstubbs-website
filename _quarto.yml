@@ -16,18 +16,23 @@ project:
     - "files/**"
     # Self-hosted fonts and their licences, referenced from styles/fonts.css.
     - "/fonts/**"
-    # A CNAME file (tstubbs.net) is added only at cutover (plan Stage 7).
+    # Names the custom domain, tstubbs.net, for GitHub Pages (added at
+    # cutover, plan Stage 7). Only GitHub Pages reads it.
+    - "CNAME"
 
 website:
   title: "Thomas Stubbs"
-  # From data/site.yml (description), still to be checked at Stage 5.
-  description: "Thomas Stubbs is Professor of Global Political Economy at Royal Holloway, University of London. He researches the International Monetary Fund and global economic governance, and undertakes commissioned research and advisory work for international organisations, governments, and civil society."
+  # The same text as data/site.yml (description) and Home's description-meta
+  # in index.qmd; change all three together (Thomas chose it, 16 November 2026).
+  description: "Thomas Stubbs is Professor of Global Political Economy at Royal Holloway, University of London. He studies global economic governance and its effects on health, social protection, and the climate, and undertakes commissioned research and advisory work for international organisations, governments, and civil society."
   # The existing Google Analytics 4 property; no consent banner, as on IMF
   # Monitor (decision 10).
   google-analytics: "G-SD0DBH1WWM"
-  # The staging address until cutover, when it becomes https://tstubbs.net/
-  # (plan Stage 7). The 404 page needs it for links that work at any depth.
-  site-url: "https://thomasairbag.github.io/tstubbs-website/"
+  # The canonical address (decision 9); it was the staging address,
+  # https://thomasairbag.github.io/tstubbs-website/, until cutover (plan
+  # Stage 7). The 404 page needs it for links that work at any depth, and the
+  # sitemap, robots.txt, and canonical links are built from it.
+  site-url: "https://tstubbs.net/"
   favicon: images/favicon.png
   # No search box: the approved design has none, and the site has ten pages.
   search: false
@@ -92,10 +97,8 @@ format:
     template-partials:
       - _includes/metadata.html
     include-in-header:
-      # Staging only: keeps search engines away from the github.io copy. It
-      # comes off at cutover, with Thomas's approval (plan Stage 7).
-      - text: |
-          <meta name="robots" content="noindex, nofollow">
+      # The staging site's noindex tag came off at cutover, with Thomas's
+      # approval (plan Stage 7).
       # Stops phones turning dates and numbers into phone-number or address
       # links, as on IMF Monitor.
       - text: |

@@ -3,7 +3,7 @@ title: "Thomas Stubbs"
 # The search-engine description (Stage 6, fix 2, 13 November 2026). Quarto
 # writes description-meta into the page's <meta name="description"> only;
 # unlike description, it is not shown on the page.
-description-meta: "Thomas Stubbs is Professor of Global Political Economy at Royal Holloway, University of London. He researches the International Monetary Fund and global economic governance, and undertakes commissioned research and advisory work for international organisations, governments, and civil society."
+description-meta: "Thomas Stubbs is Professor of Global Political Economy at Royal Holloway, University of London. He studies global economic governance and its effects on health, social protection, and the climate, and undertakes commissioned research and advisory work for international organisations, governments, and civil society."
 # The name is the page's own heading, beside the portrait, as in the approved
 # mock-up, so Quarto's title block is hidden on this page (styles/custom.scss,
 # .home). Without a title, Quarto would move the hero's heading out of the
